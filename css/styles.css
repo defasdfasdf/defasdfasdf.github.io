@@ -13,7 +13,7 @@ Typography
   display: inline-block;
   text-transform: uppercase;
   transition:.6s;
-  background-color: #607D8B;
+  background-color: #FFA000;
   color: white;
   }
 
@@ -245,7 +245,7 @@ Hero
 
 .fixed, .fixed2{
   position: fixed;
-  background-color: #FFA000;
+  background-color: #607D8B;
   z-index: 999;
   width: 100%; }
 
