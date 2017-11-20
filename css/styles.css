@@ -338,7 +338,7 @@ Features-stack
     margin: 0 0 20px 0; }
   .features span.icon {
     font-size: 35px;
-    color: #e2a43f;
+    color: #212121;
     font-weight: bold; }
   .features .feature-icon {
     display: inline-block;
@@ -444,9 +444,6 @@ Features-stack
     top: 114px;
     z-index: 4;
     left: 50%; }
-.feature-list p, .feature-list h5, .feature-list h3{
-  color:white;
-}
 /* ==========================================================================
 .hero-strip
 ========================================================================== */
@@ -505,15 +502,11 @@ Features-stack
 Footer
 ========================================================================== */
 footer {
-  background-color: #3D4351;
+  background-color: #607D8B;
   position: relative; }
   footer p {
-    color: #ACB1B4;
+    color: #212121;
     font-size: 13px; }
-  footer a {
-    color: #fff; }
-  footer a:hover {
-    color: #e2a43f; }
   footer ul.footer-group {
     padding-top: 25px;
     margin-bottom: 45px; }
@@ -522,54 +515,10 @@ footer {
   footer ul.footer-group li a {
     font-size: 13px;
     text-transform: uppercase; }
-  footer ul.footer-group li a:hover {
-    color: #e2a43f; }
   footer ul.footer-group li {
     margin-right: 30px; }
   footer ul.footer-group li:last-child {
     margin-right: 0; }
-  footer span.fa-heart {
-    color: #ff415c;
-    font-size: 15px;
-    margin: 0 2px; }
-  footer .social-share {
-    position: absolute;
-    background-color: #373D4A;
-    right: 0;
-    width: 40%;
-    height: 100%;
-    padding: 142px 0 0 70px; }
-    footer .social-share p {
-      color: #fff;
-      text-transform: uppercase;
-      padding-bottom: 10px; }
-    footer .social-share a.twitter-share {
-      height: 60px;
-      width: 60px;
-      background-color: #1AB4EF;
-      border-radius: 3px;
-      font-size: 22px;
-      display: inline-block;
-      text-align: center;
-      margin-right: 20px; }
-    footer .social-share a.twitter-share:hover, footer .social-share a.twitter-share:focus {
-      background-color: #1590BF; }
-    footer .social-share a.facebook-share:hover, footer .social-share a.facebook-share:focus {
-      background-color: #324C85; }
-    footer .social-share a.facebook-share {
-      height: 60px;
-      width: 60px;
-      background-color: #3B5898;
-      border-radius: 3px;
-      font-size: 22px;
-      display: inline-block;
-      text-align: center; }
-    footer .social-share a {
-      color: #fff; }
-    footer .social-share a:hover {
-      color: #fff; }
-    footer .social-share a i {
-      margin-top: 20px; }
   footer .footer-links {
     margin: 50px 0 10px 0;
     text-align:center;
