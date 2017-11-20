@@ -146,9 +146,8 @@ $(document).ready(function() {
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
 			if (scroll >= 20) {
-				$('section.navigation').addClass('fixed');
+				$('section.navigation').addClass('fixed mdl-shadow--4dp');
 				$('header').css({
-					"border-bottom": "none",
 					"padding": "20px 0"
 				});
 				$('.logo a img').css({
@@ -165,9 +164,8 @@ $(document).ready(function() {
 				$('.logo a img').css({
 					"height": "50px",
 				});
-				$('section.navigation').removeClass('fixed');
+				$('section.navigation').removeClass('fixed mdl-shadow--4dp');
 				$('header').css({
-					"border-bottom": "solid 1px rgba(255, 255, 255, 0.2)",
 					"padding": "30px 0"
 				});
 				$('section.navigation header').removeClass('noborder');

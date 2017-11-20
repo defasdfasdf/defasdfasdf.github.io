@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu%27);
-  
+
 /* ==========================================================================
 Typography
 ========================================================================== */
@@ -245,13 +245,12 @@ Hero
 
 .fixed, .fixed2{
   position: fixed;
-  background-color: #607D8B;
+  background-color: #455A64;
   z-index: 999;
   width: 100%; }
 
 header {
   padding: 30px 0;
-  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
   position: relative;
   width: 1170px;
   margin: 0 auto;
@@ -392,6 +391,9 @@ Features-stack
   position: relative; }
 .earthimg{
   width: 90%;left: 200px;height: auto;
+}
+#features{
+  background: #607D8B;
 }
 #features .iphone-wrap{
   bottom:350px;left: 60%;
