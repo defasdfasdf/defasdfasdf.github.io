@@ -52,7 +52,7 @@ $(document).ready(function() {
 	});
 	$('.wp3').waypoint(function() {
 		$('.wp3').addClass('animated rollIn slideInRight');
-		$('.twp3').addClass('animated rollIn slideInRight');
+		$('.twp3').addClass('animated fadeInRight');
 	}, {
 		offset: '75%'
 	});
