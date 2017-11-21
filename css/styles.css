@@ -550,11 +550,11 @@ footer {
     transition: .6s;
 }
 .iconholder:hover{
-  height: 112px;
-line-height: 52px;
-width: 112px;
+  height: 84px;
+line-height: 39px;
+width: 84px;
 text-align: center;
-padding: 25px;
+padding: 22.5px;
 }
 /* ==========================================================================
 Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
