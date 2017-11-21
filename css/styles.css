@@ -523,7 +523,25 @@ footer {
     margin: 50px 0 10px 0;
     text-align:center;
    }
-
+.footericon{
+  color:white;
+}
+.iconholder{
+  outline: 0 !important;
+color: #fff;
+border-radius: 100%;
+font-size: 26px;
+-webkit-transition: background-color .1s linear;
+transition: background-color .1s linear;
+height: 56px;
+line-height: 26px;
+width: 56px;
+text-align: center;
+padding: 15px;
+bottom: -25px;
+right: 25px;
+background:rgb(255,215,64);
+}
 /* ==========================================================================
 Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
 ========================================================================== */
