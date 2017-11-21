@@ -338,7 +338,7 @@ Features-stack
     margin: 0 0 20px 0; }
   .features span.icon {
     font-size: 35px;
-    color: #212121;
+    color: white !important;
     font-weight: bold; }
   .features .feature-icon {
     display: inline-block;
