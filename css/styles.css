@@ -547,7 +547,7 @@ footer {
     padding: 15px;
     background: rgb(255,215,64);
     display: inline-block;
-    transition: .8s;
+    transition: .6s;
 }
 .iconholder:hover .footericon{
   color:#CFD8DC ;
