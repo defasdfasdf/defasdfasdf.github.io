@@ -550,7 +550,7 @@ footer {
     transition: .8s;
 }
 .iconholder:hover{
-  background: rgba(255,215,64,.7);
+  color:#CFD8DC;
 }
 /* ==========================================================================
 Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
