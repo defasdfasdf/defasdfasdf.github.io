@@ -394,6 +394,7 @@ Features-stack
 }
 #features{
   background: #607D8B;
+  color: white !important;
 }
 #features .iphone-wrap{
   bottom:350px;left: 60%;
