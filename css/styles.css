@@ -504,7 +504,8 @@ Footer
 ========================================================================== */
 footer {
   background-color: #607D8B;
-  position: relative; }
+  position: relative;
+    height: 200px;}
   footer p {
     color: #212121;
     font-size: 13px; }
