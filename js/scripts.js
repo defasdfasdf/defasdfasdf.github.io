@@ -51,8 +51,8 @@ $(document).ready(function() {
 		offset: '75%'
 	});
 	$('.wp3').waypoint(function() {
-		$('.wp3').addClass('animated fadeInRight');
-		$('.twp3').addClass('animated fadeInRight');
+		$('.wp3').addClass('animated rollIn slideInRight');
+		$('.twp3').addClass('animated rollIn slideInRight');
 	}, {
 		offset: '75%'
 	});
