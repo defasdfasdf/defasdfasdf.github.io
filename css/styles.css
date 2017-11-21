@@ -549,8 +549,8 @@ footer {
     display: inline-block;
     transition: .8s;
 }
-.iconholder:hover{
-  color:#CFD8DC;
+.iconholder:hover .footericon{
+  color:#CFD8DC ;
 }
 /* ==========================================================================
 Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
