@@ -127,7 +127,7 @@ Waypoinsts
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9, .vishid {
   visibility: hidden; }
 
-.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight, .bounceInDown, .slideInRight {
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight, .bounceInDown, .slideInRight, .fadeIn {
   visibility: visible; }
 
 /* ==========================================================================

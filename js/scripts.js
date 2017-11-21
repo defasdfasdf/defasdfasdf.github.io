@@ -56,10 +56,20 @@ $(document).ready(function() {
 	}, {
 		offset: '75%'
 	});
-	$('.bpsig').waypoint(function() {
-		$('.bpsig').addClass('animated fadeInUp');
+	$('.bpsig1').waypoint(function() {
+		$('.bpsig1').addClass('animated fadeIn');
 	}, {
 		offset: '75%'
+	});
+	$('.bpsig2').waypoint(function() {
+		$('.bpsig2').addClass('animated fadeIn');
+	}, {
+		offset: '55%'
+	});
+	$('.bpsig3').waypoint(function() {
+		$('.bpsig3').addClass('animated fadeIn');
+	}, {
+		offset: '40%'
 	});
 	$('.fc1').waypoint(function() {
 		$('.fc1').addClass('animated fadeInUp');
