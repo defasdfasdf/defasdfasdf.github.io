@@ -199,4 +199,13 @@ $(document).ready(function() {
 
 	});
 
+/*Hover for the footer*/
+$(".iconholder").hover(
+  function () {
+    $(this).find("a:first").addClass('fa-2x');
+  },
+  function () {
+    $(this).find("a:first").removeClass('fa-2x');
+  }
+  );
 });
