@@ -202,10 +202,10 @@ $(document).ready(function() {
 /*Hover for the footer*/
 $(".iconholder").hover(
   function () {
-    $(this).find("a:first").addClass('fa-2x');
+    $(this).addClass('mdl-shadow--6dp');
   },
   function () {
-    $(this).find("a:first").removeClass('fa-2x');
+    $(this).removeClass('mdl-shadow--6dp');
   }
   );
 });

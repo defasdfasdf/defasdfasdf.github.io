@@ -547,14 +547,13 @@ footer {
     padding: 15px;
     background: rgb(255,215,64);
     display: inline-block;
-    transition: .6s;
+    transition: .8s;
 }
 .iconholder:hover{
-  height: 84px;
-line-height: 39px;
-width: 84px;
-text-align: center;
-padding: 15px;
+  background: rgba(255,215,64,.7);
+  height: 64px;
+  line-height: 27px;
+  width: 64px;
 }
 /* ==========================================================================
 Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
