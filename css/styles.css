@@ -128,7 +128,7 @@ Waypoinsts
   visibility: hidden; }
 
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight, .bounceInDown, .slideInRight, .fadeIn {
-  visibility: visible; }
+  visibility: visible !important; }
 
 /* ==========================================================================
 Navigation
@@ -1200,6 +1200,15 @@ div > h3 > a{
       top: 10px;
       left: calc(90% - 21px)
 
+}
+@media screen and (min-width:800px){
+  .mdl-card.quartercard{
+  width:60%;
+  transition:.8s;
+}}
+div.procard1,div.procard2,div.procard3,div.procard4,div.procard5,div.procard6,div.procard7,div.procard8,div.procard9{
+  width:100%;
+  visibility:hidden;
 }
 .quartercard{
   margin:auto;
