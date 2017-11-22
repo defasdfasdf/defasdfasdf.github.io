@@ -157,6 +157,7 @@ $(document).ready(function() {
 			var scroll = $(window).scrollTop();
 			if (scroll >= 20) {
 				$('section.navigation').addClass('fixed mdl-shadow--4dp');
+				$('section.fixed').addClass('fixed mdl-shadow--4dp');
 				$('header').css({
 					"padding": "20px 0"
 				});
@@ -175,6 +176,7 @@ $(document).ready(function() {
 					"height": "50px",
 				});
 				$('section.navigation').removeClass('fixed mdl-shadow--4dp');
+				$('section.fixed').removeClass('mdl-shadow--4dp');
 				$('header').css({
 					"padding": "30px 0"
 				});
