@@ -1218,4 +1218,12 @@ div.procard1,div.procard2,div.procard3,div.procard4,div.procard5,div.procard6,di
   width: 330px;
   transition:.8s;
 }}
+h2.mdl-card__title-text{
+  width: 100%;
+text-align: center;
+display: block;
+
+}
+div.mdl-card__supporting-text{
+  width:100%;
 }
