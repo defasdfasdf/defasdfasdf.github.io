@@ -1213,3 +1213,9 @@ div.procard1,div.procard2,div.procard3,div.procard4,div.procard5,div.procard6,di
 .quartercard{
   margin:auto;
 }
+@media screen and (max-width:800px){
+  .mdl-card.quartercard{
+  width: 330px;
+  transition:.8s;
+}}
+}
