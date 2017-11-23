@@ -100,6 +100,71 @@ $(document).ready(function() {
 	}, {
 		offset: '55%'
 	});
+	$('.procard13').waypoint(function() {
+		$('.procard13').addClass('animated fadeIn');
+	}, {
+		offset: '55%'
+	});
+	$('.procard14').waypoint(function() {
+		$('.procard14').addClass('animated fadeIn');
+	}, {
+		offset: '55%'
+	});
+	$('.procard15').waypoint(function() {
+		$('.procard15').addClass('animated fadeIn');
+	}, {
+		offset: '55%'
+	});
+	$('.procard16').waypoint(function() {
+		$('.procard16').addClass('animated fadeIn');
+	}, {
+		offset: '55%'
+	});
+	$('.procard17').waypoint(function() {
+		$('.procard17').addClass('animated fadeIn');
+	}, {
+		offset: '55%'
+	});
+	$('.procard18').waypoint(function() {
+		$('.procard18').addClass('animated fadeIn');
+	}, {
+		offset: '55%'
+	});
+	$('.procard19').waypoint(function() {
+		$('.procard19').addClass('animated fadeIn');
+	}, {
+		offset: '55%'
+	});
+	$('.procard20').waypoint(function() {
+		$('.procard20').addClass('animated fadeIn');
+	}, {
+		offset: '55%'
+	});
+	$('.procard21').waypoint(function() {
+		$('.procard21').addClass('animated fadeIn');
+	}, {
+		offset: '55%'
+	});
+	$('.procard22').waypoint(function() {
+		$('.procard22').addClass('animated fadeIn');
+	}, {
+		offset: '55%'
+	});
+	$('.procard23').waypoint(function() {
+		$('.procard23').addClass('animated fadeIn');
+	}, {
+		offset: '55%'
+	});
+	$('.procard24').waypoint(function() {
+		$('.procard24').addClass('animated fadeIn');
+	}, {
+		offset: '55%'
+	});
+	$('.procard25').waypoint(function() {
+		$('.procard25').addClass('animated fadeIn');
+	}, {
+		offset: '55%'
+	});
 	$('.wp2').waypoint(function() {
 		$('.wp2').addClass('animated fadeInUp');
 	}, {
