@@ -50,18 +50,18 @@ function roadmap(){
   information.forEach(function(element){
     document.querySelector("#" + element.for).addEventListener('mdl-componentupgraded', function() {
     this.MaterialProgress.setProgress(0);
-    setInterval(progressUpdate, 500);
+    setTimeout(progressUpdate, 500);
     information3 = element.for;
     information2 = element.progress
-    console.log(information2);
-    console.log(information3);
   });
 });
 }
 function progressUpdate(){
+  console.log(information2);
+  console.log(information3);
   document.querySelector("#" + information3).addEventListener('mdl-componentupgraded', function() {
   this.MaterialProgress.setProgress(information2);
-  console.log(information2);
+
 });
 }
 function title(){
