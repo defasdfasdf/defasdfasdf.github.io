@@ -1344,7 +1344,7 @@ details {
 
 DETAILS[open] SUMMARY ~ *
 {
- animation: sweep .5s ease-in-out;
+ animation: sweep 1.6s ease-in-out;
 }
 
 @keyframes sweep
@@ -1352,3 +1352,61 @@ DETAILS[open] SUMMARY ~ *
  0%    {opacity: 0; margin-top: -10px}
  100%  {opacity: 1; margin-top: 0px}
 }
+
+details summary::-webkit-details-marker {
+    display:none;
+}
+
+details[open] > summary:before{
+  font-family: fontawesome;
+  content:"\f068";
+  background-color: rgb(255,215,64);
+  border-radius: 100%;
+  font-size: 45px;
+
+  outline: 0 !important;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 26px;
+  -webkit-transition: background-color .1s linear;
+  transition: background-color .1s linear;
+  height: 56px;
+  line-height: 26px;
+  width: 56px;
+  text-align: center;
+  padding: 15px;
+  background: rgb(255,215,64);
+  display: inline-block;
+  transition: .6s;
+}
+
+details > summary:before{
+  font-family: fontawesome;
+  content:"\f067";
+  background-color: rgb(255,215,64);
+  border-radius: 100%;
+  font-size: 45px;
+
+  outline: 0 !important;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 26px;
+  -webkit-transition: background-color .1s linear;
+  transition: background-color .1s linear;
+  height: 56px;
+  line-height: 26px;
+  width: 56px;
+  text-align: center;
+  padding: 15px;
+  background: rgb(255,215,64);
+  display: inline-block;
+  transition: .6s;
+}
+
+details {
+    transition: height 1s ease;
+}
+
+details:not([open]) { height: 104px; }
+
+details[open] { height: 8.50em; }
