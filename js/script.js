@@ -50,9 +50,13 @@ function roadmap(){
   information.forEach(function(element){
     document.querySelector("#" + element.for).addEventListener('mdl-componentupgraded', function() {
     this.MaterialProgress.setProgress(1);
-    this.MaterialProgress.setProgress(element.progress);
+    setInterval(progressUpdate(element), 500);
   });
 });
+}
+function progressUpdate(element){
+  document.querySelector("#" + element.for).addEventListener('mdl-componentupgraded', function() {
+  this.MaterialProgress.setProgress(element.progress);
 }
 function title(){
     hinformation.forEach(function(element){
