@@ -1268,3 +1268,20 @@ div.mdl-card__supporting-text{
   height:48px;
   margin: 24px 0;
 }
+.exchangeinfo{
+  border-left: 1px solid rgba(0,0,0,.1);
+  padding-left:50px;
+}
+.exchange-card-image.mdl-card {
+
+}
+.exchange-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.exchange-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.5);
+}
