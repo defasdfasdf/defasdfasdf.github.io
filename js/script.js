@@ -49,7 +49,6 @@ loadJSON(function(responseText){
 function roadmap(){
   information.forEach(function(element){
     document.querySelector("#" + element.for).addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(0);
     setTimeout(progressUpdate, 500);
     information3 = element.for;
     information2 = element.progress
@@ -61,7 +60,6 @@ function progressUpdate(){
   console.log(information3);
   document.querySelector("#" + information3).addEventListener('mdl-componentupgraded', function() {
   this.MaterialProgress.setProgress(information2);
-
 });
 }
 function title(){
