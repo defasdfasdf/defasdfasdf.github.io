@@ -1262,4 +1262,5 @@ div.mdl-card__supporting-text{
 }
 .mdl-progress .progressbar{
   transition: 4s !important;
+  width:0%;
 }
