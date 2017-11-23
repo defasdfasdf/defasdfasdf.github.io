@@ -1316,6 +1316,10 @@ summary{
   text-align: left;
 }
 
+.wallets_summary:hover {
+  cursor: pointer;
+}
+
 .wallets_wrapper {
   padding: 16px;
   text-align: center;
@@ -1331,6 +1335,20 @@ details {
   margin-left: 566px;
   margin-bottom: 100px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-  background-color: #e5e5e5;
-  border-radius: 32px;
+  background-color: #f2f2f2;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+DETAILS[open] SUMMARY ~ *
+{
+ animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep
+{
+ 0%    {opacity: 0; margin-top: -10px}
+ 100%  {opacity: 1; margin-top: 0px}
 }
