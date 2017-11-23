@@ -53,6 +53,8 @@ function roadmap(){
     setInterval(progressUpdate, 500);
     information3 = element.for;
     information2 = element.progress
+    console.log(information2);
+    console.log(information3);
   });
 });
 }
