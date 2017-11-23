@@ -292,20 +292,20 @@ header {
       margin-right: 20px; }
   header .logo {
     display: inline-block; }
-  header ul.primary-navigation {
+  header ul.primary-nav {
     margin: 0 0 0 75px;
     padding: 0; }
-    header ul.primary-navigation li {
+    header ul.primary-nav li {
       display: inline; }
-      header ul.primary-navigation li a {
+      header ul.primary-nav li a {
         color: #fff;
         padding-right: 25px;
         position: relative;
         font-weight: 500;
        }
-        header ul.primary-navigation li a:hover {
+        header ul.primary-nav li a:hover {
           color: #e2a43f; }
-      header ul.primary-navigation li:last-child a {
+      header ul.primary-nav li:last-child a {
         padding-right: 0px; }
   header ul.member-actions li {
     display: inline; }
