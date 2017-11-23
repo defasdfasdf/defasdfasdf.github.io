@@ -1256,3 +1256,6 @@ display: block;
 div.mdl-card__supporting-text{
   width:100%;
 }
+.mdl-progress{
+  margin:auto;
+}
