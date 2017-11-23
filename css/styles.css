@@ -1302,7 +1302,7 @@ summary{
   outline:none;
 }
 
-.wallets_details1 {
+.wallets_details {
   font-weight: bold;
   margin:auto;
   font-size: 24px;
@@ -1311,12 +1311,12 @@ summary{
   margin-bottom: 16px;
 }
 
-.wallets_summary1 {
+.wallets_summary {
   padding: 16px;
   text-align: left;
 }
 
-.wallets_summary1:hover {
+.wallets_summary:hover {
   cursor: pointer;
 }
 
@@ -1330,7 +1330,7 @@ summary{
   font-size: 20px;
 }
 
-.wallets_details1 {
+details {
   width: 40%;
   margin-left: 566px;
   margin-bottom: 100px;
@@ -1344,7 +1344,11 @@ summary{
 
 DETAILS[open] SUMMARY ~ *
 {
- animation: sweep 1.6s ease-in-out;
+ animation: sweep .5s ease-in-out;
+}
+DETAILS[close] SUMMARY ~ *
+{
+ animation: sweep .5s ease-in-out;
 }
 
 @keyframes sweep
@@ -1352,15 +1356,8 @@ DETAILS[open] SUMMARY ~ *
  0%    {opacity: 0; margin-top: -10px}
  100%  {opacity: 1; margin-top: 0px}
 }
-
-.wallets_details1 .wallets_summary1::-webkit-details-marker {
-    display:none;
+@keyframes resweep
+{
+ 0%    {opacity: 0; margin-top: -10px}
+ 100%  {opacity: 1; margin-top: 0px}
 }
-
-.wallets_details1 {
-    transition: height 1s ease;
-}
-
-.wallets_details1:not([open]) { height: 104px; }
-
-.wallets_details1[open] { height: 8.50em; }
