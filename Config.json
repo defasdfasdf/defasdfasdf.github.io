@@ -183,5 +183,11 @@
             "Prizes": ["30000", "10000", "5000"],
             "Link": "https://duckduckgo.com/?q=Image&t=ffab&ia=web"
           }
+        ],
+        "roadmap": [
+          {
+            "for": "projectinitiatebar",
+            "progress": "90",
+          }
         ]
       }

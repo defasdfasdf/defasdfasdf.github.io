@@ -32,6 +32,11 @@ loadJSON(function(responseText){
     wallets();
 
   }
+  else if (where == "/Roadmap/"){
+    information = JSON.parse(responseText).roadmap;
+    roadmap();
+
+  }
   else if (where == "/Exchanges/"){
     information = JSON.parse(responseText).exchanges;
     exchanges();
@@ -41,6 +46,13 @@ loadJSON(function(responseText){
     competitions();
   }
 });
+function roadmap(){
+  information.forEach(function(element){
+    document.querySelector("#" + element.for).addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(element.progress);
+  });
+});
+}
 function title(){
     hinformation.forEach(function(element){
   element.Name =   element.Name.substring(element.Name.indexOf("%20"));
