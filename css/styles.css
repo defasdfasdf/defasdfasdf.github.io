@@ -1302,7 +1302,7 @@ summary{
   outline:none;
 }
 
-.wallets_details {
+.wallets_details1 {
   font-weight: bold;
   margin:auto;
   font-size: 24px;
@@ -1311,12 +1311,12 @@ summary{
   margin-bottom: 16px;
 }
 
-.wallets_summary {
+.wallets_summary1 {
   padding: 16px;
   text-align: left;
 }
 
-.wallets_summary:hover {
+.wallets_summary1:hover {
   cursor: pointer;
 }
 
@@ -1330,7 +1330,7 @@ summary{
   font-size: 20px;
 }
 
-details {
+.wallets_details1 {
   width: 40%;
   margin-left: 566px;
   margin-bottom: 100px;
@@ -1353,60 +1353,14 @@ DETAILS[open] SUMMARY ~ *
  100%  {opacity: 1; margin-top: 0px}
 }
 
-details summary::-webkit-details-marker {
+.wallets_details1 .wallets_summary1::-webkit-details-marker {
     display:none;
 }
 
-details[open] > summary:before{
-  font-family: fontawesome;
-  content:"\f068";
-  background-color: rgb(255,215,64);
-  border-radius: 100%;
-  font-size: 45px;
-
-  outline: 0 !important;
-  color: #fff;
-  border-radius: 100%;
-  font-size: 26px;
-  -webkit-transition: background-color .1s linear;
-  transition: background-color .1s linear;
-  height: 56px;
-  line-height: 26px;
-  width: 56px;
-  text-align: center;
-  padding: 15px;
-  background: rgb(255,215,64);
-  display: inline-block;
-  transition: .6s;
-}
-
-details > summary:before{
-  font-family: fontawesome;
-  content:"\f067";
-  background-color: rgb(255,215,64);
-  border-radius: 100%;
-  font-size: 45px;
-
-  outline: 0 !important;
-  color: #fff;
-  border-radius: 100%;
-  font-size: 26px;
-  -webkit-transition: background-color .1s linear;
-  transition: background-color .1s linear;
-  height: 56px;
-  line-height: 26px;
-  width: 56px;
-  text-align: center;
-  padding: 15px;
-  background: rgb(255,215,64);
-  display: inline-block;
-  transition: .6s;
-}
-
-details {
+.wallets_details1 {
     transition: height 1s ease;
 }
 
-details:not([open]) { height: 104px; }
+.wallets_details1:not([open]) { height: 104px; }
 
-details[open] { height: 8.50em; }
+.wallets_details1[open] { height: 8.50em; }
