@@ -284,7 +284,7 @@ header {
   header a {
     color: #fff;
     text-transform: uppercase;
-    font-size: .8vw;
+    font-size: 11px;
     opacity: .8;
     transition: .8s;
    }
@@ -1226,11 +1226,6 @@ div > h3 > a{
       left: calc(90% - 21px)
 
 }
-@media screen and (min-width:1400px){
-  header a {
-    font-size: .5vw;
-   }
-}
 @media screen and (min-width:800px){
   .mdl-card.quartercard{
   width:60%;
@@ -1268,13 +1263,30 @@ div.mdl-card__supporting-text{
   height:48px;
   margin: 24px 0;
 }
-.exchangeinfo{
-  border-left: 1px solid rgba(0,0,0,.1);
+.exsep{
+  height:45px;
+  width:100%;
+}
+.exchangeinfol{
   padding-left:50px;
 }
-.exchange-card-image.mdl-card {
-
+.exchangeinfor{
+  padding-left:50px;
 }
+@media screen and (min-width:480px){
+.exchangeinfol{
+  border-left: 2px solid rgba(0,0,0,.1);
+  padding-left:50px;
+}
+.exchangeinfor{
+  border-right: 2px solid rgba(0,0,0,.1);
+  padding-left:50px;
+}}
+@media screen and (max-width:479px){
+  .exsep{
+    background-color: rgba(0,0,0,.1);
+    height:5px;
+    }}
 .exchange-card-image__filename {
   color: #fff;
   font-size: 14px;
@@ -1284,4 +1296,3 @@ div.mdl-card__supporting-text{
   height: 52px;
   padding: 16px;
   background: rgba(0, 0, 0, 0.5);
-}
