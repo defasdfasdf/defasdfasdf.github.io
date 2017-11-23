@@ -1383,3 +1383,8 @@ DETAILS[open] SUMMARY ~ *
   display: inline-block;
   transition: .6s;
 }
+div.exchange-card-image.mdl-cell.eximg{
+    background-repeat: no-repeat !important;
+    min-height:150px !important;
+    background-size:contain !important;
+}
