@@ -49,7 +49,8 @@ loadJSON(function(responseText){
 function roadmap(){
   information.forEach(function(element){
     document.querySelector("#" + element.for).addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(element.progress);
+    this.MaterialProgress.setProgress(0).setProgress(element.progress);
+
   });
 });
 }
