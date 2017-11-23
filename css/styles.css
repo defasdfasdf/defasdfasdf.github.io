@@ -1361,3 +1361,8 @@ DETAILS[close] SUMMARY ~ *
  0%    {opacity: 0; margin-top: -10px}
  100%  {opacity: 1; margin-top: 0px}
 }
+div.exchange-card-image.mdl-cell.eximg{
+    background-repeat: no-repeat !important;
+    min-height:100px !important;
+    background-size:contain !important;
+}
