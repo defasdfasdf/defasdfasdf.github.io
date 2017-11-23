@@ -1297,89 +1297,18 @@ div.mdl-card__supporting-text{
   padding: 16px;
   background: rgba(0, 0, 0, 0.5);
 }
-/* New ------------------------------------ */
-summary{
-  outline:none;
-}
 
-
-.wallets_details1 {
-  font-weight: bold;
-  margin:auto;
-  font-size: 24px;
-  margin-top:16px;
-  padding:8px;
-  margin-bottom: 16px;
-}
-
-.wallets_summary1 {
-  padding: 16px;
-  text-align: left;
-}
-
-.wallets_summary1:hover {
-  cursor: pointer;
+.wallets_button {
+  text-align: center;
 }
 
 .wallets_wrapper {
-  padding: 16px;
-  text-align: center;
-
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.wallets_details_content {
-  font-size: 20px;
-}
-
-.wallets_details1 {
-  width: 40%;
-  margin-left: 566px;
-  margin-bottom: 100px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-  background-color: #f2f2f2;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-DETAILS[open] SUMMARY ~ *
-{
- animation: sweep 1.6s ease-in-out;
-}
-
-@keyframes sweep
-{
- 0%    {opacity: 0; margin-top: -10px}
- 100%  {opacity: 1; margin-top: 0px}
-}
-
-.wallets_details1 .wallets_summary1::-webkit-details-marker {
-    display:none;
-}
-
-.wallets_details1 {
-    transition: height 1s ease;
-}
-
-.wallets_details1:not([open]) { height: 104px; }
-
-.wallets_details1[open] { height: 212px; }
-
-/* new */
-.wallets_windows_icon {
-  outline: 0 !important;
-  color: #fff;
-  border-radius: 100%;
-  font-size: 26px;
-  -webkit-transition: background-color .1s linear;
-  transition: background-color .1s linear;
-  height: 56px;
-  line-height: 26px;
-  width: 56px;
-  text-align: center;
-  padding: 15px;
-  background: #000066;
-  display: inline-block;
-  transition: .6s;
+.mdl-card {
+  min-height: 0 !important;
 }
