@@ -1304,6 +1304,11 @@ summary{
 
 .wallets_details {
   font-weight: bold;
+  margin:auto;
+  font-size: 24px;
+  margin-top:16px;
+  padding:8px;
+  margin-bottom: 16px;
 }
 
 .wallets_summary {
@@ -1314,7 +1319,7 @@ summary{
 .wallets_wrapper {
   padding: 16px;
   text-align: center;
-  font-size: 24px;
+
 }
 
 .wallets_details_content {
