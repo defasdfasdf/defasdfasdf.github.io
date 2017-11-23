@@ -43,92 +43,92 @@ $(document).ready(function() {
 	$('.procard1').waypoint(function() {
 		$('.procard1').addClass('animated fadeIn');
 	}, {
-		offset: '85%'
+		offset: '95%'
 	});
 	$('.procard2').waypoint(function() {
 		$('.procard2').addClass('animated fadeIn');
 	}, {
-		offset: '85%'
+		offset: '95%'
 	});
 	$('.procard3').waypoint(function() {
 		$('.procard3').addClass('animated fadeIn');
 	}, {
-		offset: '85%'
+		offset: '95%'
 	});
 	$('.procard4').waypoint(function() {
 		$('.procard4').addClass('animated fadeIn');
 	}, {
-		offset: '85%'
+		offset: '95%'
 	});
 	$('.procard5').waypoint(function() {
 		$('.procard5').addClass('animated fadeIn');
 	}, {
-		offset: '85%'
+		offset: '95%'
 	});
 	$('.procard6').waypoint(function() {
 		$('.procard6').addClass('animated fadeIn');
 	}, {
-		offset: '85%'
+		offset: '95%'
 	});
 	$('.procard7').waypoint(function() {
 		$('.procard7').addClass('animated fadeIn');
 	}, {
-		offset: '75%'
+		offset: '95%'
 	});
 	$('.procard8').waypoint(function() {
 		$('.procard8').addClass('animated fadeIn');
 	}, {
-		offset: '75%'
+		offset: '95%'
 	});
 	$('.procard9').waypoint(function() {
 		$('.procard9').addClass('animated fadeIn');
 	}, {
-		offset: '75%'
+		offset: '95%'
 	});
 	$('.procard10').waypoint(function() {
 		$('.procard10').addClass('animated fadeIn');
 	}, {
-		offset: '75%'
+		offset: '95%'
 	});
 	$('.procard11').waypoint(function() {
 		$('.procard11').addClass('animated fadeIn');
 	}, {
-		offset: '75%'
+		offset: '95%'
 	});
 	$('.procard12').waypoint(function() {
 		$('.procard12').addClass('animated fadeIn');
 	}, {
-		offset: '75%'
+		offset: '95%'
 	});
 	$('.procard13').waypoint(function() {
 		$('.procard13').addClass('animated fadeIn');
 	}, {
-		offset: '65%'
+		offset: '95%'
 	});
 	$('.procard14').waypoint(function() {
 		$('.procard14').addClass('animated fadeIn');
 	}, {
-		offset: '65%'
+		offset: '95%'
 	});
 	$('.procard15').waypoint(function() {
 		$('.procard15').addClass('animated fadeIn');
 	}, {
-		offset: '65%'
+		offset: '95%'
 	});
 	$('.procard16').waypoint(function() {
 		$('.procard16').addClass('animated fadeIn');
 	}, {
-		offset: '65%'
+		offset: '95%'
 	});
 	$('.procard17').waypoint(function() {
 		$('.procard17').addClass('animated fadeIn');
 	}, {
-		offset: '65%'
+		offset: '95%'
 	});
 	$('.procard18').waypoint(function() {
 		$('.procard18').addClass('animated fadeIn');
 	}, {
-		offset: '65%'
+		offset: '95%'
 	});
 	$('.procard19').waypoint(function() {
 		$('.procard19').addClass('animated fadeIn');
