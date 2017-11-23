@@ -57,6 +57,7 @@ function roadmap(){
 function progressUpdate(element){
   document.querySelector("#" + element.for).addEventListener('mdl-componentupgraded', function() {
   this.MaterialProgress.setProgress(element.progress);
+});
 }
 function title(){
     hinformation.forEach(function(element){
