@@ -1309,6 +1309,6 @@ div.mdl-card__supporting-text{
   margin-right: auto;
 }
 
-/*.mdl-card {
+.mdl-card {
   min-height: 0 !important;
-}*/
+}
