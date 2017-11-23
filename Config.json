@@ -188,6 +188,46 @@
           {
             "for": "projectinitiatebar",
             "progress": "90"
-          }
+          },
+          {
+            "for": "projectenlightenbar",
+            "progress": "80"
+          },
+          {
+            "for": "projectbillfoldbar",
+            "progress": "50"
+          },
+          {
+            "for": "projectglobalizebar",
+            "progress": "40"
+          },
+          {
+            "for": "projectaucourantbar",
+            "progress": "20"
+          },
+          {
+            "for": "projectintegratebar",
+            "progress": "10"
+          },
+          {
+            "for": "projectperdubar",
+            "progress": "5"
+          },
+          {
+            "for": "projectboobar",
+            "progress": "4"
+          },
+          {
+            "for": "projectsmartbar",
+            "progress": "3"
+          },
+          {
+            "for": "projectshardingbar",
+            "progress": "2"
+          },
+          {
+            "for": "projectshieldbar",
+            "progress": "1"
+          },
         ]
       }
