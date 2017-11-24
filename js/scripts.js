@@ -299,7 +299,7 @@ $(document).ready(function() {
 				$('section.navigation').addClass('fixed mdl-shadow--4dp');
 				$('section.fixed').addClass('fixed mdl-shadow--4dp');
 				$('header a').css({
-					"font-size": "11px"
+					"font-size": "11px",
 					"transform": "scale(.8)"
 				});
 				$('.logo a img').css({
@@ -311,7 +311,7 @@ $(document).ready(function() {
 				});
 			}else {
 				$('header a').css({
-					"font-size": "12px"
+					"font-size": "12px",
 					"transform": "scale(1)"
 				});
 				$('.logo a img').css({
