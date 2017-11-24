@@ -1361,6 +1361,11 @@ div.exchange-card-image.mdl-cell.eximg{
 
 .tabs .tab a {
   color: #455A64 !important;
+  z-index: 1000;
+}
+
+.tabs .tab a:hover {
+  color: #e2a43f !important;
 }
 
 .indicator {
