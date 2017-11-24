@@ -310,7 +310,7 @@ $(document).ready(function() {
 				});
 			}else {
 				$('header a').css({
-					"font-size": "12px"
+					"font-size": "11.5px"
 				});
 				$('.logo a img').css({
 					"height": "50px",
