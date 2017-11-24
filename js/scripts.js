@@ -298,8 +298,8 @@ $(document).ready(function() {
 			if (scroll >= 20) {
 				$('section.navigation').addClass('fixed mdl-shadow--4dp');
 				$('section.fixed').addClass('fixed mdl-shadow--4dp');
-				$('header').css({
-					"font-size": "14px"
+				$('header a').css({
+					"font-size": "13px"
 				});
 				$('header a').css({
 					"padding": "20px 0"
