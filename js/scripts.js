@@ -299,7 +299,7 @@ $(document).ready(function() {
 				$('section.navigation').addClass('fixed mdl-shadow--4dp');
 				$('section.fixed').addClass('fixed mdl-shadow--4dp');
 				$('header a').css({
-					"font-size": "11px"
+					"font-size": "11px",
 					"padding": "47px"
 				});
 				$('.logo a img').css({
