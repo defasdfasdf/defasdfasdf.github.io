@@ -283,7 +283,7 @@ header {
     color: #fff;
     text-transform: uppercase;
     font-size: 12px;
-    opacity: .8;
+    opacity: .6;
     transition: .8s;
    }
     header a.login {
@@ -302,7 +302,7 @@ header {
         font-weight: 600;
        }
         header ul.primary-nav li a:hover {
-          color: #e2a43f; }
+          opacity: 1; }
       header ul.primary-nav li:last-child a {
         padding-right: 0px; }
   header ul.member-actions li {
@@ -950,6 +950,7 @@ border-radius:16px;
 header div nav ul li a{padding-right:0px!important;margin-right:25px;}
 header div nav ul li a.here{
   opacity 1;
+  border-bottom: 2px solid white;
 }
 .mmmman{
   margin-top:2vw;
