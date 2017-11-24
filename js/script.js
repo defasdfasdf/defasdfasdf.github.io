@@ -171,9 +171,6 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
       if (!(element.Name == "")){
         var li = document.createElement("li");
         var a = document.createElement("a");
-        console.log(element.Name);
-        element.Name =  element.Name.substring(element.Name.indexOf("%20"));
-        console.log(element.Name);
         if ("/" + element.Name + "/" == where || (element.Name == "More information" && where == "/More%20information/") || (element.Name == "Contact us" && where == "/Contact%20us/")){
           a.classList.add("here");
         }
@@ -182,7 +179,8 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
       }
       if (element.Name.includes("#")){
         console.log("hey");
-        element.Name = element.Name.substring(element.Name.indexOf("#"));
+        element.Name.length = i;
+        element.Name = element.Name.substring(1,i);
       }
       console.log(element.Name);
       var aname = document.createTextNode(element.Name);
