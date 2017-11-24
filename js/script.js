@@ -179,7 +179,7 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
       }
       if (element.Name.includes("#")){
         console.log("hey");
-        element.Name.length = i;
+        var i = element.Name.length;
         element.Name = element.Name.substring(1,i);
       }
       console.log(element.Name);
