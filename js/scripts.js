@@ -300,6 +300,7 @@ $(document).ready(function() {
 				$('section.fixed').addClass('fixed mdl-shadow--4dp');
 				$('header a').css({
 					"font-size": "11px"
+					"transform": "scale(.8)"
 				});
 				$('.logo a img').css({
 					"height": "40px",
@@ -311,6 +312,7 @@ $(document).ready(function() {
 			}else {
 				$('header a').css({
 					"font-size": "12px"
+					"transform": "scale(1)"
 				});
 				$('.logo a img').css({
 					"height": "50px",
