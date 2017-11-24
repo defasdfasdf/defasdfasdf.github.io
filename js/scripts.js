@@ -331,7 +331,7 @@ $(document).ready(function() {
 	/***************** Smooth Scrolling ******************/
 
 	$(function() {
-		if (!(location.pathname = /Wallets2/))
+		if (!(location.pathname = /Wallets2/)){
 		$('a[href*=#]:not([href=#])').click(function() {
 			if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
 
@@ -345,7 +345,7 @@ $(document).ready(function() {
 				}
 			}
 		});
-
+}
 	});
 
 /*Hover for the footer*/
