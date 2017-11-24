@@ -311,7 +311,7 @@ $(document).ready(function() {
 				});
 			}else {
 				$('header a').css({
-					"font-size": "12px"
+					"font-size": "12px",
 					"padding": "40px"
 				});
 				$('.logo a img').css({
