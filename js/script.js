@@ -179,8 +179,10 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
         a.href= "../" + element.Name;
       }
       if (element.Name.includes("#")){
+        console.log("hey");
         element.Name = element.Name.substring(element.Name.indexOf("#"));
       }
+      console.log(element.Name);
       var aname = document.createTextNode(element.Name);
       a.appendChild(aname);
       li.appendChild(a);
