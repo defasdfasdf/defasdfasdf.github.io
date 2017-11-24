@@ -354,11 +354,8 @@ $(document).ready(function() {
 });
 	/***************** Smooth Scrolling ******************/
 
-	$(function() {
-		var x = location.pathname;
-		var y = "/";
-		x.includes(y);
-		if (x != y){
+	$(function() {;
+		if (location.pathname !=  "/"){
 		$('a[href*=#]:not([href=#])').click(function() {
 			if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
 
