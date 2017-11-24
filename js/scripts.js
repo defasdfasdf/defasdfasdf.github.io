@@ -333,7 +333,7 @@ $(document).ready(function() {
 	$(function() {
 		var x = location.pathname;
 		var y = "/Wallets2";
-		x.includes(y)
+		x.includes(y);
 		if (x.includes("y")){
 		$('a[href*=#]:not([href=#])').click(function() {
 			if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
