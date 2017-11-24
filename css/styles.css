@@ -285,6 +285,7 @@ header {
     font-size: 12px;
     opacity: .6;
     transition: .8s;
+    padding: 20px 0px;
    }
     header a.login {
       margin-right: 20px; }
@@ -949,7 +950,7 @@ border-radius:16px;
 .fixed2 header{padding: 35px 0px !important;}
 header div nav ul li a{padding-right:0px!important;margin-right:25px;}
 header div nav ul li a.here{
-  opacity 1;
+  opacity: 1;
   border-bottom: 2px solid white;
 }
 .mmmman{

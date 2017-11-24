@@ -301,9 +301,6 @@ $(document).ready(function() {
 				$('header a').css({
 					"font-size": "11px"
 				});
-				$('header a').css({
-					"padding": "20px 0"
-				});
 				$('.logo a img').css({
 					"height": "40px",
 				});
