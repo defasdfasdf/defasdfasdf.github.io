@@ -1224,7 +1224,6 @@ div > h3 > a{
       z-index:998;
       top: 10px;
       left: calc(90% - 21px)
-
 }
 @media screen and (min-width:800px){
   .mdl-card.quartercard{
@@ -1298,71 +1297,36 @@ div.mdl-card__supporting-text{
   background: rgba(0, 0, 0, 0.5);
 }
 /* New ------------------------------------ */
-summary{
-  outline:none;
-}
 
-.wallets_details {
-  font-weight: bold;
-  margin:auto;
-  font-size: 24px;
-  margin-top:16px;
-  padding:8px;
-  margin-bottom: 16px;
-}
 
-.wallets_summary {
-  padding: 16px;
-  text-align: left;
-}
-
-.wallets_summary:hover {
-  cursor: pointer;
-}
-
-.wallets_wrapper {
+.wallets_wrapper{
   padding: 16px;
   text-align: center;
+  margin-top: 150px!important;
+  margin-bottom: 50px!important;
+}
+@media screen and (min-width:800px){
+  .mdl-card.wallets_wrapper{
+  width:60%;
+  transition:.8s;
+}}
 
+.wallets_wrapper{
+  margin:auto;
 }
-
-.wallets_details_content {
-  font-size: 20px;
-}
-
-details {
-  width: 40%;
-  margin-left: 566px;
-  margin-bottom: 100px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-  background-color: #f2f2f2;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-DETAILS[open] SUMMARY ~ *
-{
- animation: sweep .5s ease-in-out;
-}
-DETAILS[close] SUMMARY ~ *
-{
- animation: sweep .5s ease-in-out;
-}
-
-@keyframes sweep
-{
- 0%    {opacity: 0; margin-top: -10px}
- 100%  {opacity: 1; margin-top: 0px}
-}
-@keyframes resweep
-{
- 0%    {opacity: 0; margin-top: -10px}
- 100%  {opacity: 1; margin-top: 0px}
-}
+@media screen and (max-width:800px){
+  .mdl-card.wallets_wrapper{
+  width: 330px;
+  transition:.8s;
+}}
 div.exchange-card-image.mdl-cell.eximg{
     background-repeat: no-repeat !important;
     min-height:150px !important;
     background-size:contain !important;
+}
+.walletbutton{
+  margin:8px;
+}
+.walletLinux, .walletWindow, .walletAndroid{
+  width: 100% !important;
 }

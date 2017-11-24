@@ -39,7 +39,21 @@ $(document).ready(function() {
 	});
 
 	/***************** Waypoints ******************/
-
+	$('.walletWindow').waypoint(function() {
+		$('.walletWindow').addClass('animated fadeInLeft');
+	}, {
+		offset: '55%'
+	});
+	$('.walletAndroid').waypoint(function() {
+		$('.walletAndroid').addClass('animated fadeInLeft');
+	}, {
+		offset: '55%'
+	});
+	$('.walletLinux').waypoint(function() {
+		$('.walletLinux').addClass('animated fadeInRight');
+	}, {
+		offset: '55%'
+	});
 	$('.procard1').waypoint(function() {
 		$('.procard1').addClass('animated fadeIn');
 	}, {
