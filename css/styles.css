@@ -1377,20 +1377,6 @@ div.exchange-card-image.mdl-cell.eximg{
   text-align: center !important;
 }
 
-.wallets_button {
-  margin: 8px !important;
-}
-
-.wallets_btn {
-  background-color: rgba(96,125,139,0.35) !important;
-  padding: 0;
-  margin: 4px;
-  width: 333px;
-  color: #333 !important;
-}
-
-.wallets_btn:hover , .wallets_btn:focus {
-  padding: 0 30px 0 30px;
-  background-color: #455A64 !important;
-  color: #fff !important;
+.wallets_linux_card_1 {
+  margin-left: 25%;
 }
