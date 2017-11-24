@@ -1297,18 +1297,72 @@ div.mdl-card__supporting-text{
   padding: 16px;
   background: rgba(0, 0, 0, 0.5);
 }
+/* New ------------------------------------ */
+summary{
+  outline:none;
+}
 
-.wallets_button {
-  text-align: center;
+.wallets_details {
+  font-weight: bold;
+  margin:auto;
+  font-size: 24px;
+  margin-top:16px;
+  padding:8px;
+  margin-bottom: 16px;
+}
+
+.wallets_summary {
+  padding: 16px;
+  text-align: left;
+}
+
+.wallets_summary:hover {
+  cursor: pointer;
 }
 
 .wallets_wrapper {
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 16px;
+  text-align: center;
+
 }
 
-.mdl-card {
-  min-height: 0 !important;
+.wallets_details_content {
+  font-size: 20px;
+}
+
+details {
+  width: 40%;
+  margin-left: 566px;
+  margin-bottom: 100px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  background-color: #f2f2f2;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+DETAILS[open] SUMMARY ~ *
+{
+ animation: sweep .5s ease-in-out;
+}
+DETAILS[close] SUMMARY ~ *
+{
+ animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep
+{
+ 0%    {opacity: 0; margin-top: -10px}
+ 100%  {opacity: 1; margin-top: 0px}
+}
+@keyframes resweep
+{
+ 0%    {opacity: 0; margin-top: -10px}
+ 100%  {opacity: 1; margin-top: 0px}
+}
+div.exchange-card-image.mdl-cell.eximg{
+    background-repeat: no-repeat !important;
+    min-height:150px !important;
+    background-size:contain !important;
 }
