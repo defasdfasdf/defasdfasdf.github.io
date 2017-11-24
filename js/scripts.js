@@ -331,7 +331,10 @@ $(document).ready(function() {
 	/***************** Smooth Scrolling ******************/
 
 	$(function() {
-		if (location.pathname.includes("/Wallets2/")){
+		var x = location.pathname;
+		var y = "/Wallets2";
+		x.includes(y)
+		if (x.includes("y")){
 		$('a[href*=#]:not([href=#])').click(function() {
 			if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
 
