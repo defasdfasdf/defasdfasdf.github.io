@@ -253,17 +253,14 @@ Hero
   header{
     padding: 5px 0!important;
   }
-  .navicon{
-    top: 9px !important;
-  }
 }
 @media screen and (max-width:730px){
   header{
     padding: 10px 0!important;
   }
-  .navicon{
-    top: 18px !important;
-  }
+}
+.navicon{
+  top: calc(50% - 10px) !important;
 }
 
 .techlist{

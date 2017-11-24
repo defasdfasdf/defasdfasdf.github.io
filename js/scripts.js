@@ -308,9 +308,6 @@ $(document).ready(function() {
 				$('header .member-actions').css({
 					"top": "26px",
 				});
-				$('header .navicon').css({
-					"top": "34px",
-				});
 			}else {
 				$('.logo a img').css({
 					"height": "50px",
@@ -324,9 +321,6 @@ $(document).ready(function() {
 
 				$('header .member-actions').css({
 					"top": "41px",
-				});
-				$('header .navicon').css({
-					"top": "48px",
 				});
 			}
 	});
