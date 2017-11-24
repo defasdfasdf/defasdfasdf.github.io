@@ -336,15 +336,25 @@ Intro
 .intro span.icon {
   font-size: 40px;
   color: #212121;
-  font-weight: bold; }
+  font-weight: bold;
+  transition: .9s;
+  }
 
 .intro-icon {
   display: inline-block;
   vertical-align: top;
-  padding: 6px 0 0 0;
+  padding: 22px 0 0 0;
   margin-right: 20px;
-  width: 40px; }
-
+  width: 40px;
+  transition: 1s;
+}
+.intro-feature:hover .icon{
+  color:#455A64 !important;
+  font-size: 50px;
+}
+.intro-feature:hover .intro-icon{
+     transform: rotate(360deg);
+}
 .intro-content {
   display: inline-block;
   width: 80%; }
