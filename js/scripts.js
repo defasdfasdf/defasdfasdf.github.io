@@ -298,9 +298,6 @@ $(document).ready(function() {
 			if (scroll >= 20) {
 				$('section.navigation').addClass('fixed mdl-shadow--4dp');
 				$('section.fixed').addClass('fixed mdl-shadow--4dp');
-				$('header a').css({
-					"font-size": "11px"
-				});
 				$('.logo a img').css({
 					"height": "40px",
 				});
@@ -309,9 +306,6 @@ $(document).ready(function() {
 					"top": "26px",
 				});
 			}else {
-				$('header a').css({
-					"font-size": "11.5px"
-				});
 				$('.logo a img').css({
 					"height": "50px",
 				});

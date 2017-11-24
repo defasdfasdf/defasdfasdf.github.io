@@ -13,7 +13,7 @@ Typography
   display: inline-block;
   text-transform: uppercase;
   transition:.6s;
-  background-color: #FFA000;
+  background-color: #FFC107;
   color: white;
   }
 
@@ -376,7 +376,7 @@ Features-stack
   .features .feature-icon {
     display: inline-block;
     vertical-align: top;
-    padding: 6px 0 0 0;
+    padding: 15px 0 0 0;
     margin-right: 20px;
     width: 35px; }
   .features .feature-content {
@@ -385,7 +385,7 @@ Features-stack
   .features .intro-icon {
     display: inline-block;
     vertical-align: top;
-    padding: 6px 0 0 0;
+    padding: 15px 0 0 0;
     margin-right: 20px; }
   .features .intro-content {
     display: inline-block;
