@@ -282,7 +282,7 @@ header {
   header a {
     color: #fff;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 14px;
     opacity: .8;
     transition: .8s;
    }
@@ -299,7 +299,7 @@ header {
         color: #fff;
         padding-right: 25px;
         position: relative;
-        font-weight: 500;
+        font-weight: 600;
        }
         header ul.primary-nav li a:hover {
           color: #e2a43f; }

@@ -299,6 +299,9 @@ $(document).ready(function() {
 				$('section.navigation').addClass('fixed mdl-shadow--4dp');
 				$('section.fixed').addClass('fixed mdl-shadow--4dp');
 				$('header').css({
+					"font-size": "14px"
+				});
+				$('header a').css({
 					"padding": "20px 0"
 				});
 				$('.logo a img').css({
@@ -309,6 +312,9 @@ $(document).ready(function() {
 					"top": "26px",
 				});
 			}else {
+				$('header a').css({
+					"font-size": "11px"
+				});
 				$('.logo a img').css({
 					"height": "50px",
 				});
