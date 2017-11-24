@@ -1374,3 +1374,7 @@ div.exchange-card-image.mdl-cell.eximg{
 .light {
   text-align: center !important;
 }
+
+.wallets_button {
+  margin: 8px !important;
+}
