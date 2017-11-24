@@ -53,6 +53,8 @@ Global Styles
 
 a {
   color: #607D8B;
+  border: 0px !important;
+  outline:0px!important;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
   -webkit-transition-duration: 200ms;
