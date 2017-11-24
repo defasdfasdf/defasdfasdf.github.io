@@ -299,7 +299,7 @@ $(document).ready(function() {
 				$('section.navigation').addClass('fixed mdl-shadow--4dp');
 				$('section.fixed').addClass('fixed mdl-shadow--4dp');
 				$('header a').css({
-					"transform": "scale(.8)"
+					"font-size": "10px"
 				});
 				$('.logo a img').css({
 					"height": "40px",
@@ -310,7 +310,7 @@ $(document).ready(function() {
 				});
 			}else {
 				$('header a').css({
-					"transform": "scale(1)"
+					"font-size": "13px"
 				});
 				$('.logo a img').css({
 					"height": "50px",

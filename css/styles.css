@@ -282,8 +282,9 @@ header {
   header a {
     color: #fff;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 13px;
     opacity: .6;
+    transition: font-size 0.5s ease;
    }
     header a.login {
       margin-right: 20px; }
