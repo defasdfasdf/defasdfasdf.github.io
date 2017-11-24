@@ -15,7 +15,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" href="img/SHIELD32x32.png" sizes="32x32" />
-    <meta name="google-site-verification" content="zArvQDJZsWgblxuLJdA0Jl4HNFhvmOP9SCIguXjYuho" />
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -23,14 +22,18 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/queries.css">
     <link rel="stylesheet" href="css/etline-font.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-amber.min.css"/>
     <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-amber.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="//www.googletagmanager.com/gtag/js?id=UA-102031002-2"></script>
-    <script
-         src = "https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js">
-      </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+          gtag('config', 'UA-102031002-2');
+    </script>
 </head>
 
 <body id="top">
@@ -48,8 +51,8 @@
                     </div>
                     <div class="header-nav">
                         <nav>
-                          <ul class="primary-nav" id="primary-nav">
-                          </ul>
+                            <ul class="primary-nav" id="primary-nav">
+                            </ul>
                         </nav>
                     </div>
                     <div class="navicon">
@@ -107,10 +110,10 @@
             <div class="row">
                 <div class="col-md-5 col-md-offset-7">
                     <div class="feature-list">
-                      <div class="vishid fc">
-                        <h3>SHIELD will lead the future.</h3>
-                        <p>SHIELD already has some great features. But what makes SHIELD better than other cryptocurrencies?</p>
-                      </div>
+                        <div class="vishid fc">
+                            <h3>SHIELD will lead the future.</h3>
+                            <p>SHIELD already has some great features. But what makes SHIELD better than other cryptocurrencies?</p>
+                        </div>
                         <ul class="features-stack">
                             <li class="feature-item vishid fc1">
                                 <div class="feature-icon">
@@ -150,130 +153,197 @@
             </div>
         </div>
     </section>
-    <section class="features-extra section-padding" id="getStarted">
-        <div class="container vishid twp3">
-            <div class="row">
-                <div class="col-md-5">
-                        <h2>Want to get started with SHIELD?</h2>
-                        <p>Getting started with SHIELD is really easy, you'll just have to download one of the SHIELD wallets and transfer your SHIELD to the wallet.</p>
-                        <a href="/Wallets" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent ow">Our Wallets</a>
-                        <br>
-                        <h4>Don't have any SHIELD yet?</h4>
-                        <p>Well that's no problem. Just go to one of the exchanges we're listed at and buy your first SHIELD. </p>
-                        <a href="/Exchanges" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent bs">Buy SHIELD</a>
+    <div id="wallets" class="row" style="margin-left: 100px">
+        <div class="col s12 m6 wallets_card">
+            <h4 class="light">SHIELD Wallets</h4>
+            <div class="card">
+                <div class="card-content">
+                    <p>Here you can find all the wallets that SHIELD currently has.</p>
+                </div>
+                <div class="card-tabs">
+                    <ul class="tabs tabs-fixed-width">
+                        <li class="tab"><a href="#test4"><i class="fa fa-windows" aria-hidden="true"></i> Windows Wallets</a></li>
+                        <li class="tab"><a class="active" href="#test5"><i class="fa fa-linux" aria-hidden="true"></i> Linux Wallet</a></li>
+                        <li class="tab"><a href="#test6"><i class="fa fa-android" aria-hidden="true"></i> Android Wallet</a></li>
+                        <li class="indicator" style="right: 174px; left: 173px;"></li>
+                    </ul>
+                </div>
+                <div class="card-content grey lighten-4">
+                    <div id="test4" style="display: none;">
+                        <div class="mdl-card__actions wallets_button wallets_button_1">
+                            <a class="waves-effect waves-light btn wallets_btn wallets_btn_1">Windows Electrum Wallet</a><br>
+                            <a class="waves-effect waves-light btn wallets_btn wallets_btn_2">Windows Commandline Wallet</a><br>
+                            <a class="waves-effect waves-light btn wallets_btn wallets_btn_3">Windows QT Wallet</a>
+                        </div>
+                    </div>
+                    <div id="test5" class="active">
+                        <div class="mdl-card__actions wallets_button">
+                            <a class="mdl-button walletbutton mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                      Linux Electrum Wallet
+                    </a>
+                        </div>
+                    </div>
+                    <div id="test6" style="display: none;">
+                        <div class="mdl-card__actions wallets_button">
+                            <a class="mdl-button walletbutton mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                      Android Wallet
+                    </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="macbook-wrap wp3"></div>
-        <div class="responsive-feature-img"><img src="img/shield_logos_orange.png" alt="responsive devices"></div>
-    </section>
+    </div>
     <section class="hero-strip section-padding" id="techinfo">
         <div class="container spa vishid">
             <div class="col-md-12 text-center">
-              <h2>SHIELD Specs + Articles</h2>
-              <div class="row mdl-grid">
-                <div class="mdl-cell mdl-cell--6-col">
-                  <ul class="techlist">
-                    <li><h3>Technical Specifications.</h3></li>
-                    <li>Symbol: <b>XSH.</b></li>
-                    <li>Blocktime: <b>45 Seconds.</b></li>
-                    <li>Network: <b>PoW with planned PoS.</b></li>
-                    <li>Maximum coins est: <b>660 Million.</b></li>
-                    <li>Algoritmes: <b>Scrypt, x17, groestl, blake2s, & lyra2rev2.</b></li>
-                    <li>RPC port: <b>20103</b></li>
-                    <li>P2P port: <b>21103</b></li>
-                    <li>No premine</li>
-                  </ul>
+                <h2>Technical Specification.</h2>
+                Symbol: <b>XSH.</b> Blocktime: <b>45 Seconds.</b> Network: <b>PoW with planned PoS.</b> Maximum coins est: <b>660 Million.</b> Algoritmes: <b>Scrypt, x17, groestl, blake2s, & lyra2rev2.</b> RPC port: <b>20103</b> P2P port: <b>21103</b> No premine
+            </div>
+        </div>
+    </section>
+    <section id="exchanges" style="padding-top:140px;padding-bottom:0px;">
+        <div class="mdl-grid">
+            <div class="ex1 exchange-card-image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-offset-desktop mdl-cell--4-col mdl-card mdl-shadow--2dp eximg" style="background: url('../img/stocksexxchangelogo.png') center;">
+                <div class="mdl-card__title mdl-card--expand"></div>
+                <div class="mdl-card__actions" style="padding: 2px 10px;height: auto;">
+                    <span class="exchange-card-image__filename">Stocks.exchange</span>
                 </div>
-                <div class="mdl-cell mdl-cell--6-col">
-                  <ul class="linklist">
-                    <li><h3>More Information about SHIELD.</h3></li>
-                    <li><b><a href="/Whitepaper" target="_blank">
-                        <h5><u>White Paper</u></h5>
-                    </a></b></li>
+            </div>
+            <div class="ex1 exchangeinfor mdl-cell--4-col">
+                <p>Little bit of information about the exchange</p>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Listed</a>
+            </div>
+            <div class="exsep"></div>
+            <div class="ex2 exchangeinfol mdl-cell--3-offset-desktop mdl-cell--4-col">
+                <p>Little bit of information about the exchange</p>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Listed</a>
+            </div>
+            <div class="ex2 exchange-card-image mdl-cell mdl-cell--3-col-desktop mdl-cell--4-col mdl-card mdl-shadow--2dp eximg" style="background: url('../img/ccexchange.png') center;">
+                <div class="mdl-card__title mdl-card--expand"></div>
+                <div class="mdl-card__actions" style="padding: 2px 10px;height: auto;">
+                    <span class="exchange-card-image__filename">Stocks.exchange</span>
+                </div>
+            </div>
+            <div class="exsep"></div>
+            <div class="ex3 exchange-card-image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-offset-desktop mdl-cell--4-col mdl-card mdl-shadow--2dp eximg" style="background: url('img/coinexchange.png') center;">
+                <div class="mdl-card__title mdl-card--expand"></div>
+                <div class="mdl-card__actions" style="padding: 2px 10px;height: auto;">
+                    <span class="exchange-card-image__filename">Stocks.exchange</span>
+                </div>
+            </div>
+            <div class="ex3 exchangeinfor mdl-cell--4-col">
+                <p>Little bit of information about the exchange</p>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Listed</a>
+            </div>
+            <div class="exsep"></div>
+            <div class="ex4 exchangeinfol mdl-cell--3-offset-desktop mdl-cell--4-col">
+                <p>Little bit of information about the exchange</p>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Listed</a>
+            </div>
+            <div class="ex4 exchange-card-image mdl-cell mdl-cell--3-col-desktop mdl-cell--4-col mdl-card mdl-shadow--2dp eximg" style="background: url('img/coingather-logo.png') center;">
+                <div class="mdl-card__title mdl-card--expand"></div>
+                <div class="mdl-card__actions" style="padding: 2px 10px;height: auto;">
+                    <span class="exchange-card-image__filename">Stocks.exchange</span>
+                </div>
+            </div>
+            <div class="exsep"></div>
 
-                    <li><b>                        <a href="/About" target="_blank">
-                                                <h5><u>SHIELD About</u></h5>
-                                            </a></b></li>
-                    <li><b><a href="/More%20information" target="_blank">
-                                                <h5><u>SHIELD More Information</u></h5>
-                                            </a></b></li>
-                  </ul>
-
-
-
-                    </div>
+            <div class="ex5 exchange-card-image mdl-cell mdl-cell--3-col-desktop mdl-cell--3-offset-desktop mdl-cell--4-col mdl-card mdl-shadow--2dp eximg" style="background: url('img/livecoinlogo.png') center;">
+                <div class="mdl-card__title mdl-card--expand"></div>
+                <div class="mdl-card__actions" style="padding: 2px 10px;height: auto;">
+                    <span class="exchange-card-image__filename">Stocks.exchange</span>
+                </div>
+            </div>
+            <div class="ex5 exchangeinfor mdl-cell--4-col">
+                <p>Little bit of information about the exchange</p>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Listed</a>
+            </div>
+            <div class="exsep"></div>
+            <div class="ex6 exchangeinfol  mdl-cell--3-offset-desktop mdl-cell--4-col">
+                <p>Little bit of information about the exchange</p>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Listed</a>
+            </div>
+            <div class="ex6 exchange-card-image mdl-cell mdl-cell--3-col-desktop mdl-cell--4-col mdl-card mdl-shadow--2dp eximg" style="background: url('img/yobitlogo.png') center;">
+                <div class="mdl-card__title mdl-card--expand"></div>
+                <div class="mdl-card__actions" style="padding: 2px 10px;height: auto;">
+                    <span class="exchange-card-image__filename">Stocks.exchange</span>
                 </div>
             </div>
         </div>
     </section>
     <section class="blog-intro section-padding">
         <div class="container gum vishid">
-          <h2>Want to support the SHIELD team?</h3>
-            <div class="row snr">
+            <h2>Want to support the SHIELD team?</h3>
+                <div class="row snr">
                     <h3>SHIELD isn't premined. The only funds the SHIELD team gets are from donations. So if you're interested in the SHIELD project and want to help us you can donate to one of the following addresses.</h3>
                     <div class="col-md-6 col-sm-12 col-xs-12">
-						<h4 style="display:inline">Bitcoin Wallet Address:</h4>
-						<h5 style="text-transform: none;"><a href="https://blockchain.info/address/1APmQQY3Vyo9sYz3JGPbntyfyMffdVQ9cL">1APmQQY3Vyo9sYz3JGPbntyfyMffdVQ9cL</a></h5>
-					</div>
-					<div class="col-md-6 col-sm-12 col-xs-12">
-						<h4 style="display:inline">SHIELD Wallet Address</h4>
-						<h5 style="text-transform: none;"><a href="http://188.226.178.216:3001/address/STKcaQS8MVBs1C457k89pCvverLvH58a1w">STKcaQS8MVBs1C457k89pCvverLvH58a1w</a></h5>
-					</div>
-          <div class="col-md-6 col-sm-12 col-xs-12">
-						<h4 style="display:inline">Ethereum Wallet Address</h4>
-						<h5 style="text-transform: none;"><a href="https://etherscan.io/address/0x124a98224fd8d6d4d7b6d53459dc08a4142cc3ac">0x124a98224fd8d6d4d7b6d53459dc08a4142cc3ac</a></h5>
-					</div>
+                        <h4 style="display:inline">Bitcoin Wallet Address:</h4>
+                        <h5 style="text-transform: none;"><a href="https://blockchain.info/address/1APmQQY3Vyo9sYz3JGPbntyfyMffdVQ9cL">1APmQQY3Vyo9sYz3JGPbntyfyMffdVQ9cL</a></h5>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <h4 style="display:inline">SHIELD Wallet Address</h4>
+                        <h5 style="text-transform: none;"><a href="http://188.226.178.216:3001/address/STKcaQS8MVBs1C457k89pCvverLvH58a1w">STKcaQS8MVBs1C457k89pCvverLvH58a1w</a></h5>
             </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <h4 style="display:inline">Ethereum Wallet Address</h4>
+              <h5 style="text-transform: none;"><a href="https://etherscan.io/address/0x124a98224fd8d6d4d7b6d53459dc08a4142cc3ac">0x124a98224fd8d6d4d7b6d53459dc08a4142cc3ac</a></h5>
+            </div>
+          </div>
         </div>
     </section>
     <footer>
-                  <div class="mdl-grid--12-col">
-                      <div class="footer-links">
-                          <ul class="footer-group">
-                           <div class="iconholder">
-                            <a href="https://twitter.com/SHIELDcurrency">
-                              <i class="fa fa-twitter footericon"></i>
-                            </a>
-                          </div>
-			  <div class="iconholder">
-                           <a href="https://www.reddit.com/r/SHIELDCOIN/">
-                             <i class="fa fa-reddit footericon"></i>
-                            </a>
-			  </div>
-			  <div class="iconholder">
-                            <a href="https://github.com/ShieldCoin">
-                                <i class="fa fa-github footericon"></i>
-                            </a>
-				  </div>
-			  <div class="iconholder">
-                            <a href="https://bitcointalk.org/index.php?topic=2234453.0">
-                                <i class="fa fa-bitcoin footericon"></i>
-                            </a>
-		           </div>
-			    <div class="iconholder">
-                            <a href="https://medium.com/@SHIELDcurrency">
-                              <i class="fa fa-medium footericon"></i>
-                            </a>
-				  </div>
-		           <div class="iconholder">
-                            <a href="mailto:ShieldCoin@protonmail.com">
-                              <i class="fa fa-envelope footericon"></i>
-                            </a>
-			  </div>
-
-                          </ul>
-                          <p class="cpright">Copyright © 2017 SHIELD<br>
-                      </p></div>
-                  </div>
-        </footer>
-        <script src="/js/script.js"></script>
+        <div class="mdl-grid--12-col">
+            <div class="footer-links">
+                <ul class="footer-group">
+                    <div class="iconholder">
+                        <a href="https://twitter.com/SHIELDcurrency">
+                            <i class="fa fa-twitter footericon"></i>
+                        </a>
+                    </div>
+                    <div class="iconholder">
+                        <a href="https://www.reddit.com/r/SHIELDCOIN/">
+                            <i class="fa fa-reddit footericon"></i>
+                        </a>
+                    </div>
+                    <div class="iconholder">
+                        <a href="https://github.com/ShieldCoin">
+                            <i class="fa fa-github footericon"></i>
+                        </a>
+                    </div>
+                    <div class="iconholder">
+                        <a href="https://bitcointalk.org/index.php?topic=2234453.0">
+                            <i class="fa fa-bitcoin footericon"></i>
+                        </a>
+                    </div>
+                    <div class="iconholder">
+                        <a href="https://medium.com/@SHIELDcurrency">
+                            <i class="fa fa-medium footericon"></i>
+                        </a>
+                    </div>
+                    <div class="iconholder">
+                        <a href="mailto:ShieldCoin@protonmail.com">
+                            <i class="fa fa-envelope footericon"></i>
+                        </a>
+                    </div>
+                </ul>
+                <p class="cpright">Copyright © 2017 SHIELD<br>
+                </p>
+            </div>
+        </div>
+    </footer>
     <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
     <script src="js/vendor/jquery-1.11.2.min.js"></script>
     <script src="bower_components/retina.js/dist/retina.js"></script>
     <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/jquery.flexslider-min.js"></script>
     <script src="bower_components/classie/classie.js"></script>
     <script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>

@@ -54,6 +54,36 @@ $(document).ready(function() {
 	}, {
 		offset: '65%'
 	});
+	$('.ex1').waypoint(function() {
+		$('.ex1').addClass('animated fadeIn');
+	}, {
+		offset: '75%'
+	});
+	$('.ex2').waypoint(function() {
+		$('.ex2').addClass('animated fadeIn');
+	}, {
+		offset: '75%'
+	});
+	$('.ex3').waypoint(function() {
+		$('.ex3').addClass('animated fadeIn');
+	}, {
+		offset: '75%'
+	});
+	$('.ex4').waypoint(function() {
+		$('.ex4').addClass('animated fadeIn');
+	}, {
+		offset: '75%'
+	});
+	$('.ex5').waypoint(function() {
+		$('.ex5').addClass('animated fadeIn');
+	}, {
+		offset: '75%'
+	});
+	$('.ex6').waypoint(function() {
+		$('.ex6').addClass('animated fadeIn');
+	}, {
+		offset: '75%'
+	});
 	$('.procard1').waypoint(function() {
 		$('.procard1').addClass('animated fadeIn');
 	}, {
@@ -326,9 +356,9 @@ $(document).ready(function() {
 
 	$(function() {
 		var x = location.pathname;
-		var y = "/Wallets2";
+		var y = "/";
 		x.includes(y);
-		if (x.includes("y")){
+		if (x == y){
 		$('a[href*=#]:not([href=#])').click(function() {
 			if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
 

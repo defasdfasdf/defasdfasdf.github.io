@@ -144,15 +144,17 @@
             "Name": "Roadmap"
           },
           {
-            "Name": "Wallets"
+            "Name": "#wallets"
           },
           {
-            "Name": "Exchanges"
+            "Name": "#exchanges"
           },
           {
             "Name": "About"
           },
-
+          {
+            "Name": "Whitepaper"
+          },
           {
             "Name": "Projects"
           },
