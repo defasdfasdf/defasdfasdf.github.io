@@ -171,7 +171,7 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
       if (!(element.Name == "")){
         var li = document.createElement("li");
         var a = document.createElement("a");
-        element.Name =   element.Name.substring(element.Name.indexOf("%20"));
+        element.Name =  element.Name.substring(element.Name.indexOf("%20"));
         if ("/" + element.Name + "/" == where || (element.Name == "More information" && where == "/More%20information/") || (element.Name == "Contact us" && where == "/Contact%20us/")){
           a.classList.add("here");
         }
