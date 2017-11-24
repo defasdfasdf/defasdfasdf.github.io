@@ -21,6 +21,15 @@ Typography
   padding: 20px 45px;
  }
 
+@media screen and (max-width: 722px){
+  .snr{
+      padding-left:16px!important;
+  }
+  .snr h3{
+    font-size:20px!important;
+    line-height:22px;
+  }
+}
 
 .btn-small {
   padding: 8px 40px; }
@@ -40,6 +49,9 @@ section.features, section.blog-intro, section.blog {
 /* ==========================================================================
 Global Styles
 ========================================================================== */
+.cpright{
+  font-weight:600;
+}
 .group:after {
   content: "";
   display: table;
