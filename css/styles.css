@@ -261,6 +261,7 @@ Hero
 }
 .navicon{
   top: calc(50% - 10px) !important;
+  transition: .8s;
 }
 
 .techlist{
