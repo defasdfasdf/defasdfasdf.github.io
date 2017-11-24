@@ -1353,3 +1353,24 @@ div.exchange-card-image.mdl-cell.eximg{
 .walletLinux, .walletWindow, .walletAndroid{
   width: 100% !important;
 }
+
+.wallets_card {
+  margin-top: 118px;
+  width: 90% !important;
+}
+
+.tabs .tab a {
+  color: #455A64 !important;
+}
+
+.indicator {
+  background-color: #455A64 !important;
+}
+
+.card-content {
+  text-align: center !important;
+}
+
+.light {
+  text-align: center !important;
+}
