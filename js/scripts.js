@@ -321,12 +321,6 @@ $(document).ready(function() {
 	});
 
 	/***************** Header BG Scroll ******************/
-
-	$(function() {
-if (location.hostname == "/"){
-		$('.tabs').tabs({swipeable : true,
-  responsiveThreshold : 1920});}});
-
 	$(function() {
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
