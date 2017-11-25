@@ -2,6 +2,10 @@ $('a[href*="#"]')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')
+  .not('[href="#test1"]')
+  .not('[href="#test2"]')
+  .not('[href="#test2"]')
+  .not('[href="#test3"]')
   .click(function (event) {
     // On-page links
     if (
