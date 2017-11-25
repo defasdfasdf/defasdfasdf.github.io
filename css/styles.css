@@ -78,6 +78,9 @@ a:hover, a:focus {
 div.container{
 width:100%;
 }
+.carousel{
+  width:100%;
+}
 body {
   font-family: 'Ubuntu', sans-serif!important;
   font-weight: 300;
