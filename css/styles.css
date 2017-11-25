@@ -78,7 +78,7 @@ a:hover, a:focus {
 div.container{
 width:100%;
 }
-.carousel{
+.carousel .carousel-item{
   width:100%;
 }
 body {
