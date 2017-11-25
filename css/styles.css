@@ -78,6 +78,9 @@ a:hover, a:focus {
 div.container{
 width:100%;
 }
+.card-content p{
+  color:white;
+}
 .card-title{
   color:white;
 }
