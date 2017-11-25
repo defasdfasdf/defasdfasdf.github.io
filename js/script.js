@@ -174,8 +174,11 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
         if ("/" + element.Name + "/" == where || (element.Name == "More information" && where == "/More%20information/") || (element.Name == "Contact us" && where == "/Contact%20us/")){
           a.classList.add("here");
         }
-        else {
+        else if(!(element.Name.includes("#"))){
         a.href= "../" + element.Name;
+      }
+      else {
+        a.href= element.Name;
       }
       if (element.Name.includes("#")){
         var i = element.Name.length;
