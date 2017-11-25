@@ -239,7 +239,7 @@ Navigation
           transition: all 300ms ease-in-out; }
 .fc1:hover .icon{
   color: #4069FF!important;
-  font-size:43px;
+  font-size:41px;
 }
 .fc1:hover h5,.fc2:hover h5,.fc3:hover h5{
   color: rgb(255,215,64)!important;
@@ -247,25 +247,23 @@ Navigation
 }
 .fc2:hover .icon{
   color: #C9FF40!important;
-  font-size:43px;
+  font-size:41px;
+}
+.icon {
     transition: .8s;
 }
 .fc3:hover .icon{
   color: #FF7640!important;
-  font-size:43px;
-  transform: rotate(180deg);
+  font-size:41px;
 }
 .fc1:hover .feature-icon{
-  transform: rotate(45deg);
-  transition: .8s;
+  transform: rotate(-5deg);
 }
 .fc2:hover .feature-icon{
-  transform: rotate(45deg);
-  transition: .8s;
+  transform: rotate(-5deg);
 }
 .fc3:hover .feature-icon{
-  transform: rotate(45deg);
-  transition: .8s;
+  transform: rotate(-5deg);
 }
 .feature-icon{
   transition: .8s;
