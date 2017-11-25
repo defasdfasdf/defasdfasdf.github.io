@@ -321,7 +321,8 @@ $(document).ready(function() {
 	});
 
 	/***************** Header BG Scroll ******************/
-$('.tabs').tabs({'swipeable': true,'responsiveThreshold': Infinity});
+$('.tabs').tabs({swipeable : true,
+  responsiveThreshold : Infinity});
 	$(function() {
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
