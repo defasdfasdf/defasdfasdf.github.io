@@ -237,7 +237,41 @@ Navigation
   visibility: hidden;
   -webkit-transition: all 300ms ease-in-out;
           transition: all 300ms ease-in-out; }
-
+.fc1:hover .icon{
+  color: #4069FF!important;
+  font-size:43px;
+}
+.fc1:hover h5,.fc2:hover h5,.fc3:hover h5{
+  color: rgb(255,215,64)!important;
+  transition: .8s;
+}
+.fc2:hover .icon{
+  color: #C9FF40!important;
+  font-size:43px;
+}
+.fc3:hover .icon{
+  color: #FF7640!important;
+  font-size:43px;
+  transform: rotate(180deg);
+}
+.fc1:hover .feature-icon{
+  transform: rotate(45deg);
+  transition: .8s;
+}
+.fc2:hover .feature-icon{
+  transform: rotate(45deg);
+  transition: .8s;
+}
+.fc3:hover .feature-icon{
+  transform: rotate(-45deg);
+  transition: .8s;
+}
+.feature-icon{
+  transition: .8s;
+}
+.fc1,.fc2,.fc3{
+  transition: .8s;
+}
 /* ==========================================================================
 Hero
 ========================================================================== */
@@ -1380,6 +1414,7 @@ div.exchange-card-image.mdl-cell.eximg{
 .row .col.m6.wallets_card {
   margin-top: 118px;
   width: 90%;
+    text-align:center;
 }
 
 .tabs .tab a {
@@ -1409,4 +1444,5 @@ div.exchange-card-image.mdl-cell.eximg{
 
 .wallets_card_content {
   margin-left: 25%;
+
 }
