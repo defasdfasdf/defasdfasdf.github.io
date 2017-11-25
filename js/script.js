@@ -204,6 +204,7 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
     .not('[href*="#test4"]')
     .not('[href*="#test5"]')
     .not('[href*="#test6"]')
+    .not('[href*="#test7"]')
     .click(function (event) {
       // On-page links
       if (
