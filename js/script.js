@@ -174,11 +174,16 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
         if ("/" + element.Name + "/" == where || (element.Name == "More information" && where == "/More%20information/") || (element.Name == "Contact us" && where == "/Contact%20us/")){
           a.classList.add("here");
         }
-        else if(!(element.Name.includes("#")) && where != "/"){
+        else if( where != "/"){
         a.href= "../" + element.Name;
       }
       else{
+        if(!(element.Name.includes("#"))){
+          a.href= "../" + element.Name;
+        }
+        else{
         a.href= element.Name;
+      }
       }
       if (element.Name.includes("#")){
         var i = element.Name.length;
