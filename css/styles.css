@@ -80,6 +80,7 @@ width:100%;
 }
 .carousel .carousel-item{
   width:100%!important;
+  height:400px!important;
 }
 body {
   font-family: 'Ubuntu', sans-serif!important;
