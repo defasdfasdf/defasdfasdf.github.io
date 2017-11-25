@@ -4,7 +4,7 @@ $('a[href*="#"]')
   .not('[href="#0"]')
   .not('[href="#test4"]')
   .not('[href="#test5"]')
-  .not('[href="#test6"]'
+  .not('[href="#test6"]')
   .click(function (event) {
     // On-page links
     if (
