@@ -174,7 +174,7 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
         if ("/" + element.Name + "/" == where || (element.Name == "More information" && where == "/More%20information/") || (element.Name == "Contact us" && where == "/Contact%20us/")){
           a.classList.add("here");
         }
-        else if(!(element.Name.includes("#")) && !(where = "/")){
+        else if(!(element.Name.includes("#")) && where != "/"){
         a.href= "../" + element.Name;
       }
       else{
