@@ -1390,7 +1390,9 @@ div.exchange-card-image.mdl-cell.eximg{
 .tabs .tab a:hover {
   color: #e2a43f !important;
 }
-
+.tab .fa{
+  padding-right:8px;
+}
 .indicator {
   background-color: #455A64 !important;
 }
