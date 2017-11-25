@@ -248,6 +248,7 @@ Navigation
 .fc2:hover .icon{
   color: #C9FF40!important;
   font-size:43px;
+    transition: .8s;
 }
 .fc3:hover .icon{
   color: #FF7640!important;
@@ -263,7 +264,7 @@ Navigation
   transition: .8s;
 }
 .fc3:hover .feature-icon{
-  transform: rotate(-45deg);
+  transform: rotate(45deg);
   transition: .8s;
 }
 .feature-icon{
