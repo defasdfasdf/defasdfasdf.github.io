@@ -547,19 +547,19 @@ Features-stack
 /* ==========================================================================
 .hero-strip
 ========================================================================== */
+#exchanges{
+  text-align: center;
+}
+.blog-intro{
+  text-align: center;
+}
 .hero-strip {
   margin-top: 120px;
   background: #333844 url("../img/SHIELDpolygonalbg.jpg") no-repeat center center;
   padding-bottom: 190px;
   position: relative; }
   .hero-strip i {
-    font-family: "Nunito", sans-serif;
-    font-weight: 300;
-    font-size: 25px;
-    color: #F69D52;
-    vertical-align: top;
-    margin-left: -8px;
-    font-style: normal; }
+    color:white;}
   .hero-strip h2 {
     color: #fff;
     margin: 0 0 20px 0; }
