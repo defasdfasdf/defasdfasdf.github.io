@@ -484,7 +484,7 @@ Features-stack
 .devices {
   position: relative; }
 .earthimg{
-  width: 90%;left: 200px;height: auto;
+  width: 635px;left: 200px;height: auto;
 }
 #features{
   background: #607D8B;
@@ -645,6 +645,27 @@ footer {
 }
 .iconholder:hover .footericon{
   color:#212121 ;
+}
+.iconholder2{
+  outline: 0 !important;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 26px;
+  -webkit-transition: background-color .1s linear;
+  transition: background-color .1s linear;
+  height: 56px;
+  line-height: 26px;
+  width: 56px;
+  text-align: center;
+  padding-top: 15px;
+  background: #455A64;
+  display: inline-block;
+  transition: .6s;
+  text-align: center;
+}
+.iconholder2:hover{
+  transform: scale(1.2);
+  background: #607D8B;
 }
 /* ==========================================================================
 Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
