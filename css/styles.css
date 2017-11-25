@@ -40,11 +40,13 @@ Typography
 .btn-margin-right {
   margin-right: 20px; }
 
-section.intro, section.features-extra, section.sign-up {
-  background: #fff; }
-
+section.intro{
+  background: #fafafa; }
+section:not(.hero):not(.navigation){
+  border-top: 1px solid #BDBDBD;
+}
 section.features, section.blog-intro, section.blog {
-  background: #F3F4F8; }
+  background: #fafafa; }
 
 /* ==========================================================================
 Global Styles
@@ -88,6 +90,11 @@ a {
 }
 @media screen and (max-width:601px){
 
+}
+#wallets{
+  background:#CFD8DC;
+  margin-bottom:0px;
+  padding-bottom:80px;
 }
 a:hover, a:focus {
   text-decoration: none; }
@@ -549,13 +556,13 @@ Features-stack
 ========================================================================== */
 #exchanges{
   text-align: center;
+  background: #CFD8DC;
 }
 .blog-intro{
   text-align: center;
 }
 .hero-strip {
-  margin-top: 120px;
-  background: #333844 url("../img/SHIELDpolygonalbg.jpg") no-repeat center center;
+  background: #fafafa;
   padding-bottom: 190px;
   position: relative; }
   .hero-strip i {
@@ -660,7 +667,7 @@ footer {
   padding-top: 15px;
   background: #455A64;
   display: inline-block;
-  transition: .6s;
+  transition: .3s;
   text-align: center;
 }
 .iconholder2:hover{
@@ -1395,7 +1402,7 @@ div.mdl-card__supporting-text{
   padding: 16px;
   text-align: center;
   margin-top: 150px!important;
-  margin-bottom: 50px!important;
+
 }
 @media screen and (min-width:800px){
   .mdl-card.wallets_wrapper{
@@ -1448,6 +1455,7 @@ div.exchange-card-image.mdl-cell.eximg{
 }
 .card-content {
   text-align: center !important;
+
 }
 
 .light {
