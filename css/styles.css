@@ -79,7 +79,7 @@ div.container{
 width:100%;
 }
 .carousel .carousel-item{
-  width:100%;
+  width:100%!important;
 }
 body {
   font-family: 'Ubuntu', sans-serif!important;
