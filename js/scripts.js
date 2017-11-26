@@ -229,17 +229,17 @@ $(document).ready(function() {
 	$('.bpsig1').waypoint(function() {
 		$('.bpsig1').addClass('animated fadeIn');
 	}, {
-		offset: '75%'
+		offset: '85%'
 	});
 	$('.bpsig2').waypoint(function() {
 		$('.bpsig2').addClass('animated fadeIn');
 	}, {
-		offset: '55%'
+		offset: '75%'
 	});
 	$('.bpsig3').waypoint(function() {
 		$('.bpsig3').addClass('animated fadeIn');
 	}, {
-		offset: '40%'
+		offset: '65%'
 	});
 	$('.fc1').waypoint(function() {
 		$('.fc1').addClass('animated fadeInUp');

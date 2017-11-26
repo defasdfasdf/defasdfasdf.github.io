@@ -78,8 +78,7 @@ a {
   .wallets_card{
     width:100%!important;
   }
-
-  #wallets{
+  #wallets .wallets_card{
     margin-left:0px!important;
   }
 }
@@ -248,20 +247,20 @@ Navigation
 .fc1:hover h5,.fc2:hover h5,.fc3:hover h5{
   transition: .8s;
 }
-.fc2:hover .icon,.fc1:hover .icon,.fc3:hover .icon{
-  color: rgb(255,215,64)!important;
-  font-size:41px;
+.fc3:hover .fa, .fc2:hover .fa,.fc1:hover .fa{
+color: rgb(255,215,64);
+font-size:44px;
 }
-.icon {
-    transition: .8s;
+.fa{
+  transition:.8s;
 }
-.fc1:hover .feature-icon{
+.fc1:hover .fa{
   transform: rotate(-5deg);
 }
-.fc2:hover .feature-icon{
+.fc2:hover .fa{
   transform: rotate(-5deg);
 }
-.fc3:hover .feature-icon{
+.fc3:hover .fa{
   transform: rotate(-5deg);
 }
 .feature-icon{
@@ -543,7 +542,6 @@ Features-stack
     width: 922px;
     height: 537px;
     background: url("../img/shield_logos_orange.png") no-repeat center center;
-
     top: 114px;
     z-index: 4;
     left: 50%;
@@ -556,10 +554,14 @@ Features-stack
 ========================================================================== */
 #exchanges{
   text-align: center;
-  background: #CFD8DC;
+  background: white;
 }
 .blog-intro{
   text-align: center;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
+  color:#FFC107!important;
+  font-weight:600;
 }
 .hero-strip {
   background: #fafafa;
@@ -677,137 +679,12 @@ footer {
 /* ==========================================================================
 Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
 ========================================================================== */
-@font-face {
-  font-family: 'et-line';
-  src: url("../fonts/et-line.eot");
-  src: url("../fonts/et-line.eot?#iefix") format("embedded-opentype"), url("../fonts/et-line.woff") format("woff"), url("../fonts/et-line.ttf") format("truetype"), url("../fonts/et-line.svg#et-line") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
-[data-icon]:before {
-  font-family: 'et-line';
-  content: attr(data-icon);
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block; }
 
 
 *, *:before, *:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-main {
-  min-width: 320px;
-  max-width: 800px;
-  padding: 25px 55px;
-  margin: auto auto;
-  background: rgba(255, 255, 255, 1);
-}
-
-section.wa {
-  display: none;
-  padding: 20px 0 0;
-  border-top: 1px solid #ddd;
-  min-height:180px;
-}
-
-input.wa {
-  display: none;
-}
-
-label.wa {
-  display: inline-block;
-  margin: 0 0 -1px;
-  padding: 15px 25px;
-  font-weight: 600;
-  text-align: center;
-  color: #bbb;
-  border: 1px solid transparent;
-}
-
-label.wa:before {
-  font-family: fontawesome;
-  font-weight: normal;
-  margin-right: 10px;
-}
-
-  label.wa[for*='1']:before { content: '\f17a'; }
-  label.wa[for*='2']:before { content: '\f17c'; }
-  label.wa[for*='3']:before { content: '\f17b'; }
-  label.wa[for*='4']:before { content: '\f105'; }
-
-label.wa:hover {
-  color: #e2a43f;
-  cursor: pointer;
-}
-
-input.wa:checked + label.wa {
-  color: #555;
-  border: 1px solid #ddd;
-  border-top: 2px solid orange;
-  border-bottom: 2px solid white;
-}
-
-#tab1:checked ~ #content1,
-#tab2:checked ~ #content2,
-#tab3:checked ~ #content3,
-#tab4:checked ~ #content4 {
-  display: block;
-}
-
-@media screen and (max-width: 650px) {
-  label.wa {
-    font-size: 0;
-  }
-  label.wa:before {
-    margin: 0;
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  label.wa {
-    padding: 15px;
-  }
-}
-
-
-
-  .dwnldtxt{
-  color:#1f1f1f;text-align:center;padding:5px 0;margin-bottom:0px;margin-top:0px;font-weight:600;transition:0.8s;
-  }
-h6.dwnldtxt{
-  font-size:16px;
-}
-.exchangebox, .dwnld{
-margin:15px 6px;background:#f9f9f9;border-radius:2px;;padding-top:5px;
-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.3);
-transition: 0.8;
-display:inline-block;
-text-align:center;
-transition:0.8s;
-}
-
-.exchangebox:hover, .dwnld:hover{
-background:#1f1f1f;
-box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.3);
-border-radius:4px;
-}
-
-.exchangebox:hover .exchangename,.dwnld:hover .dwnldtxt{
-color:white;
-}
-.exchangename{
-text-align:center;
-padding-bottom:8px;
-color:#1f1f1f;
-transition:0.8s;
 }
 
 .techspecs{
@@ -831,26 +708,6 @@ border:none !important;
 padding-bottom:0px !important;
 color:white !important;
 }
-.dwnld{
-  border-radius:8px;
-}
-.twitter1:before { content: '\f081'; }
-.reddit1:before {content: '\f1a2';}
-.github1:before { content: '\f092';}
-.bitcointalk1:before{content: '\f15a';}
-.medium1:before{content: '\f23a';}
-.dcdl{width: 26px;padding-bottom: 5px}
-.twitter1,.reddit1,.github1,.bitcointalk1,.discord1,.medium1{
-color:black;
-display:inline;
-}
-
-.medium1, .bitcointalk1,.discord1,.twitter1 , .reddit1, .github1:before {
-  font-family: fontawesome;
-  font-weight: normal;
-  font-size:24px;
-}
-
 
 .icontext{
 display:inline;
