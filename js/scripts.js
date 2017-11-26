@@ -306,7 +306,11 @@ $(document).ready(function() {
     $('[data-toggle="tooltip"]').tooltip();
 
 	/***************** Nav Transformicon ******************/
-
+$(function(){
+	if(where == "/" || where=="/#exchanges" || where="/#wallets"){
+		$('.card-tabs .tabs').tabs({ 'swipeable': true });
+	}
+});
 	/* When user clicks the Icon */
 	$('.nav-toggle').click(function() {
 		$(this).toggleClass('active');
