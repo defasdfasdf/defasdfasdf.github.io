@@ -307,7 +307,8 @@ $(document).ready(function() {
 
 	/***************** Nav Transformicon ******************/
 $(function(){
-	if(where == "/" || where=="/#exchanges" || where="/#wallets"){
+	var where = location.pathname;
+	if(where == "/"){
 		$('.card-tabs .tabs').tabs({ 'swipeable': true });
 	}
 });
