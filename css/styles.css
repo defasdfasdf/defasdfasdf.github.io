@@ -1285,3 +1285,30 @@ div.exchange-card-image.mdl-cell.eximg{
   margin-left: 25%;
 
 }
+.col.s6.m4.mdl-shadow--2dp.miabs{
+  position: relative;
+background-size: cover!important;
+min-height: 200px;
+padding:0px;
+transition:.8s;
+margin: 2px 4px;
+width: calc(33.33333% - 8px);
+}
+.miabst{
+color:white;
+}
+.rmc{
+  background: url('../img/Roadmap.png')!important;
+}
+.amc{
+background: url('../img/About.png')!important;
+}
+.pmc{
+background: url('../img/Project.png')!important;
+}
+.cmc{
+  background: url('../img/Contactus.png')!important;
+}
+.col.s6.m4.mdl-shadow--2dp.miabs:hover{
+opacity: .5;
+}
