@@ -48,12 +48,13 @@ section:not(.hero):not(.navigation){
 section.features, section.blog-intro, section.blog {
   background: white;
 }
-.blog-intro,footer .footer-links,.moreinfo{
+.blog-intro,footer .footer-links,.moreinfo,.competitions{
     text-align: center;
 }
-.moreinfo{
+.competitions,section.blog-intro{
   background: #fafafa;
 }
+
 /* ==========================================================================
 Global Styles
 ========================================================================== */
@@ -800,6 +801,7 @@ transform:translateX(-6px);
 }
 .ffkvjhsdgzxfkvjhg{
   padding-top:90px;
+  background:#fafafa;
 }
 .adsfga p{
   padding:0px;
@@ -811,8 +813,7 @@ opacity: .5;
 }
 .topic{
   padding: 16px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    background-color:white;
+  background-color:white;
 }
 .mib{
   background-color:#e2a43f;
