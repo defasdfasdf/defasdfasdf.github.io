@@ -131,8 +131,8 @@ ul, ol {
 }
 ul li {
   list-style: none; }
-@media screen and (min-width:924px){
-.compimg{top:-90px !important;}
+.card-image{
+  max-height:240px!important;
 }
 .section-padding {
   padding: 120px 0 !important; }
