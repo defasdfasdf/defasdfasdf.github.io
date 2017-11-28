@@ -570,9 +570,10 @@ Features-stack
   font-weight:600;
 }
 .hero-strip {
-  background: #fafafa;
+  background: #607d8b;
   padding-bottom: 190px;
-  position: relative; }
+  position: relative;
+  color: white; }
 
 /* ==========================================================================
 Footer
@@ -639,7 +640,7 @@ footer {
 }
 .iconholder2:hover{
   transform: scale(1.2);
-  background: #607D8B;
+  background: #FFF;
 }
 /* ==========================================================================
 Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
