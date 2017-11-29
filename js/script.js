@@ -166,8 +166,9 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
   });
   }
   function header(){
-    var primnav = document.getElementById("primary-nav");
+    var primnav = document.getElementById("secondary-nav");
     information.forEach(function(element){
+      if(!(element.Name.includes("#"))){
       if (!(element.Name == "")){
         var li = document.createElement("li");
         var a = document.createElement("a");
@@ -178,22 +179,26 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
         a.href= "../" + element.Name;
       }
       else{
-        if(!(element.Name.includes("#"))){
           a.href= "../" + element.Name;
         }
-        else{
-        a.href= element.Name;
-      }
-      }
-      if (element.Name.includes("#")){
-        var i = element.Name.length;
-        element.Name = element.Name.substring(1,i);
-      }
       var aname = document.createTextNode(element.Name);
       a.appendChild(aname);
       li.appendChild(a);
       primnav.appendChild(li);
-    }});
+
+    }}
+    if (element.Name.include("#") && where = "/"){
+      var primnav = document.getElementById("primary-nav");
+          var li = document.createElement("li");
+          var a = document.createElement("a");
+          a.href= "../" + element.Name;
+          var aname = document.createTextNode(element.Name);
+          a.appendChild(aname);
+          li.appendChild(a);
+          primnav.appendChild(li);
+
+      }
+    });
     smoothscrolling();
   }
   function smoothscrolling(){

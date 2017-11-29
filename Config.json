@@ -141,6 +141,15 @@
             "Name": ""
           },
           {
+            "Name": "#wallets"
+          },
+          {
+            "Name": "#exchanges"
+          },
+          {
+            "Name": "#competitions"
+          },
+          {
             "Name": "Roadmap"
           },
           {
@@ -157,15 +166,6 @@
           },
           {
             "Name": "More information"
-          },
-          {
-            "Name": "#wallets"
-          },
-          {
-            "Name": "#exchanges"
-          },
-          {
-            "Name": "#competitions"
           }
         ],
         "Competition": [
