@@ -181,16 +181,17 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
           a.href= "../" + element.Name;
         }
       var aname = document.createTextNode(element.Name);
-          var primnav = document.getElementById("secondary-nav");
+      var primnav = document.getElementById("secondary-nav");
       a.appendChild(aname);
       li.appendChild(a);
       primnav.appendChild(li);
-
     }}
     if (element.Name.includes("#") && where == "/"){
       var primnav = document.getElementById("primary-nav");
           var li = document.createElement("li");
           var a = document.createElement("a");
+          var i = element.Name.length;
+          element.Name = element.Name.substring(1,i);
           a.href= "../" + element.Name;
           var aname = document.createTextNode(element.Name);
           a.appendChild(aname);
