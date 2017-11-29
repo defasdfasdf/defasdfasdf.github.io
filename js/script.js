@@ -190,9 +190,10 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
       var primnav = document.getElementById("primary-nav");
           var li = document.createElement("li");
           var a = document.createElement("a");
+          a.href= element.Name;
           var i = element.Name.length;
           element.Name = element.Name.substring(1,i);
-          a.href= "../" + element.Name;
+
           var aname = document.createTextNode(element.Name);
           a.appendChild(aname);
           li.appendChild(a);
