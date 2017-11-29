@@ -187,7 +187,7 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
       primnav.appendChild(li);
 
     }}
-    if (element.Name.include("#") && where == "/"){
+    if (element.Name.includes("#") && where == "/"){
       var primnav = document.getElementById("primary-nav");
           var li = document.createElement("li");
           var a = document.createElement("a");
