@@ -374,7 +374,9 @@ header {
     display: inline-block; }
   header ul.primary-nav {
     margin: 0 0 0 75px;
-    padding: 0; }
+    padding: 0;
+    display: inline-block;
+  }
     header ul.primary-nav li {
       display: inline; }
       header ul.primary-nav li a {
