@@ -166,7 +166,6 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
   });
   }
   function header(){
-    var primnav = document.getElementById("secondary-nav");
     information.forEach(function(element){
       if(!(element.Name.includes("#"))){
       if (!(element.Name == "")){
@@ -182,6 +181,7 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
           a.href= "../" + element.Name;
         }
       var aname = document.createTextNode(element.Name);
+          var primnav = document.getElementById("secondary-nav");
       a.appendChild(aname);
       li.appendChild(a);
       primnav.appendChild(li);
