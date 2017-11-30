@@ -83,6 +83,7 @@ function wallets(){
       var typeh3 = document.createElement("div");
       typeh3.classList.add("card-content");
       var span = document.createElement("span");
+      span.classList.add("card-title");
       var type = document.createTextNode(element.Name);
       span.appendChild(type);
       var typeh4 = document.createElement("p");
