@@ -93,7 +93,7 @@ function wallets(){
         console.log(w);
         w = w % 2;
         console.log(w);
-        if (w = 0) {
+        if (w == 0) {
           wallet.classList.add("s1-offset");
         }
       } else if (x == "l") {
