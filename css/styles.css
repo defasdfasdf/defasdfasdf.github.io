@@ -1329,7 +1329,8 @@ opacity: .5;
 }
 
 .MI_highlights {
-  height: 1000px;
+  height: 201px;
   width: 20%;
-  margin-right: 2%;
+  margin: 10px 2% 0 2%;
+  position: fixed;
 }
