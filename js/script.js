@@ -98,9 +98,9 @@ function wallets(){
       var atext = document.createTextNode(element.type);
       a.appendChild(atext);
       hey.appendChild(a);
+      wallet.appendChild(hey);
       var div = document.getElementById(x);
       div.appendChild(wallet);
-      div.appendChild(hey);
 });}
 function miningpools() {
 
