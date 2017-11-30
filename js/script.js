@@ -65,7 +65,7 @@ function title(){
 });
 }
 function wallets(){
-  var w =0;
+  var w = 0;
   var l = 0;
   var a = 0;
   var o = 0;
@@ -87,9 +87,29 @@ function wallets(){
       o++;
     }
       var wallet = document.createElement("div");
-      if (x == "w"){w = w %2; if(w = 0){wallet.classList.add("s1-offset");} }else if (x == "l"){l = l %2; if(l == 0){wallet.classList.add("s1-offset");}}
-      else if (x == "a"){a = a %2; if(a == 0){wallet.classList.add("s1-offset");}}else if (x == "o"){o = o % 2; if(o == 0){wallet.classList.add("s1-offset");}}
-      
+      if (x == "w") {
+        w = w % 2;
+        console.log(w);
+        if (w = 0) {
+          wallet.classList.add("s1-offset");
+        }
+      } else if (x == "l") {
+        l = l % 2;
+        if (l == 0) {
+          wallet.classList.add("s1-offset");
+        }
+      } else if (x == "a") {
+        a = a % 2;
+        if (a == 0) {
+          wallet.classList.add("s1-offset");
+        }
+      } else if (x == "o") {
+        o = o % 2;
+        if (o == 0) {
+          wallet.classList.add("s1-offset");
+        }
+      }
+
       wallet.classList.add("col", "s12","m5","card");
       var typeh3 = document.createElement("div");
       typeh3.classList.add("card-content");
