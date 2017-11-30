@@ -1323,6 +1323,13 @@ opacity: .5;
 }
 
 .MI_table {
-  width: 100%;
+  width: 80%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
 
+.MI_highlights {
+  height: 1000px;
+  width: 20%;
+  margin-right: 2%;
 }
