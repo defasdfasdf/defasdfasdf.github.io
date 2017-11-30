@@ -89,7 +89,8 @@ function wallets(){
       var typeh4 = document.createElement("p");
       var type = document.createTextNode("text");
       typeh4.appendChild(type);
-      wallet.appendChild(span);
+      typeh3.appendChild(span);
+      typeh4.appendChild(typeh3);
       wallet.appendChild(typeh4);
       var hey = document.createElement("div");
       hey.classList.add("card-action");
