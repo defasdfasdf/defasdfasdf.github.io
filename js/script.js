@@ -94,22 +94,22 @@ function wallets(){
         w = w % 2;
         console.log(w);
         if (w == 0) {
-          wallet.classList.add("s1-offset");
+          wallet.classList.add("offset-s1");
         }
       } else if (x == "l") {
         l = l % 2;
         if (l == 0) {
-          wallet.classList.add("s1-offset");
+          wallet.classList.add("offset-s1");
         }
       } else if (x == "a") {
         an = an % 2;
         if (an == 0) {
-          wallet.classList.add("s1-offset");
+          wallet.classList.add("offset-s1");
         }
       } else if (x == "o") {
         o = o % 2;
         if (o == 0) {
-          wallet.classList.add("s1-offset");
+          wallet.classList.add("offset-s1");
         }
       }
 
