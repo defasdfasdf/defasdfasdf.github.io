@@ -73,6 +73,7 @@ function wallets(){
     if (element.platform.includes("windows")){
       var x = "w";
       w++;
+      console.log(w);
     }
     else if (element.platform.includes("linux")){
       var x = "l";
@@ -88,6 +89,7 @@ function wallets(){
     }
       var wallet = document.createElement("div");
       if (x == "w") {
+        console.log(w);
         w = w % 2;
         console.log(w);
         if (w = 0) {
