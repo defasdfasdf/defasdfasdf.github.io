@@ -97,6 +97,7 @@ function wallets(){
       hey.appendChild(a);
       var div = document.getElementById(x);
       div.appendChild(wallet);
+      div.appendChild(hey);
 });}
 function miningpools() {
 
