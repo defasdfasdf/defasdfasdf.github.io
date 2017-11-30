@@ -64,30 +64,37 @@ function title(){
 function wallets(){
   information.forEach(function(element){
     if (element.platform.includes("windows")){
-      var x = "content1";
+      var x = "windowscontent";
     }
     else if (element.platform.includes("linux")){
-      var x = "content2";
+      var x = "linuxcontent";
     }
     else if (element.platform.includes("android")){
-      var x = "content3";
+      var x = "androidcontent";
     }
     else if (element.platform.includes("other")){
-      var x = "content4";
+      var x = "othercontent";
     }
-      var wallet = document.createElement("a");
-      wallet.classList.add("col-md-2", "col-sm-5","col-xs-12","dwnld");
-      wallet.href=element.link;
-      var typeh3 = document.createElement("h3");
-      typeh3.classList.add("dwnldtxt");
-      var type = document.createTextNode(element.type);
-      typeh3.appendChild(type);
-      var typeh4 = document.createElement("h6");
-      typeh4.classList.add("dwnldtxt");
+      var wallet = document.createElement("div");
+      wallet.classList.add("col", "s12","m5","card");
+      var typeh3 = document.createElement("div");
+      typeh3.classList.add("card-content");
+      var span = document.createElement("span";)
       var type = document.createTextNode(element.Name);
+      span.appendChild(type);
+      var typeh4 = document.createElement("p");
+      var type = document.createTextNode("text");
       typeh4.appendChild(type);
-      wallet.appendChild(typeh3);
+      wallet.appendChild(span);
       wallet.appendChild(typeh4);
+      var hey = document.createElement("div");
+      hey.classList.add("card-action");
+      var a = document.createElement("a");
+      a.href = element.link;
+
+      var atext = document.createTextNode(element.type);
+      a.appendChild(atext);
+      hey.appendChild(a);
       var div = document.getElementById(x);
       div.appendChild(wallet);
 });}
@@ -143,10 +150,10 @@ function coinlists() {
     // Remove links that don't actually link to anything
     .not('[href="#"]')
     .not('[href="#0"]')
-    .not('[href*="#test4"]')
-    .not('[href*="#test5"]')
-    .not('[href*="#test6"]')
-    .not('[href*="#test7"]')
+    .not('[href*="#other"]')
+    .not('[href*="#android"]')
+    .not('[href*="#linux"]')
+    .not('[href*="#windows"]')
     .click(function (event) {
       // On-page links
       if (
