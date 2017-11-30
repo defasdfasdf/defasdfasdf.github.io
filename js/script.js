@@ -92,78 +92,13 @@ function wallets(){
       div.appendChild(wallet);
 });}
 function miningpools() {
-  for (var b = 0; b<5; b++){
-  var pools = document.createElement("h3");
-  var div = document.createElement("div");
-  div.classList.add("col-md-4", "bmmm");
-  var h2 = document.createElement("h2");
-  var algname = document.createTextNode(algos[b]);
-  h2.appendChild(algname);
-  div.appendChild(h2);
-  var i = 0;
-  information.forEach(function(element){
-    if (element.Algos.includes(algos[b])){
 
-  var poolname = document.createTextNode(element.Name);
-  var poolnamea = document.createElement("a");
-  poolnamea.appendChild(poolname);
-  poolnamea.href=element.link;
-  pools.appendChild(poolnamea);
-  i++;}
-});
-div.appendChild(pools);
-var wichalgo = document.getElementById("mnps");
-wichalgo.appendChild(div);
-  }
 }
 function coinlists() {
-  var coinlists = document.createElement("h3");
-  information.forEach(function(element){
-  var poolname = document.createTextNode(element.Name);
-  var poolnamea = document.createElement("a");
-  poolnamea.appendChild(poolname);
-  poolnamea.href=element.Link;
-  coinlists.appendChild(poolnamea);
-});
-var wichalgo = document.getElementById("coinslists");
-var div = document.getElementById("Coinlists");
-div.insertBefore(coinlists, wichalgo.nextSibling);
+
   }
   function exchanges() {
-    information.forEach(function(element){
-      if (element.status.includes("listed")){
-        var exchange = document.createElement("a");
-        exchange.classList.add("col-md-2","col-sm-5","col-xs-12","exchangebox");
-        exchange.href=element.linkto;
-        var exchangeimg = document.createElement("img");
-        exchangeimg.classList.add("eximg");
-        exchangeimg.src=element.logo_path;
-        exchange.appendChild(exchangeimg);
-        var exchangenametype = document.createElement("h4");
-        exchangenametype.classList.add("exchangename");
-        var exchangename = document.createTextNode(element.Name);
-        exchangenametype.appendChild(exchangename);
-        exchange.appendChild(exchangenametype);
-        var div = document.getElementById("exchanges");
-        div.appendChild(exchange);
-      }
-    else if (element.status.includes("voting")){
-      var exchange = document.createElement("a");
-      exchange.classList.add("col-md-2","col-sm-5","col-xs-12","exchangebox");
-      exchange.href=element.linkto;
-      var exchangeimg = document.createElement("img");
-      exchangeimg.classList.add("eximg");
-      exchangeimg.src=element.logo_path;
-      exchange.appendChild(exchangeimg);
-      var exchangenametype = document.createElement("h4");
-      exchangenametype.classList.add("exchangename");
-      var exchangename = document.createTextNode(element.Name);
-      exchangenametype.appendChild(exchangename);
-      exchange.appendChild(exchangenametype);
-      var div = document.getElementById("vexchanges");
-      div.appendChild(exchange);
-    }
-  });
+
   }
   function header(){
     information.forEach(function(element){
@@ -244,57 +179,5 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
     });
   });
   }
-  function competitions(){
-    information.forEach(function(element){
-        var outerdiv = document.createElement("div");
-          outerdiv.classList.add("outer-div");
-        var sevenfive = document.createElement("div");
-          sevenfive.classList.add("sevenfive");
-        var titelspan = document.createElement("span");
-        var titel = document.createTextNode(element.Name);
-          titelspan.appendChild(titel);
-          sevenfive.appendChild(titelspan);
 
-        var body = document.createElement("p");
-          body.classList.add("sevenfivet");
-        var bodyt = document.createTextNode(element.Description);
-        var rm = document.createElement("a");
-        rm.href= element.Link;
-        var rmt = document.createTextNode(" Read more....");
-          rm.appendChild(rmt);
-          body.appendChild(bodyt);
-          body.appendChild(rm);
-          sevenfive.appendChild(body);
-          outerdiv.appendChild(sevenfive);
-
-        var prizediv = document.createElement("div");
-          prizediv.classList.add("compprizediv");
-        var h4 = document.createElement("h4");
-        var prizedivt = document.createTextNode("Prizes");
-        h4.appendChild(prizedivt);
-        prizediv.appendChild(h4);
-
-        var div = document.createElement("div");
-        var prices = element.Prizes.length;
-        for (var i = 0;i<prices;i++){
-        var span  = document.createElement("span");
-        span.classList.add("right");
-        var prizedivt = document.createTextNode(element.Prizes[i]);
-        span.appendChild(prizedivt);
-        div.appendChild(span);
-      }
-        prizediv.appendChild(div);
-        outerdiv.appendChild(prizediv);
-      var timediv = document.createElement("div");
-        timediv.classList.add("timecomp");
-      var h4 = document.createElement("h4");
-      var start = document.createTextNode("From: " + element.Startdate);
-      var end = document.createTextNode(" Until: " + element.Enddate);
-      h4.appendChild(start);
-      h4.appendChild(end);
-      timediv.appendChild(h4);
-      outerdiv.appendChild(timediv);
-        var competitionsdiv = document.getElementById("competitions");
-        competitionsdiv.appendChild(outerdiv);
-    });
   }
