@@ -72,7 +72,7 @@ function wallets(){
   information.forEach(function(element){
     if (element.platform.includes("windows")){
       var x = "w";
-      w++;
+      w += 1;
       console.log(w);
     }
     else if (element.platform.includes("linux")){
