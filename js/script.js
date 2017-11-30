@@ -64,14 +64,15 @@ function title(){
   }
 });
 }
+var w = 0;
+var l = 0;
+var a = 0;
+var o = 0;
 function wallets(){
-  var w = 0;
-  var l = 0;
-  var a = 0;
-  var o = 0;
   information.forEach(function(element){
     if (element.platform.includes("windows")){
       var x = "w";
+      console.log(w);
       w += 1;
       console.log(w);
     }
