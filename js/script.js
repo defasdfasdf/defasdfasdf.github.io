@@ -32,7 +32,7 @@ loadJSON(function(responseText){
   }
   else if (where == "/Wallets/"){
     information = JSON.parse(responseText).wallets;
-    wallets();
+  //  wallets();
 
   }
   else if (where == "/Roadmap/"){
