@@ -66,7 +66,7 @@ function title(){
 }
 var w = 0;
 var l = 0;
-var a = 0;
+var an = 0;
 var o = 0;
 function wallets(){
   information.forEach(function(element){
@@ -82,7 +82,7 @@ function wallets(){
     }
     else if (element.platform.includes("android")){
       var x = "a";
-      a++;
+      an++;
     }
     else if (element.platform.includes("other")){
       var x = "o";
@@ -102,8 +102,8 @@ function wallets(){
           wallet.classList.add("s1-offset");
         }
       } else if (x == "a") {
-        a = a % 2;
-        if (a == 0) {
+        an = an % 2;
+        if (an == 0) {
           wallet.classList.add("s1-offset");
         }
       } else if (x == "o") {
