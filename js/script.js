@@ -26,7 +26,9 @@ loadJSON(function(responseText){
    information = JSON.parse(responseText).coinlists;
    coinlists();
   }
-
+  else if (where == "/"){
+    wallets();
+  }
   else if (where == "/Wallets/"){
     information = JSON.parse(responseText).wallets;
     wallets();
