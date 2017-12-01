@@ -160,7 +160,7 @@ function coinlists() {
           var bdiv = document.getElementById("exlist");
           if (s == 0) {
             var div2 = document.createElement("div");
-            div2.classList.add(ex,"exchangeinfol", "mdl-cell--4-col" , " mdl-cell--3-offset-desktop");
+            div2.classList.add(&#34; ex &#34;,"exchangeinfol","mdl-cell--4-col"," mdl-cell--3-offset-desktop");
             var p = document.createElement("p");
             /*var pt = document.createTextNode(element.Info);
             p.appendChild(pt);*/
