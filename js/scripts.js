@@ -40,6 +40,18 @@ $(document).ready(function() {
 	$('#HL_myr-gr').click(function() {
 			$(".MI_a").toggleClass("MI_HL");
 	});
+	$('#HL_x17').click(function() {
+			$(".MI_b").toggleClass("MI_HL");
+	});
+	$('#HL_blakse2s').click(function() {
+			$(".MI_c").toggleClass("MI_HL");
+	});
+	$('#HL_lyra2v2').click(function() {
+			$(".MI_d").toggleClass("MI_HL");
+	});
+	$('#HL_scrypt').click(function() {
+			$(".MI_e").toggleClass("MI_HL");
+	});
 
 	/***************** Waypoints ******************/
 	$('.ex1').waypoint(function() {
