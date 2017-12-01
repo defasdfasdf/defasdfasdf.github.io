@@ -1371,3 +1371,10 @@ td,th {
     margin: 0;
   }
 }
+
+@media screen and (max-width:1800px) and (min-width: 737px){
+  .MI_table{
+    width: 75%;
+    margin-right: 0;
+  }
+}
