@@ -406,6 +406,7 @@ header {
            border-bottom: 2px solid white !important;
            cursor: default !important;
            font-weight: 600;
+           transition: .8s;
          }
       header ul.primary-nav li:last-child a {
         padding-right: 0px; }
