@@ -54,13 +54,15 @@ $(document).ready(function() {
 			$(".MI_e").toggleClass("MI_HL");
 	});*/
 
-	function mi(algo){
+	function mi(algo, active){
 	 $(".MI_a").removeClass("MI_HL");
 	 $(".MI_b").removeClass("MI_HL");
 	 $(".MI_c").removeClass("MI_HL");
 	 $(".MI_d").removeClass("MI_HL");
 	 $(".MI_e").removeClass("MI_HL");
+	 if (!active) {
 	 $(".MI_" + algo).toggleClass("MI_HL");
+ 		}
 	}
 
 $('#HL_myr-gr').click(function() {
@@ -77,6 +79,22 @@ $('#HL_lyra2v2').click(function() {
 });
 $('#HL_scrypt').click(function() {
 			mi("e");
+});
+
+$('#HL_myr-gr').click(function() {
+      mi("a",$('#HL_myr-gr').hasClass("active"));
+});
+$('#HL_x17').click(function() {
+      mi("b",$('#HL_x17').hasClass("active"));
+});
+$('#HL_blake2s').click(function() {
+      mi("c",$('#HL_blake2s').hasClass("active"));
+});
+$('#HL_lyra2v2').click(function() {
+      mi("d",$('#HL_lyra2v2').hasClass("active"));
+});
+$('#HL_scrypt').click(function() {
+      mi("e",$('#HL_scrypt').hasClass("active"));
 });
 
 	/***************** Waypoints ******************/
