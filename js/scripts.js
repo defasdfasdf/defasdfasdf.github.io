@@ -55,11 +55,11 @@ $(document).ready(function() {
 	});*/
 
 	function mi(algo){
-	 $(".Ml_a").removeClass("Ml_HL");
-	 $(".Ml_b").removeClass("Ml_HL");
-	 $(".Ml_c").removeClass("Ml_HL");
-	 $(".Ml_d").removeClass("Ml_HL");
-	 $(".Ml_e").removeClass("Ml_HL");
+	 $(".MI_a").removeClass("MI_HL");
+	 $(".MI_b").removeClass("MI_HL");
+	 $(".MI_c").removeClass("MI_HL");
+	 $(".MI_d").removeClass("MI_HL");
+	 $(".MI_e").removeClass("MI_HL");
 	 $(".MI_" + algo).toggleClass("MI_HL");
 	}
 
