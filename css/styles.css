@@ -389,11 +389,11 @@ header {
         position: relative;
         font-weight: 600;
        }
-        header ul.primary-nav li a:hover,header ul.primary-nav li a:active  {
+        header ul.primary-nav li a:hover,header ul.primary-nav li a.active  {
           opacity: 1!important;
           border-left:0px!important;
          }
-         header ul.primary-nav li a:active{
+         header ul.primary-nav li a.active{
            opacity: 1;
            border-bottom: 2px solid white !important;
            cursor: default !important;
