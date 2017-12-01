@@ -324,6 +324,7 @@ if(where == "/"){
 		$('.header-nav').toggleClass('open');
 
 	});
+	$('.collapsible').collapsible();
 	$('.scrollspy').scrollSpy();
 
 	/***************** Header BG Scroll ******************/
