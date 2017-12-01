@@ -163,7 +163,7 @@ function coinlists() {
           if (s == 0) {
 
             var div2 = document.createElement("div");
-            div2.classList.add("exchangeinfol","mdl-cell--4-col"," mdl-cell--3-offset-desktop");
+            div2.classList.add(classs, "exchangeinfol","mdl-cell--4-col" , "mdl-cell--3-offset-desktop");
             var p = document.createElement("p");
             /*var pt = document.createTextNode(element.Info);
             p.appendChild(pt);*/
@@ -175,7 +175,7 @@ function coinlists() {
             div2.appendChild(p,at);
             bdiv.appendChild(div2);
             var div = document.createElement("div");
-            div.classList.add(ex ,"exchange-card-image","mdl-cell","mdl-cell--3-col-desktop","mdl-cell--4-col","mdl-card","mdl-shadow--2dp","eximg");
+            div.classList.add(classs ,"exchange-card-image","mdl-cell","mdl-cell--3-col-desktop","mdl-cell--4-col","mdl-card","mdl-shadow--2dp","eximg");
             div.style="background: url(" + element.logo_path + ") center;"
             var div2 = document.createElement("div");
             div2.classList.add("mdl-card__title","mdl-card--expand");
@@ -210,7 +210,7 @@ function coinlists() {
           div.appendChild(div2);
           bdiv.appendChild(div);
           var div = document.createElement("div");
-          div.classList.add(ex,"exchangeinfor", "mdl-cell--4-col");
+          div.classList.add(classs,"exchangeinfor", "mdl-cell--4-col");
           var p = document.createElement("p");
           /*var pt = document.createTextNode(element.Info);
           p.appendChild(pt);*/
