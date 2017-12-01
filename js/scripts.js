@@ -38,7 +38,7 @@ $(document).ready(function() {
 		});
 	});
 	$('#HL_myr-gr').click(function() {
-			$("rh").css({
+			$("th").css({
 				"background-color":"green"
 			});
 	});
