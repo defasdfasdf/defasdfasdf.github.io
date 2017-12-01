@@ -324,7 +324,7 @@ if(where == "/"){
 		$('.header-nav').toggleClass('open');
 
 	});
-	$('.parallax').parallax();
+	$('.scrollspy').scrollSpy();
 
 	/***************** Header BG Scroll ******************/
 	$(function() {
