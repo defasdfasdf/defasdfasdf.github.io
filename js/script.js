@@ -148,10 +148,12 @@ function coinlists() {
   }
   function exchanges() {
     var s = 0;
+    var hm = 0;
     information.forEach(function(element){
           s++;
+          hm++
           s = s % 2;
-          var ex = "ex" + s;
+          var ex = "ex" + hm;
           console.log(ex);
           var sep = document.createElement("div");
           sep.classList.add("exsep");
