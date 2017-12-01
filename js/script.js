@@ -159,10 +159,11 @@ function coinlists() {
           sep.classList.add("exsep");
           var bdiv = document.getElementById("exlist");
           var classs = ex.toString();
+          console.log(classs);
           if (s == 0) {
 
             var div2 = document.createElement("div");
-            div2.classList.add(classs,"exchangeinfol","mdl-cell--4-col"," mdl-cell--3-offset-desktop");
+            div2.classList.add("exchangeinfol","mdl-cell--4-col"," mdl-cell--3-offset-desktop");
             var p = document.createElement("p");
             /*var pt = document.createTextNode(element.Info);
             p.appendChild(pt);*/
@@ -220,6 +221,7 @@ function coinlists() {
           a.appendChild(at);
           div.appendChild(p,at);
           bdiv.appendChild(div2);
+          console.log("hello");
         }
 
         bdiv.appendChild(sep);
