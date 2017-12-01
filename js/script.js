@@ -154,12 +154,10 @@ function coinlists() {
           hm++;
           s = s % 2;
           var ex = "ex" + hm;
-          console.log(ex);
           var sep = document.createElement("div");
           sep.classList.add("exsep");
           var bdiv = document.getElementById("exlist");
           var classs = ex.toString();
-          console.log(classs);
           if (s == 0) {
 
             var div2 = document.createElement("div");
@@ -221,7 +219,6 @@ function coinlists() {
           a.appendChild(at);
           //div.appendChild(p,a);
           bdiv.appendChild(div);
-          console.log("hello");
         }
 
         bdiv.appendChild(sep);
