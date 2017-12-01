@@ -166,8 +166,8 @@ function coinlists() {
             a.href=element.linkto;
             var at = document.createTextNode(element.status);
             a.appendChild(at);
-            div.appendChild(p);
-            div.appendChild(a);
+            div2.appendChild(p);
+            div2.appendChild(a);
             bdiv.appendChild(div2);
             var div = document.createElement("div");
             div.classList.add(classs ,"exchange-card-image","mdl-cell","mdl-cell--3-col-desktop","mdl-cell--4-col","mdl-card","mdl-shadow--2dp","eximg");
