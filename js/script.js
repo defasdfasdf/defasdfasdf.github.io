@@ -42,10 +42,6 @@ loadJSON(function(responseText){
     roadmap();
 
   }
-  else if (where == "/Exchanges/"){
-    information = JSON.parse(responseText).exchanges;
-
-  }
   else if (where == "/Competitions/"){
     information = JSON.parse(responseText).Competition;
     competitions();
