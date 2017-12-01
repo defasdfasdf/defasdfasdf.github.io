@@ -216,7 +216,40 @@ function coinlists() {
         }
 
         bdiv.appendChild(sep);
+        aexchange();
   });}
+  function aexchange(){
+    $('.ex1').waypoint(function() {
+  		$('.ex1 ').addClass('animated fadeIn');
+  	}, {
+  		offset: '75%'
+  	});
+  	$('.ex2').waypoint(function() {
+  		$('.ex2 ').addClass('animated fadeIn');
+  	}, {
+  		offset: '75%'
+  	});
+  	$('.ex3').waypoint(function() {
+  		$('.ex3 ').addClass('animated fadeIn');
+  	}, {
+  		offset: '75%'
+  	});
+  	$('.ex4').waypoint(function() {
+  		$('.ex4 ').addClass('animated fadeIn');
+  	}, {
+  		offset: '75%'
+  	});
+  	$('.ex5').waypoint(function() {
+  		$('.ex5').addClass('animated fadeIn');
+  	}, {
+  		offset: '75%'
+  	});
+  	$('.ex6').waypoint(function() {
+  		$('.ex6').addClass('animated fadeIn');
+  	}, {
+  		offset: '75%'
+  	});
+  }
   function header(){
     information.forEach(function(element){
       if(!(element.Name.includes("#"))){

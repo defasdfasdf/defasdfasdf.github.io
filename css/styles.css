@@ -396,6 +396,7 @@ header {
        }
        .table-of-contents a{
          padding-left:0px!important;
+         transition: .8s;
        }
         header ul.primary-nav li a:hover,header ul.primary-nav li a.active  {
           opacity: 1!important;
