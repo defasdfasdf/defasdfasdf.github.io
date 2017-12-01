@@ -38,9 +38,7 @@ $(document).ready(function() {
 		});
 	});
 	$('#HL_myr-gr').click(function() {
-			$("th").css({
-				"background-color":"green"
-			});
+			$(".pool_name").toggleClass("bgndgreen");
 	});
 
 	/***************** Waypoints ******************/
