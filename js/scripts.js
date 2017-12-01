@@ -38,7 +38,7 @@ $(document).ready(function() {
 		});
 	});
 	$('#HL_myr-gr').click(function() {
-			$(".mnpool").toggleClass("bgndgreen");
+			$(".mnpool").toggleClass("MI_HL");
 	});
 
 	/***************** Waypoints ******************/

@@ -58,9 +58,6 @@ section.features, section.blog-intro, section.blog {
 .competitions,section.blog-intro{
   background: #fafafa;
 }
-.bgndgreen{
-  background:green;
-}
 /* ==========================================================================
 Global Styles
 ========================================================================== */
@@ -1387,5 +1384,5 @@ td,th {
 }
 
 .MI_HL {
-  background-color: green!important;
+  background-color: green;
 }
