@@ -661,9 +661,9 @@ footer {
   transition: .3s;
   text-align: center;
 }
-.iconholder2:hover{
-  transform: scale(1.2);
-  background: rgb(69, 90, 100);
+.hoverable.mdl-button.mdl-js-button.mdl-js-ripple-effect{
+  color:white;
+  font-weight:700;
 }
 /* ==========================================================================
 Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
