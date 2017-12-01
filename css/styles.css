@@ -417,7 +417,7 @@ header {
            -ms-transform: translateX(-6px);
            -o-transform: translateX(-6px);
            border-bottom: 2px solid white;
-           transition:.8s;
+           transition:1s;
          }
          header ul.primary-nav li a.active::after{
 
