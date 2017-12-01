@@ -37,7 +37,8 @@ $(document).ready(function() {
 		}
 		});
 	});
-	$('#HL_myr-gr').click(function() {
+	/*$('#HL_myr-gr').click(function() {
+			$(".MI_b" , ".MI_c" , ".MI_d" , ".MI_e").removeClass("MI_HL");
 			$(".MI_a").toggleClass("MI_HL");
 	});
 	$('#HL_x17').click(function() {
@@ -51,7 +52,20 @@ $(document).ready(function() {
 	});
 	$('#HL_scrypt').click(function() {
 			$(".MI_e").toggleClass("MI_HL");
-	});
+	});*/
+
+	function mi(algo){
+	 $(".Ml_a").removeClass("Ml_HL");
+	 $(".Ml_b").removeClass("Ml_HL");
+	 $(".Ml_c").removeClass("Ml_HL");
+	 $(".Ml_d").removeClass("Ml_HL");
+	 $(".Ml_e").removeClass("Ml_HL");
+	 $(".MI_" + algo).toggleClass("MI_HL");
+	}
+
+	$('#HL_myr-gr').click(function() {
+        mi("a");
+});
 
 	/***************** Waypoints ******************/
 	$('.ex1').waypoint(function() {
