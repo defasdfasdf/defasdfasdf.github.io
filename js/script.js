@@ -30,7 +30,7 @@ loadJSON(function(responseText){
     information = JSON.parse(responseText).wallets;
     wallets();
       information = JSON.parse(responseText).exchanges;
-  //  exchanges();
+    exchanges();
   }
   else if (where == "/Wallets/"){
     information = JSON.parse(responseText).wallets;
@@ -40,10 +40,6 @@ loadJSON(function(responseText){
   else if (where == "/Roadmap/"){
     information = JSON.parse(responseText).roadmap;
     roadmap();
-
-  }
-  else if (where == "/Exchanges/"){
-    information = JSON.parse(responseText).exchanges;
 
   }
   else if (where == "/Competitions/"){
