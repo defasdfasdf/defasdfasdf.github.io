@@ -575,7 +575,7 @@ Features-stack
   color:#FFC107!important;
   font-weight:600;
 }
-.hero-strip {
+.hero-strip,.moreinfo{
   background: #607d8b;
   padding-bottom: 190px;
   position: relative;
@@ -1311,16 +1311,16 @@ width: calc(50% - 8px);
 color:white;
 }
 .rmc{
-  background: url('../img/Roadmap.png')!important;
+  background: url('../img/Roadmap.png') center center!important;
 }
 .amc{
-background: url('../img/About.png')!important;
+background: url('../img/About.png') center center!important;
 }
 .pmc{
-background: url('../img/Project.png')!important;
+background: url('../img/Project.png') center center!important;
 }
 .cmc{
-  background: url('../img/Contactus.png')!important;
+  background: url('../img/Contactus.png') center center!important;
 }
 .col.s6.m4.mdl-shadow--2dp.miabs:hover{
 opacity: .5;
