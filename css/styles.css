@@ -1361,3 +1361,13 @@ opacity: .5;
 td,th {
   text-align: center!important;
 }
+
+@media screen and (max-width:1400px){
+  .collapsible {
+    display: none;
+  }
+  .MI_table{
+    width: 100%;
+    margin: 0;
+  }
+}
