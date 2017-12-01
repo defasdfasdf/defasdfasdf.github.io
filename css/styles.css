@@ -1362,7 +1362,7 @@ td,th {
   text-align: center!important;
 }
 
-@media screen and (max-width:1400px){
+@media screen and (max-width:736px){
   .collapsible {
     display: none;
   }
