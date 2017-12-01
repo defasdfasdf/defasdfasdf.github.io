@@ -410,14 +410,14 @@ header {
            content: "";
            width: 0px;
            position: absolute;
-           left: 7%;
+           left: 8%;
            bottom: -2px;
            -webkit-transform: translateX(-6px);
            transform: translateX(-6px);
            -ms-transform: translateX(-6px);
            -o-transform: translateX(-6px);
            border-bottom: 2px solid white;
-           transition:1s;
+           transition:.8s;
          }
          header ul.primary-nav li a.active::after{
 
