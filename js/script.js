@@ -29,6 +29,8 @@ loadJSON(function(responseText){
   else if (where == "/"){
     information = JSON.parse(responseText).wallets;
     wallets();
+      information = JSON.parse(responseText).exchanges;
+    exchanges();
   }
   else if (where == "/Wallets/"){
     information = JSON.parse(responseText).wallets;
@@ -42,7 +44,7 @@ loadJSON(function(responseText){
   }
   else if (where == "/Exchanges/"){
     information = JSON.parse(responseText).exchanges;
-    exchanges();
+
   }
   else if (where == "/Competitions/"){
     information = JSON.parse(responseText).Competition;
@@ -145,8 +147,79 @@ function coinlists() {
 
   }
   function exchanges() {
+    var s = 0;
+    information.forEach(function(element){
+          s++;
+          s = s % 2;
+          var ex = "ex" + s;
+          console.log(ex);
+          var sep = document.createElement("div");
+          sep.classList.add("exsep");
+          var bdiv = document.getElementById("exlist");
+          if (s == 0) {
+            var div2 = document.createElement("div");
+            div2.classList.add(ex,"exchangeinfol", "mdl-cell--4-col" , " mdl-cell--3-offset-desktop");
+            var p = document.createElement("p");
+            /*var pt = document.createTextNode(element.Info);
+            p.appendChild(pt);*/
+            var a = document.createElement("a");
+            a.classList.add("mdl-button","mdl-button--colored","mdl-js-button","mdl-js-ripple-effect");
+            a.href=element.linkto;
+            var at = document.createTextNode(element.status);
+            a.appendChild(at);
+            div2.appendChild(p,at);
+            bdiv.appendChild(div2);
+            var div = document.createElement("div");
+            div.classList.add(ex ,"exchange-card-image","mdl-cell","mdl-cell--3-col-desktop","mdl-cell--4-col","mdl-card","mdl-shadow--2dp","eximg");
+            div.style="background: url('../img/"element.logo_path"') center;"
+            var div2 = document.createElement("div");
+            div2.classList.add("mdl-card__title","mdl-card--expand");
+            div.appendChild(div2);
+            var div2 = document.createElement("div");
+            div2.classList.add("mdl-card__actions");
+            div2.style="padding: 2px 10px;height: auto;";
+            var span = document.createElement("span");
+            span.classList.add("exchange-card-image__filename");
+            var spant = document.createTextNode(element.Name);
+            span.appendChild(spant);
+            div2.appendChild(span);
+            div.appendChild(div2);
+            bdiv.appendChild(div);
 
-  }
+        }
+        else {
+          var div = document.createElement("div");
+          div.classList.add(ex ,"exchange-card-image","mdl-cell", "mdl-cell--3-col-desktop","mdl-cell--3-offset-desktop", "mdl-cell--4-col" ,"mdl-card" ,"mdl-shadow--2dp" ,"eximg");
+          div.style="background: url('../img/"element.logo_path"') center;"
+          var div2 = document.createElement("div");
+          div2.classList.add("mdl-card__title","mdl-card--expand");
+          div.appendChild(div2);
+          var div2 = document.createElement("div");
+          div2.classList.add("mdl-card__actions");
+          div2.style="padding: 2px 10px;height: auto;";
+          var span = document.createElement("span");
+          span.classList.add("exchange-card-image__filename");
+          var spant = document.createTextNode(element.Name);
+          span.appendChild(spant);
+          div2.appendChild(span);
+          div.appendChild(div2);
+          bdiv.appendChild(div);
+          var div = document.createElement("div");
+          div.classList.add(ex,"exchangeinfor", "mdl-cell--4-col");
+          var p = document.createElement("p");
+          /*var pt = document.createTextNode(element.Info);
+          p.appendChild(pt);*/
+          var a = document.createElement("a");
+          a.classList.add("mdl-button","mdl-button--colored","mdl-js-button","mdl-js-ripple-effect");
+          a.href=element.linkto;
+          var at = document.createTextNode(element.status);
+          a.appendChild(at);
+          div.appendChild(p,at);
+          bdiv.appendChild(div2);
+        }
+
+        bdiv.appendChild(sep);
+  });}
   function header(){
     information.forEach(function(element){
       if(!(element.Name.includes("#"))){
