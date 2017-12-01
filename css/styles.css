@@ -1378,3 +1378,8 @@ td,th {
     margin-right: 0;
   }
 }
+
+.pool_name {
+  font-weight: bold;
+  color: black;
+}
