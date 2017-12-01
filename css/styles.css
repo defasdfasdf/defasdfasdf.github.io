@@ -1384,5 +1384,5 @@ td,th {
 }
 
 .MI_HL {
-  background-color: green;
+  background-color: rgba(96,125,139,0.4)!important;
 }
