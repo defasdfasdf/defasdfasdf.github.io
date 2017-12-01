@@ -151,7 +151,7 @@ function coinlists() {
     var hm = 0;
     information.forEach(function(element){
           s++;
-          hm++
+          hm++;
           s = s % 2;
           var ex = "ex" + hm;
           console.log(ex);
