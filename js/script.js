@@ -113,7 +113,7 @@ function wallets(){
         }
       }
 
-      wallet.classList.add("col", "s12","m5","card", "large");
+      wallet.classList.add("col", "s12","m5","card");
       var typeh3 = document.createElement("div");
       typeh3.classList.add("card-content");
       var span = document.createElement("span");
