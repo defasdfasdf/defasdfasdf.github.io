@@ -30,7 +30,7 @@ loadJSON(function(responseText){
     information = JSON.parse(responseText).wallets;
     wallets();
       information = JSON.parse(responseText).exchanges;
-    exchanges();
+  //  exchanges();
   }
   else if (where == "/Wallets/"){
     information = JSON.parse(responseText).wallets;
