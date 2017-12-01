@@ -92,9 +92,7 @@ function wallets(){
     }
       var wallet = document.createElement("div");
       if (x == "w") {
-        console.log(w);
         w = w % 2;
-        console.log(w);
         if (w == 0) {
           wallet.classList.add("offset-m1");
         }
@@ -170,7 +168,8 @@ function coinlists() {
             a.href=element.linkto;
             var at = document.createTextNode(element.status);
             a.appendChild(at);
-            //div2.appendChild(p,a);
+            div.appendChild(p);
+            div.appendChild(a);
             bdiv.appendChild(div2);
             var div = document.createElement("div");
             div.classList.add(classs ,"exchange-card-image","mdl-cell","mdl-cell--3-col-desktop","mdl-cell--4-col","mdl-card","mdl-shadow--2dp","eximg");
@@ -217,7 +216,8 @@ function coinlists() {
           a.href=element.linkto;
           var at = document.createTextNode(element.status);
           a.appendChild(at);
-          //div.appendChild(p,a);
+          div.appendChild(p);
+          div.appendChild(a);
           bdiv.appendChild(div);
         }
 
