@@ -42,38 +42,23 @@ $(document).ready(function() {
 	});
 
 	/***************** Waypoints ******************/
-	$('.walletWindow').waypoint(function() {
-		$('.walletWindow').addClass('animated fadeInLeft');
-	}, {
-		offset: '65%'
-	});
-	$('.walletAndroid').waypoint(function() {
-		$('.walletAndroid').addClass('animated fadeInLeft');
-	}, {
-		offset: '65%'
-	});
-	$('.walletLinux').waypoint(function() {
-		$('.walletLinux').addClass('animated fadeInRight');
-	}, {
-		offset: '65%'
-	});
 	$('.ex1').waypoint(function() {
-		$('.ex1').addClass('animated fadeIn');
+		$('.ex1 ').addClass('animated fadeIn');
 	}, {
 		offset: '75%'
 	});
 	$('.ex2').waypoint(function() {
-		$('.ex2').addClass('animated fadeIn');
+		$('.ex2 ').addClass('animated fadeIn');
 	}, {
 		offset: '75%'
 	});
 	$('.ex3').waypoint(function() {
-		$('.ex3').addClass('animated fadeIn');
+		$('.ex3 ').addClass('animated fadeIn');
 	}, {
 		offset: '75%'
 	});
 	$('.ex4').waypoint(function() {
-		$('.ex4').addClass('animated fadeIn');
+		$('.ex4 ').addClass('animated fadeIn');
 	}, {
 		offset: '75%'
 	});
