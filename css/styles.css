@@ -403,10 +403,26 @@ header {
           border-left:0px!important;
          }
          header ul.primary-nav li a.active{
-           opacity: 1;
-           border-bottom: 2px solid white !important;
            cursor: default !important;
            font-weight: 600;
+         }
+         header ul.primary-nav li a::after{
+           content: "";
+           width: 0px;
+           position: absolute;
+           left: 7%;
+           bottom: -2px;
+           -webkit-transform: translateX(-6px);
+           transform: translateX(-6px);
+           -ms-transform: translateX(-6px);
+           -o-transform: translateX(-6px);
+           border-bottom: 2px solid white;
+           transition:.8s;
+         }
+         header ul.primary-nav li a.active::after{
+
+           width: 100%;
+
          }
       header ul.primary-nav li:last-child a {
         padding-right: 0px; }
