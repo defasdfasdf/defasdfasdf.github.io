@@ -389,8 +389,10 @@ header {
         position: relative;
         font-weight: 600;
        }
-        header ul.primary-nav li a:hover {
-          opacity: 1; }
+        header ul.primary-nav li a:hover,header ul.primary-nav li a:active  {
+          opacity: 1;
+          border-left:0px;
+         }
       header ul.primary-nav li:last-child a {
         padding-right: 0px; }
   header ul.member-actions li {
