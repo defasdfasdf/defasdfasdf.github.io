@@ -71,7 +71,7 @@ $('#HL_myr-gr').click(function() {
 $('#HL_x17').click(function() {
 			mi("b");
 });
-$('#HL_blakse2s').click(function() {
+$('#HL_blake2s').click(function() {
 			mi("c");
 });
 $('#HL_lyra2v2').click(function() {
