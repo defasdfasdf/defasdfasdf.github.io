@@ -305,3 +305,7 @@ function coinlists() {
     });
   });
   }
+
+  $('#HL_myr-gr').click(function() {
+      $(this).toggleClass('MI_HL');
+  });
