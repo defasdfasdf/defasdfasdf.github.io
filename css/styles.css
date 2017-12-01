@@ -669,7 +669,9 @@ footer {
 Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
 ========================================================================== */
 
-
+.collapsible{
+  box-shadow: none!important;
+}
 *, *:before, *:after {
   margin: 0;
   padding: 0;
