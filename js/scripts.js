@@ -63,12 +63,24 @@ $(document).ready(function() {
 	 $(".MI_" + algo).toggleClass("MI_HL");
 	}
 
-	$('#HL_myr-gr').click(function() {
-        mi("a");
+$('#HL_myr-gr').click(function() {
+      mi("a");
+});
+$('#HL_x17').click(function() {
+			mi("b");
+});
+$('#HL_blakse2s').click(function() {
+			mi("c");
+});
+$('#HL_lyra2v2').click(function() {
+			mi("d");
+});
+$('#HL_scrypt').click(function() {
+			mi("e");
 });
 
 	/***************** Waypoints ******************/
-	
+
 	$('.procard1').waypoint(function() {
 		$('.procard1').addClass('animated fadeIn');
 	}, {
