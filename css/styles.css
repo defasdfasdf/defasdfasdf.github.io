@@ -392,6 +392,9 @@ header {
        .table-of-contents{
            padding-left:0px!important;
        }
+       header ul.primary-nav li a.active{
+         padding-left:0px!important;
+       }
         header ul.primary-nav li a:hover,header ul.primary-nav li a.active  {
           opacity: 1!important;
           border-left:0px!important;
