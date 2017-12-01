@@ -37,6 +37,11 @@ $(document).ready(function() {
 		}
 		});
 	});
+	$('#HL_myr-gr').click(function() {
+			$("rh").css({
+				"background-color":"green"
+			});
+	});
 
 	/***************** Waypoints ******************/
 	$('.walletWindow').waypoint(function() {
