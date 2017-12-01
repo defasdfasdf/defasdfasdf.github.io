@@ -671,6 +671,7 @@ Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style
 
 .collapsible{
   box-shadow: none!important;
+  margin: 0!important;
 }
 *, *:before, *:after {
   margin: 0;
@@ -1355,4 +1356,8 @@ opacity: .5;
   width: 20%;
   margin: 10px 2% 0 2%;
   position: fixed;
+}
+
+td,th {
+  text-align: center!important;
 }
