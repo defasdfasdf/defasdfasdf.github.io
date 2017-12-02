@@ -325,6 +325,9 @@ if(where == "/"){
 	});
 	$('.collapsible').collapsible();
 	$('.scrollspy').scrollSpy();
+		 $('.carousel').carousel();
+
+
 
 	/***************** Header BG Scroll ******************/
 	$(function() {
