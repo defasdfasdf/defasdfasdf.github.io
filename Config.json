@@ -15,8 +15,7 @@
         {
           "Name": "Tradesatoshi",
           "logo_path": "../img/tslogo.png",
-          "info": "TradeSatoshi is a UK based trading platform for Bitcoin and Altcoins.
-We focus on providing the highest level of security, transparency and customer service. Our aim is to provide our users with a reliable exchange. ",
+          "info": "TradeSatoshi is a UK based trading platform for Bitcoin and Altcoins. We focus on providing the highest level of security, transparency and customer service. Our aim is to provide our users with a reliable exchange.",
           "Markets":
           [
           {
