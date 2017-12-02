@@ -422,7 +422,23 @@ header {
          header ul.primary-nav li a.active::after{
 
            width: 103%;
+         }
+         .abnav li a::after{
+           content: "";
+           width: 0px;
+           position: absolute;
+           left: 8%;
+           bottom: -2px;
+           -webkit-transform: translateX(-6px);
+           transform: translateX(-6px);
+           -ms-transform: translateX(-6px);
+           -o-transform: translateX(-6px);
+           border-bottom: 2px solid white;
+           transition:.8s;
+         }
+         .abnav li a.active::after{
 
+           width: 103%;
          }
       header ul.primary-nav li:last-child a {
         padding-right: 0px; }
