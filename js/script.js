@@ -204,7 +204,7 @@ function coinlists() {
           var div = document.createElement("div");
           div.classList.add(classs,"exchangeinfor", "mdl-cell--4-col");
           var p = document.createElement("p");
-          var pt = document.createTextNode(element.Info);
+          var pt = document.createTextNode(element.info);
           p.appendChild(pt);
           div.appendChild(p);
           element.Markets.forEach(function(element){
