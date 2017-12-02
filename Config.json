@@ -4,19 +4,19 @@
             "Name": "Stocks.exchange",
             "linkto":"https://stocks.exchange/trade/XSH/BTC",
             "logo_path": "../img/stocksexxchangelogo.png",
-            "status": "listed"
+            "status": ["XSH/BTC"]
         },
         {
           "Name": "Tradesatoshi",
           "linkto":"https://tradesatoshi.com/Exchange?market=XSH_BTC",
           "logo_path": "../img/tslogo.png",
-          "status": "listed"
+          "status": ["XSH/BTC","XSH/DOGE"]
         },
         {
           "Name": "Coinsmarkets",
           "linkto":"https://coinsmarkets.com/trade-BTC-XSH.htm",
           "logo_path": "../img/coinsmarketsl.png",
-          "status": "listed"
+          "status": ["XSH/BTC"]
         },
       {
           "Name": "CoinGather",

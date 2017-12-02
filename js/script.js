@@ -120,15 +120,17 @@ function wallets(){
       typeh3.appendChild(span);
       typeh3.appendChild(typeh4);
       wallet.appendChild(typeh3);
-      var hey = document.createElement("div");
-      hey.classList.add("card-action");
-      var a = document.createElement("a");
-      a.href = element.link;
+      element.status.forEach(function(element){
+        var hey = document.createElement("div");
+        hey.classList.add("card-action");
+        var a = document.createElement("a");
+        a.href = element.link;
+        var atext = document.createTextNode(element.type);
+        a.appendChild(atext);
+        hey.appendChild(a);
+        wallet.appendChild(hey);
+      });
 
-      var atext = document.createTextNode(element.type);
-      a.appendChild(atext);
-      hey.appendChild(a);
-      wallet.appendChild(hey);
       var div = document.getElementById(x);
       div.appendChild(wallet);
 });}
