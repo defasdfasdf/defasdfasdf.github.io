@@ -3,6 +3,7 @@
         {
             "Name": "Stocks.exchange",
             "logo_path": "../img/stocksexxchangelogo.png",
+            "info": "Hello, my name is Vadym Kurylovych. My goal is to build a worldwide stock exchange. A market where anyone from anywhere can invest in any business worldwide using cryptocurrencies (BTC, ETH, NXT, and others) or fiat money. Imagine you can invest in Chinese manufacturing or a Brazilian sawmill without papers in just minutes. Imagine anybody can invest in your business too. On this worldwide stock exchange market, businesses can issue their stocks, assets, or tokens on major established crypto platforms (NXT, ARDOR, ETH, etc.), sell them, do business, and pay dividends to stock holders in just one click. ",
             "Markets":
             [
             {
@@ -14,6 +15,7 @@
         {
           "Name": "Tradesatoshi",
           "logo_path": "../img/tslogo.png",
+          "info": "",
           "Markets":
           [
           {
@@ -30,6 +32,7 @@
           "Name": "Coinsmarkets",
           "linkto":"https://coinsmarkets.com/trade-BTC-XSH.htm",
           "logo_path": "../img/coinsmarketsl.png",
+          "info": "",
           "Markets":
           [
               {
@@ -42,6 +45,7 @@
           "Name": "CoinGather",
           "linkto":"https://www.coingather.com/vote/",
           "logo_path": "../img/coingather-logo.png",
+          "info": "",
           "Markets":
           [
               {
@@ -54,6 +58,7 @@
         "Name": "C-cex",
         "linkto":"https://c-cex.com/?id=votev",
         "logo_path": "../img/ccexchange.png",
+        "info": "",
         "Markets":
         [
         {
