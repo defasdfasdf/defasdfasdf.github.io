@@ -420,7 +420,6 @@ header {
            transition:.8s;
          }
          header ul.primary-nav li a.active::after{
-
            width: 103%;
          }
          .abnav li a::after{
@@ -433,7 +432,7 @@ header {
            transform: translateX(-6px);
            -ms-transform: translateX(-6px);
            -o-transform: translateX(-6px);
-           border-bottom: 2px solid white;
+           border-bottom: 2px solid blue;
            transition:.8s;
          }
          .abnav li a.active::after{
