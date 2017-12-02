@@ -206,13 +206,15 @@ function coinlists() {
           var p = document.createElement("p");
           /*var pt = document.createTextNode(element.Info);
           p.appendChild(pt);*/
+          div.appendChild(p);
+          element.Markets.forEach(function(element){
           var a = document.createElement("a");
           a.classList.add("mdl-button","mdl-button--colored","mdl-js-button","mdl-js-ripple-effect");
           a.href=element.linkto;
           var at = document.createTextNode(element.status);
           a.appendChild(at);
-          div.appendChild(p);
           div.appendChild(a);
+        });
           bdiv.appendChild(div);
         }
 
