@@ -419,6 +419,9 @@ header {
            border-bottom: 2px solid white;
            transition:.8s;
          }
+         .navhead{
+           position:relative;
+         }
          header ul.primary-nav li a.active::after{
            width: 103%;
          }
@@ -426,7 +429,7 @@ header {
            content: "";
            width: 0px;
            position: absolute;
-           left: 8%;
+           left: 0%;
            bottom: -2px;
            -webkit-transform: translateX(-6px);
            transform: translateX(-6px);
@@ -434,10 +437,11 @@ header {
            -o-transform: translateX(-6px);
            border-bottom: 2px solid blue;
            transition:.8s;
+           margin-top:21px;
          }
          .abnav li a.active::after{
 
-           width: 103%;
+           width: 100%;
          }
       header ul.primary-nav li:last-child a {
         padding-right: 0px; }
