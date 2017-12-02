@@ -46,6 +46,11 @@ loadJSON(function(responseText){
     information = JSON.parse(responseText).Competition;
     competitions();
   }
+  else if (where == "/About/"){
+  $('.collapsible').collapsible({
+    accordion: false
+  });
+  }
 });
 function roadmap(){
   information.forEach(function(element){
