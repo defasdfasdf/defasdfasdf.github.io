@@ -157,11 +157,11 @@ function coinlists() {
             /*var pt = document.createTextNode(element.Info);
             p.appendChild(pt);*/
             div2.appendChild(p);
-            element.status.forEach(function(element){
+            element.Markets.forEach(function(element){
             var a = document.createElement("a");
             a.classList.add("mdl-button","mdl-button--colored","mdl-js-button","mdl-js-ripple-effect");
-            a.href=element.linkto;
-            var at = document.createTextNode(element);
+            a.href=element.Link;
+            var at = document.createTextNode(element.Name);
             a.appendChild(at);
             div2.appendChild(a);
           });

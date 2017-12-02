@@ -2,33 +2,87 @@
     "exchanges": [
         {
             "Name": "Stocks.exchange",
-            "linkto":"https://stocks.exchange/trade/XSH/BTC",
             "logo_path": "../img/stocksexxchangelogo.png",
-            "status": ["XSH/BTC"]
+            "Markets":
+            [
+            {
+              "1": [
+                {
+                  "Name": "XSH/BTC",
+                  "Link": "https://stocks.exchange/trade/XSH/BTC"
+                }
+              ]
+            }
+            ]
         },
         {
           "Name": "Tradesatoshi",
-          "linkto":"https://tradesatoshi.com/Exchange?market=XSH_BTC",
           "logo_path": "../img/tslogo.png",
-          "status": ["XSH/BTC","XSH/DOGE","XSH/BTC","XSH/DOGE","XSH/BTC","XSH/DOGE"]
+          "Markets":
+          [
+          {
+            "1": [
+              {
+                "Name": "XSH/BTC",
+                "Link": "https://tradesatoshi.com/Exchange?market=XSH_BTC"
+              }
+            ],
+            "2": [
+              {
+                "Name": "XSH/DOGE",
+                "Link": "https://tradesatoshi.com/Exchange?market=XSH_DOGE"
+              }
+            ]
+          }
+          ]
         },
         {
           "Name": "Coinsmarkets",
           "linkto":"https://coinsmarkets.com/trade-BTC-XSH.htm",
           "logo_path": "../img/coinsmarketsl.png",
-          "status": ["XSH/BTC"]
+          "Markets":
+          [
+          {
+            "1": [
+              {
+                "Name": "XSH/BTC",
+                "Link": "https://coinsmarkets.com/trade-BTC-XSH.htm"
+              }
+            ]
+          }
+          ]
         },
       {
           "Name": "CoinGather",
           "linkto":"https://www.coingather.com/vote/",
           "logo_path": "../img/coingather-logo.png",
-          "status": ["voting"]
+          "Markets":
+          [
+          {
+            "1": [
+              {
+                "Name": "Voting",
+                "Link": "https://www.coingather.com/vote/"
+              }
+            ]
+          }
+          ]
       },
       {
         "Name": "C-cex",
         "linkto":"https://c-cex.com/?id=votev",
         "logo_path": "../img/ccexchange.png",
-        "status": ["voting"]
+        "Markets":
+        [
+        {
+          "1": [
+            {
+              "Name": "Voting",
+              "Link": "https://www.coingather.com/vote/"
+            }
+          ]
+        }
+        ]
       }
     ],
     "wallets": [
