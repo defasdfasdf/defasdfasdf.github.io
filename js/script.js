@@ -157,7 +157,7 @@ function coinlists() {
             /*var pt = document.createTextNode(element.Info);
             p.appendChild(pt);*/
             div2.appendChild(p);
-            element.Markets.forEach(function(element){
+            element.Markets.forEach(element.forEach(function(element){
             var a = document.createElement("a");
             a.classList.add("mdl-button","mdl-button--colored","mdl-js-button","mdl-js-ripple-effect");
             a.href=element.Link;
@@ -167,7 +167,7 @@ function coinlists() {
             var at = document.createTextNode(element.Name);
             a.appendChild(at);
             div2.appendChild(a);
-          });
+          }););
             bdiv.appendChild(div2);
             var div = document.createElement("div");
             div.classList.add(classs ,"exchange-card-image","mdl-cell","mdl-cell--3-col-desktop","mdl-cell--4-col","mdl-card","mdl-shadow--2dp","eximg");
