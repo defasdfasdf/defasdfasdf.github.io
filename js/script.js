@@ -161,6 +161,9 @@ function coinlists() {
             var a = document.createElement("a");
             a.classList.add("mdl-button","mdl-button--colored","mdl-js-button","mdl-js-ripple-effect");
             a.href=element.Link;
+            console.log(element);
+            console.log(element.Link);
+            console.log(element.Name);
             var at = document.createTextNode(element.Name);
             a.appendChild(at);
             div2.appendChild(a);
