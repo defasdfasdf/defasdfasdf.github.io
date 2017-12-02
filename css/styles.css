@@ -20,7 +20,36 @@ Typography
 .btn:hover, .btn:focus {
   padding: 20px 45px;
  }
-
+ .icon1 {
+   -moz-animation-delay: .1s;
+ }
+ .icon2 {
+   -moz-animation-delay: .2s;
+ }
+ .icon3 {
+   -moz-animation-delay: .3s;
+ }
+ .icon4 {
+   -moz-animation-delay: .4s;
+ }
+ .mi1{
+   -moz-animation-delay: .1s;
+ }
+ .mi2{
+   -moz-animation-delay: .2s;
+ }
+ .mi3{
+   -moz-animation-delay: .3s;
+ }
+ .mi4{
+   -moz-animation-delay: .4s;
+ }
+ .mi5{
+   -moz-animation-delay: .5s;
+ }
+ .mi6{
+   -moz-animation-delay: .6s;
+ }
 @media screen and (max-width: 722px){
   .snr{
       padding-left:16px!important;
@@ -671,7 +700,7 @@ footer {
     width: 56px;
     text-align: center;
     padding: 15px;
-    background: rgb(255,215,64);
+    background:#CFD8DC;
     display: inline-block;
     transition: .6s;
 }
@@ -1025,13 +1054,14 @@ top:100%;
     -ms-transform: scale(.75);
     transform: scale(.75);
     box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.3);
-    border-radius:100%;
+
 
   }
 .cuiimg{
   transition:.8s;
   width:180px;
-  margin-top: 100px;
+  margin-top: 10%;
+    border-radius:100%;
 }
 .subheadab{
   color:black;

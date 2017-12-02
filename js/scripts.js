@@ -256,7 +256,10 @@ $('#HL_scrypt').click(function() {
 		offset: '75%'
 	});
 	$('.spa').waypoint(function() {
-		$('.spa').addClass('animated fadeInUp');
+		$('.icon1').addClass('animated fadeInUp');
+		$('.icon2').addClass('animated fadeInUp');
+		$('.icon3').addClass('animated fadeInUp');
+		$('.icon4').addClass('animated fadeInUp');
 	}, {
 		offset: '75%'
 	});
@@ -301,10 +304,16 @@ $('#HL_scrypt').click(function() {
 		offset: '75%'
 	});
 	$('.moreinformations').waypoint(function() {
-		$('.moreinformations').addClass('animated fadeIn');
+		$('.mi1').addClass('animated fadeInUp');
+		$('.mi2').addClass('animated fadeInUp');
+		$('.mi3').addClass('animated fadeInUp');
+		$('.mi4').addClass('animated fadeInUp');
+		$('.mi5').addClass('animated fadeInUp');
+		$('.mi6').addClass('animated fadeInUp');
 	}, {
 		offset: '75%'
 	});
+
 	/***************** Initiate Flexslider ******************/
 	$('.flexslider').flexslider({
 		animation: "slide"
