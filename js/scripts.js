@@ -290,6 +290,21 @@ $('#HL_scrypt').click(function() {
 	}, {
 		offset: '75%'
 	});
+	$('.walletss').waypoint(function() {
+		$('.walletss').addClass('animated fadeIn');
+	}, {
+		offset: '75%'
+	});
+	$('.comps').waypoint(function() {
+		$('.comps').addClass('animated fadeIn');
+	}, {
+		offset: '75%'
+	});
+	$('.moreinformations').waypoint(function() {
+		$('.moreinformations').addClass('animated fadeIn');
+	}, {
+		offset: '75%'
+	});
 	/***************** Initiate Flexslider ******************/
 	$('.flexslider').flexslider({
 		animation: "slide"
