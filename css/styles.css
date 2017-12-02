@@ -419,7 +419,7 @@ header {
            border-bottom: 2px solid white;
            transition:.8s;
          }
-         .navsub{
+         .navsub, .navhead{
            position:relative;
          }
          header ul.primary-nav li a.active::after{
