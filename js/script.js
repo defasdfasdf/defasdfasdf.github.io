@@ -154,8 +154,8 @@ function coinlists() {
             var div2 = document.createElement("div");
             div2.classList.add(classs, "exchangeinfol","mdl-cell--4-col" , "mdl-cell--3-offset-desktop");
             var p = document.createElement("p");
-            /*var pt = document.createTextNode(element.Info);
-            p.appendChild(pt);*/
+            var pt = document.createTextNode(element.info);
+            p.appendChild(pt);
             div2.appendChild(p);
             element.Markets.forEach(function(element){
             var a = document.createElement("a");

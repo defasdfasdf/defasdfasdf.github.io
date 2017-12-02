@@ -30,7 +30,6 @@
         },
         {
           "Name": "Coinsmarkets",
-          "linkto":"https://coinsmarkets.com/trade-BTC-XSH.htm",
           "logo_path": "../img/coinsmarketsl.png",
           "info": "CoinsMarkets serves as a platform for individuals interested in buying and selling Bitcoins using an assortment of world currencies.",
           "Markets":
@@ -43,7 +42,6 @@
         },
       {
           "Name": "CoinGather",
-          "linkto":"https://www.coingather.com/vote/",
           "logo_path": "../img/coingather-logo.png",
           "info": "",
           "Markets":
@@ -56,7 +54,6 @@
       },
       {
         "Name": "C-cex",
-        "linkto":"https://c-cex.com/?id=votev",
         "logo_path": "../img/ccexchange.png",
         "info": "C-CEX exchange is designed for security and protected by state of the art security services while giving you the option to secure your account through the use of two-factor authentication ",
         "Markets":
