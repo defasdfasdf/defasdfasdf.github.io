@@ -120,7 +120,6 @@ function wallets(){
       typeh3.appendChild(span);
       typeh3.appendChild(typeh4);
       wallet.appendChild(typeh3);
-      element.status.forEach(function(element){
         var hey = document.createElement("div");
         hey.classList.add("card-action");
         var a = document.createElement("a");
@@ -129,8 +128,6 @@ function wallets(){
         a.appendChild(atext);
         hey.appendChild(a);
         wallet.appendChild(hey);
-      });
-
       var div = document.getElementById(x);
       div.appendChild(wallet);
 });}
@@ -159,13 +156,15 @@ function coinlists() {
             var p = document.createElement("p");
             /*var pt = document.createTextNode(element.Info);
             p.appendChild(pt);*/
+            div2.appendChild(p);
+            element.status.forEach(function(element){
             var a = document.createElement("a");
             a.classList.add("mdl-button","mdl-button--colored","mdl-js-button","mdl-js-ripple-effect");
             a.href=element.linkto;
-            var at = document.createTextNode(element.status);
+            var at = document.createTextNode(element);
             a.appendChild(at);
-            div2.appendChild(p);
             div2.appendChild(a);
+          });
             bdiv.appendChild(div2);
             var div = document.createElement("div");
             div.classList.add(classs ,"exchange-card-image","mdl-cell","mdl-cell--3-col-desktop","mdl-cell--4-col","mdl-card","mdl-shadow--2dp","eximg");
