@@ -685,7 +685,7 @@ footer {
     margin-right: 0; }
 
 .footericon{
-  color:white;
+  color:#757575;
   transition: .6s;
 }
 .iconholder{
@@ -700,7 +700,7 @@ footer {
     width: 56px;
     text-align: center;
     padding: 15px;
-    background:#CFD8DC;
+    background:#455A64;
     display: inline-block;
     transition: .6s;
 }
