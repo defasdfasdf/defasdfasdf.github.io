@@ -10,7 +10,7 @@
           "Name": "Tradesatoshi",
           "linkto":"https://tradesatoshi.com/Exchange?market=XSH_BTC",
           "logo_path": "../img/tslogo.png",
-          "status": ["XSH/BTC","XSH/DOGE"]
+          "status": ["XSH/BTC","XSH/DOGE","XSH/BTC","XSH/DOGE","XSH/BTC","XSH/DOGE"]
         },
         {
           "Name": "Coinsmarkets",
@@ -22,13 +22,13 @@
           "Name": "CoinGather",
           "linkto":"https://www.coingather.com/vote/",
           "logo_path": "../img/coingather-logo.png",
-          "status": "voting"
+          "status": ["voting"]
       },
       {
         "Name": "C-cex",
         "linkto":"https://c-cex.com/?id=votev",
         "logo_path": "../img/ccexchange.png",
-        "status": "voting"
+        "status": ["voting"]
       }
     ],
     "wallets": [
