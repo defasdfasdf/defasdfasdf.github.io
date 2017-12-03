@@ -62,10 +62,9 @@ function blockexplorerwidget(){
   });
   loadRaw("http://188.226.178.216:3001/api/getinfo", function(raw){
     var x = JSON.parse(raw);
-    $(".diff_text).text("x17: " + x["difficulty_x17"].toFixed(2) + " scrypt:" + x["difficulty_scrypt"].toFixed(2));
+    $(".diff_text").text("x17: " + x["difficulty_x17"].toFixed(2) + " scrypt: " + x["difficulty_scrypt"].toFixed(2));
     $(".csup_text").text(String(x["moneysupply"]));
   });
-  
 }
 
 function roadmap(){
