@@ -118,14 +118,14 @@ function wallets(){
         var atext = document.createTextNode(element.type);
         a.appendChild(atext);
         hey.appendChild(a);
+        var i;
         if (element.type == "Download"){
-          var i = document.createElement("i");
+          i = document.createElement("i");
           i.classList.add("fa", "fa-download");
         }
         else{
-          var i = document.createElement("i");
+          i = document.createElement("i");
           i.classList.add("fa", "fa-share");
-        }
         }
         hey.appendChild(i);
         wallet.appendChild(hey);
