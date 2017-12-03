@@ -1430,7 +1430,7 @@ opacity: .5;
 .MI_highlights {
   width: 20%;
   margin: 10px 2% 0 2%;
-  position: fixed;
+  position: absolute;
 }
 
 td,th {
@@ -1461,4 +1461,17 @@ td,th {
 
 .MI_HL {
   background-color: rgba(96,125,139,0.4)!important;
+}
+
+.MI_BCE {
+  margin: 16px 15% 0!important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.MI_BG {
+  background-color: rgb(96,125,139);
+  padding-top: 1px;
+  margin-top: 100px;
 }
