@@ -116,8 +116,6 @@ function wallets(){
         var a = document.createElement("a");
         a.href = element.link;
         var atext = document.createTextNode(element.type);
-        a.appendChild(atext);
-        hey.appendChild(a);
         var i;
         if (element.type == "Download"){
           i = document.createElement("i");
@@ -127,7 +125,9 @@ function wallets(){
           i = document.createElement("i");
           i.classList.add("fa", "fa-share");
         }
-        hey.appendChild(i);
+        a.appendChild(atext);
+        a.appendChild(i);
+        hey.appendChild(a);
         wallet.appendChild(hey);
       var div = document.getElementById(x);
       div.appendChild(wallet);
