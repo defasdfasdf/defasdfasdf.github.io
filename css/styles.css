@@ -558,11 +558,11 @@ Intro
   width: 40px;
   transition: 1s;
 }
-.intro-feature:hover .icon{
+.intro-feature:hover .intro-icon:not(.animated) .icon{
   color:#455A64 !important;
   font-size: 50px;
 }
-.intro-feature:hover .intro-icon{
+.intro-feature:hover .intro-icon:not(.animated){
      transform: rotate(360deg)!important;
 }
 .intro-content {
