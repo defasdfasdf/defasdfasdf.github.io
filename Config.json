@@ -79,34 +79,46 @@
     ],
     "wallets": [
       {
-        "Name": "SHIELD Electrum Windows Wallet",
+        "Name": "Electrum Windows Wallet",
         "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.1/Electrum-Windows-2.4.2.zip",
         "type": "Download",
-        "platform": "windows"
+        "platform": "windows",
+        "info": "Electrum wallet to store your SHIELD in for Windows. Electrum makes it so you don't have to download the entire blockchain so is great for people with limited storage"
       },
       {
-        "Name": "SHIELD Windows commandline Wallet",
+        "Name": "Windows commandline Wallet",
         "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.2-WINd/SHIELDd.exe",
         "type": "Download",
-        "platform": "windows"
+        "platform": "windows",
+        "info": "The Windows commandline wallet for SHIELD, great for..."
       },
       {
-        "Name": "SHIELD QT Windows Wallet",
+        "Name": "QT Windows Wallet",
         "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.0wqt/SHIELD-qt.exe",
         "type": "Download",
-        "platform": "windows"
+        "platform": "windows",
+        "info": "The QT wallet for SHIELD. For the most part more reliable than Electrum but comes with the negative of having to download the entire SHIELD blockchain for every transaction."
       },
       {
-        "Name": "SHIELD Electrum Linux Wallet",
+        "Name": "Electrum Linux Wallet",
         "link":"https://github.com/ShieldCoin/electrum-XSH",
         "type": "Go to",
-        "platform": "linux"
+        "platform": "linux",
+        "info": "Electrum wallet to store your SHIELD in for Linux. Electrum makes it so you don't have to download the entire blockchain so is great for people with limited storage"
       },
       {
-        "Name": "SHIELD Android Wallet",
+        "Name": "Android Wallet",
         "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.0-Android/SHIELD-android.apk",
         "type": "Download",
-        "platform": "android"
+        "platform": "android",
+        "info": "'Electrum' wallet for Android. Really easy to store your SHIELD in and makes XSH easily transportable"
+      },
+      {
+        "Name": "Paper wallet",
+        "link":"https://paper.shieldcurrency.com/",
+        "type": "Go to",
+        "platform": "other",
+        "info": "Paper wallet for SHIELD, so you don't have to rely on tech to store your SHIELD."
       }
     ],
     "miningpools": [

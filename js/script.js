@@ -32,19 +32,13 @@ loadJSON(function(responseText){
       information = JSON.parse(responseText).exchanges;
     exchanges();
   }
-  else if (where == "/Wallets/"){
-    information = JSON.parse(responseText).wallets;
-  //  wallets();
-
-  }
   else if (where == "/Roadmap/"){
     information = JSON.parse(responseText).roadmap;
     roadmap();
 
   }
-  else if (where == "/Competitions/"){
-    information = JSON.parse(responseText).Competition;
-    competitions();
+  else if (where == "/About"){
+  smoothscrolling();
   }
 
 });
@@ -295,7 +289,6 @@ function coinlists() {
   function smoothscrolling(){
     $(function() {$("a[href*='#']")
     // Remove links that don't actually link to anything
-    .not('[href="#"]')
     .not('[href="#0"]')
     .not('[href*="#other"]')
     .not('[href*="#android"]')
