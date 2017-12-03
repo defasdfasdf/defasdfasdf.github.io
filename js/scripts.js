@@ -235,7 +235,7 @@ var x = 0;
 		$('.bpsigi1').addClass('animated fadeInUp');
 		$('.bpsigi2').addClass('animated fadeInUp');
 		$('.bpsigi3').addClass('animated fadeInUp');
-		$('.intro-feature .intro-content h6').addClass("active");
+		$('.intro-feature .intro-content p').addClass("active");
 	}
 		setTimeout(removeanimated, 1000);
 		function removeanimated(){

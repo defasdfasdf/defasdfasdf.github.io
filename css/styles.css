@@ -43,7 +43,7 @@ transform: rotate(180deg);
    -moz-animation-delay: .6s;
  }
  .icon4 {
-   -moz-animation-delay: .4s;
+   -moz-animation-delay: .8s;
  }
  .mi1, .bpsigi1{
    -moz-animation-delay: .1s;
@@ -486,18 +486,21 @@ header {
 
          }
          .intro-feature .intro-content h6{
-           position: relative;
+
            font-size:18px;
          }
-         .intro-feature .intro-content h6.active::after{
-           width: 80%;
+         .intro-feature .intro-content p{
+            position: relative;
          }
-         .intro-feature .intro-content h6::after{
+         .intro-feature .intro-content p.active::after{
+           width: 100%;
+         }
+         .intro-feature .intro-content p::after{
            content: "";
            width: 0px;
            position: absolute;
            left: 2%;
-           bottom: -5px;
+           bottom: -10px;
            -webkit-transform: translateX(-6px);
            transform: translateX(-6px);
            -ms-transform: translateX(-6px);
@@ -1390,9 +1393,11 @@ div.exchange-card-image.mdl-cell.eximg{
   color: #455A64 !important;
   z-index: 1000;
 }
-
+h3.section{
+  margin:0px;
+}
 .tabs .tab a:hover {
-  color: #e2a43f !important;
+  color: #e2a43f;
 }
 .tab .fa{
   padding-right:8px;
