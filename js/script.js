@@ -18,7 +18,7 @@ function loadJSON(callback) {
 
 function loadRaw(url, callback){
   var xobj = new XMLHttpRequest();
-  xobj.overrideMimeType("text/plain");
+  //xobj.overrideMimeType("text/plain");
   xobj.open('GET', url, true);
   xobj.onreadystatechange = function () {
     if (xobj.readyState == 4 && xobj.status == "200") {
