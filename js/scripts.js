@@ -225,21 +225,29 @@ $('#HL_scrypt').click(function() {
 	}, {
 		offset: '75%'
 	});
+var x = 0;
 	$('.bpsig1').waypoint(function() {
+		if (x==0){
+			x++;
 		$('.bpsig1').addClass('animated fadeIn');
+		$('.bpsig2').addClass('animated fadeIn');
+		$('.bpsig3').addClass('animated fadeIn');
+		$('.bpsigi1').addClass('animated fadeInUp');
+		$('.bpsigi2').addClass('animated fadeInUp');
+		$('.bpsigi3').addClass('animated fadeInUp');
+		$('.intro-feature .intro-content p').addClass("active");
+	}
+		setTimeout(removeanimated, 1000);
+		function removeanimated(){
+			console.log("hello");
+			$('.bpsigi1').removeClass('animated');
+			$('.bpsigi2').removeClass('animated');
+			$('.bpsigi3').removeClass('animated');
+		}
 	}, {
 		offset: '85%'
 	});
-	$('.bpsig2').waypoint(function() {
-		$('.bpsig2').addClass('animated fadeIn');
-	}, {
-		offset: '75%'
-	});
-	$('.bpsig3').waypoint(function() {
-		$('.bpsig3').addClass('animated fadeIn');
-	}, {
-		offset: '65%'
-	});
+
 	$('.fc1').waypoint(function() {
 		$('.fc1').addClass('animated fadeInUp');
 	}, {
