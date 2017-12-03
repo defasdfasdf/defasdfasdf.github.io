@@ -110,7 +110,7 @@ function wallets(){
       var type = document.createTextNode(element.Name);
       span.appendChild(type);
       var typeh4 = document.createElement("p");
-      var type = document.createTextNode("text");
+      var type = document.createTextNode(element.info);
       typeh4.appendChild(type);
       typeh3.appendChild(span);
       typeh3.appendChild(typeh4);
