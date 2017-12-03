@@ -63,6 +63,18 @@
               "Link": "https://www.coingather.com/vote/"
         }
         ]
+      },
+      {
+        "Name": "Mercatox",
+        "logo_path": "../img/mercatoxlogo.png",
+        "info": "it is a unique creation in the world of digital money, based on multi-language platform. It combines automated trading, payment service, Peer-to-Peer sharing based on 'smart contracts' and many other features. We are planning to provide not just a service with different abilities, but create a new financial market in the digital world...",
+        "Markets":
+        [
+          {
+            "Name": "Voting",
+            "Link": "https://mercatox.com/coins/list?name=shield&_url=%2Fcoins%2Flist&page=3&per-page=30"
+          }
+        ]
       }
     ],
     "wallets": [

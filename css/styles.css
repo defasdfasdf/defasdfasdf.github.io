@@ -19,7 +19,7 @@ Typography
 .collapsible-header i{
 font-size: 3em!important;
 position: absolute;
-left: 85%;
+right: 16%;
 }
 .collapsible-header.active i{
 -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
@@ -834,12 +834,10 @@ background-color:rgba(255,255,255, 0.95);
 .smallnav{display:block;}.abtext{padding-top:0px!important;}.abtop{visibility:visible !important;}.aboutnavpo{visibility:hidden;}.ffkvjhsdgzxfkvjhg div div div h1{margin-top:0px;} header ul.primary-nav{display: block;}}
 
 .abtext{
-background-color:rgba(255,255,255, 0.92);
-padding-top:120px;
+padding:120px 0px;
 }
 .abtop{
-visibility:hidden;
-font-size:35px;
+font-size:50px;
 left:90%;
 position:fixed;
 bottom:0;float:right;
