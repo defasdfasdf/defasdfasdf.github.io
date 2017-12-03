@@ -82,43 +82,37 @@
         "Name": "Electrum Windows Wallet",
         "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.1/Electrum-Windows-2.4.2.zip",
         "type": "Download",
-        "platform": "windows",
-        "info": "Electrum wallet to store your SHIELD in for Windows. Electrum makes it so you don't have to download the entire blockchain so is great for people with limited storage"
+        "platform": "windows"
       },
       {
         "Name": "Windows commandline Wallet",
         "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.2-WINd/SHIELDd.exe",
         "type": "Download",
-        "platform": "windows",
-        "info": "The Windows commandline wallet for SHIELD, great for..."
+        "platform": "windows"
       },
       {
         "Name": "QT Windows Wallet",
         "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.0wqt/SHIELD-qt.exe",
         "type": "Download",
-        "platform": "windows",
-        "info": "The QT wallet for SHIELD. For the most part more reliable than Electrum but comes with the negative of having to download the entire SHIELD blockchain for every transaction."
+        "platform": "windows"
       },
       {
         "Name": "Electrum Linux Wallet",
         "link":"https://github.com/ShieldCoin/electrum-XSH",
         "type": "Go to",
-        "platform": "linux",
-        "info": "Electrum wallet to store your SHIELD in for Linux. Electrum makes it so you don't have to download the entire blockchain so is great for people with limited storage"
+        "platform": "linux"
       },
       {
         "Name": "Android Wallet",
         "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.0-Android/SHIELD-android.apk",
         "type": "Download",
-        "platform": "android",
-        "info": "'Electrum' wallet for Android. Really easy to store your SHIELD in and makes XSH easily transportable"
+        "platform": "android"
       },
       {
         "Name": "Paper wallet",
         "link":"https://paper.shieldcurrency.com/",
         "type": "Go to",
-        "platform": "other",
-        "info": "Paper wallet for SHIELD, so you don't have to rely on tech to store your SHIELD."
+        "platform": "other"
       }
     ],
     "miningpools": [
