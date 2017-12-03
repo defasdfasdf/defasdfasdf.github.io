@@ -16,6 +16,18 @@ function loadJSON(callback) {
   xobj.send(null);
 }
 
+function loadRaw(url, callback){
+  var xobj = new XMLHttpRequest();
+  xobj.overrideMimeType("text/plain");
+  xobj.open('GET', url, true);
+  xobj.onreadystatechange = function () {
+    if (xobj.readyState == 4 && xobj.status == "200") {
+      callback(xobj.responseText);
+    }
+  }
+  xobj.send(null);
+}
+
 loadJSON(function(responseText){
   hinformation = information = JSON.parse(responseText).pages;
   header();
@@ -25,6 +37,7 @@ loadJSON(function(responseText){
    miningpools();
    information = JSON.parse(responseText).coinlists;
    coinlists();
+   blockexplorerwidget();
   }
   else if (where == "/"){
     information = JSON.parse(responseText).wallets;
@@ -42,6 +55,19 @@ loadJSON(function(responseText){
   }
 
 });
+
+function blockexplorerwidget(){
+  loadRaw("http://188.226.178.216:3001/api/getblockcount", function(raw){
+    $(".blockc_text").text(String(raw));
+  });
+  loadRaw("http://188.226.178.216:3001/api/getinfo", function(raw){
+    var x = JSON.parse(raw);
+    $(".diff_text).text("x17: " + x["difficulty_x17"].toFixed(2) + " scrypt:" + x["difficulty_scrypt"].toFixed(2));
+    $(".csup_text").text(String(x["moneysupply"]));
+  });
+  
+}
+
 function roadmap(){
   information.forEach(function(element){
     document.querySelector("#" + element.for).addEventListener('mdl-componentupgraded', function() {
