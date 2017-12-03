@@ -1511,6 +1511,17 @@ td,th {
   height: 50px;
 }
 
-.MI_content {
+.MI_span {
   text-align: center;
+  width: 100%;
+}
+
+.MI_content_head {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.MI_content_head:hover {
+  color: black;
 }
