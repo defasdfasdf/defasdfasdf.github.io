@@ -33,36 +33,40 @@ transform: rotate(180deg);
 .btn:hover, .btn:focus {
   padding: 20px 45px;
  }
- .icon1 {
-   -moz-animation-delay: .1s;
- }
- .icon2 {
+ .icon1{
    -moz-animation-delay: .2s;
  }
- .icon3 {
-   -moz-animation-delay: .3s;
+ .icon2{
+   -moz-animation-delay: .4s;
+ }
+ .icon3{
+   -moz-animation-delay: .6s;
  }
  .icon4 {
    -moz-animation-delay: .4s;
  }
- .mi1{
+ .mi1, .bpsigi1{
    -moz-animation-delay: .1s;
  }
  .mi2{
    -moz-animation-delay: .2s;
  }
- .mi3{
+ .mi3, .bpsigi2, .bpsig1{
    -moz-animation-delay: .3s;
  }
  .mi4{
    -moz-animation-delay: .4s;
  }
- .mi5{
+ .mi5, .bpsigi3,.bpsig2{
    -moz-animation-delay: .5s;
  }
  .mi6{
    -moz-animation-delay: .6s;
  }
+ .bpsig3{
+   -moz-animation-delay: .7s;
+ }
+
 @media screen and (max-width: 722px){
   .snr{
       padding-left:16px!important;
@@ -479,6 +483,28 @@ header {
            border-bottom: 2px solid blue;
            transition:.8s;
            margin-top:21px;
+
+         }
+         .intro-feature .intro-content h6{
+           position: relative;
+           font-size:18px;
+         }
+         .intro-feature .intro-content h6.active::after{
+           width: 80%;
+         }
+         .intro-feature .intro-content h6::after{
+           content: "";
+           width: 0px;
+           position: absolute;
+           left: 2%;
+           bottom: -5px;
+           -webkit-transform: translateX(-6px);
+           transform: translateX(-6px);
+           -ms-transform: translateX(-6px);
+           -o-transform: translateX(-6px);
+           border-bottom: 2px solid #FFC107;
+           transition:1s ease-out;
+             transition-delay: 1s;
          }
          .abnav li a.active::after{
 
@@ -534,7 +560,7 @@ Intro
   font-size: 50px;
 }
 .intro-feature:hover .intro-icon{
-     transform: rotate(360deg);
+     transform: rotate(360deg)!important;
 }
 .intro-content {
   display: inline-block;
