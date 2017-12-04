@@ -72,7 +72,8 @@ function competitions(){
     span.classList.add("card-title");
     var spant = document.createTextNode(element.Name);
     span.appendChild(spant);
-    div3.appendChild(img,span);
+    div3.appendChild(img);
+    div3.appendChild(span);
     div2.appendChild(div3);
     var div3 = document.createElement("div");
     div3.classList.add("card-content");
