@@ -44,6 +44,8 @@ loadJSON(function(responseText){
     wallets();
       information = JSON.parse(responseText).exchanges;
     exchanges();
+    information = JSON.parse(responseText).Competition;
+    competitions();
   }
   else if (where == "/Roadmap/"){
     information = JSON.parse(responseText).roadmap;
@@ -55,6 +57,44 @@ loadJSON(function(responseText){
   }
 
 });
+function competitions(){
+  information.forEach(function(element){
+    var div1 = document.createElement("div");
+        div1.classList.add("col","m8","offset-m2","s12")
+    var div2 = document.createElement("div");
+    div2.classList.add("card","medium","hoverable")
+    var div3 = document.createElement("div");
+    div3.classList.add("card-image")
+    var img = document.createElement("img");
+    img.src="img/background_shield.png";
+    img.classList.add("compimg");
+    var span = document.createElement("span");
+    span.classList.add("card-title");
+    var spant = document.createTextNode(element.Name);
+    span.appendChild(spant);
+    div3.appendChild(img,span);
+    div2.appendChild(div3);
+    var div3 = document.createElement("div");
+    div3.classList.add("card-content");
+    var p = document.createElement("p");
+    var pt = document.createTextNode(element.Description);
+    p.appendChild(pt);
+    div3.appendChild(p);
+    div2.appendChild(div3);
+    var div3 = document.createElement("div");
+    div3.classList.add("card-action");
+    var a = document.createElement("a");
+    a.href=element.Link;
+    var pt = document.createTextNode("Click here to read more");
+    a.appendChild(pt);
+    div3.appendChild(a);
+    div2.appendChild(div3);
+    div1.appendChild(div2);
+    var wheree = document.getElementById("compr");
+    wheree.appendChild(div1);
+
+});
+}
 
 function blockexplorerwidget(){
   loadRaw("http://188.226.178.216:3001/api/getblockcount", function(raw){

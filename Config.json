@@ -25,6 +25,14 @@
               {
                 "Name": "XSH/DOGE",
                 "Link": "https://tradesatoshi.com/Exchange?market=XSH_DOGE"
+              },
+              {
+                "Name": "XSH/LTC",
+                "Link": "https://tradesatoshi.com/Exchange?market=XSH_LTC"
+              },
+              {
+                "Name": "XSH/BCH",
+                "Link": "https://tradesatoshi.com/Exchange?market=XSH_BCH"
               }
           ]
         },
@@ -222,20 +230,9 @@
         ],
         "Competition": [
           {
-            "Name": "Reddit style competition",
-            "Description": "We recently got a Reddit page. But at this moment it looks really bad and making a Reddit page look good takes an huge amount of time. That's why we ask the SHIELD community to help us make our reddit look good of course you can win SHIELD if your design gets used.",
-            "Startdate": "2017-11-18",
-            "Enddate": "2017-11-25",
-            "Prizes": ["50000", "15000", "7500"],
+            "Name": "Promotional video",
+            "Description": "Create a promotional video for SHIELD in which you tell why you like SHIELD and what makes you think it's a good investment. Maximum length of the video is 30 seconds.",
             "Link": "https://www.reddit.com/r/SHIELDCOIN/comments/7duthu/reddit_competition/"
-          },
-          {
-            "Name": "<Secret>",
-            "Description": "<Coming soon>",
-            "Startdate": "2017-11-25",
-            "Enddate": "2017-12-2",
-            "Prizes": ["30000", "10000", "5000"],
-            "Link": "https://duckduckgo.com/?q=Image&t=ffab&ia=web"
           }
         ],
         "roadmap": [
