@@ -549,7 +549,9 @@ Intro
   font-weight: bold;
   transition: .9s;
   }
-
+.collapsible{
+  display:block!important;
+}
 .intro-icon {
   display: inline-block;
   vertical-align: top;
