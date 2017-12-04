@@ -25,7 +25,7 @@ function loadRaw(url, callback){
       callback(xobj.responseText);
     }
   }
-  
+  xobj.send(null);
 }
 
 loadJSON(function(responseText){
