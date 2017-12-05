@@ -35,36 +35,69 @@ transform: rotate(180deg);
  }
  .icon1{
    -moz-animation-delay: .2s;
+   -webkit-animation-delay: .2s;
+       -ms-animation-delay: .2s;
+       animation-delay: .2s;
  }
  .icon2{
-   -moz-animation-delay: .4s;
+   -moz-animation-delay: .4;
+   -webkit-animation-delay: .4s;
+       -ms-animation-delay: .4s;
+       animation-delay: .4s;
  }
  .icon3{
    -moz-animation-delay: .6s;
+   -webkit-animation-delay: .6s;
+       -ms-animation-delay: .6s;
+       animation-delay: .6s;
  }
  .icon4 {
    -moz-animation-delay: .8s;
+   -webkit-animation-delay: .8s;
+       -ms-animation-delay: .8s;
+       animation-delay: .8s;
  }
  .mi1, .bpsigi1{
    -moz-animation-delay: .1s;
+   -webkit-animation-delay: .1s;
+       -ms-animation-delay: .1s;
+       animation-delay: .1s;
  }
  .mi2{
    -moz-animation-delay: .2s;
+   -webkit-animation-delay: .2s;
+       -ms-animation-delay: .2s;
+       animation-delay: .2s;
  }
  .mi3, .bpsigi2, .bpsig1{
    -moz-animation-delay: .3s;
+   -webkit-animation-delay: .3s;
+       -ms-animation-delay: .3s;
+       animation-delay: .3s;
  }
  .mi4{
    -moz-animation-delay: .4s;
+   -webkit-animation-delay: .4s;
+       -ms-animation-delay: .4s;
+       animation-delay: .4s;
  }
  .mi5, .bpsigi3,.bpsig2{
    -moz-animation-delay: .5s;
+   -webkit-animation-delay: .5s;
+       -ms-animation-delay: .5s;
+       animation-delay: .5s;
  }
  .mi6{
    -moz-animation-delay: .6s;
+   -webkit-animation-delay: .6s;
+       -ms-animation-delay: .6s;
+       animation-delay: .6s;
  }
  .bpsig3{
    -moz-animation-delay: .7s;
+   -webkit-animation-delay: .7s;
+       -ms-animation-delay: .7s;
+       animation-delay: .7s;
  }
 
 @media screen and (max-width: 722px){
@@ -1395,8 +1428,10 @@ div.exchange-card-image.mdl-cell.eximg{
   color: #455A64 !important;
   z-index: 1000;
 }
-h3.section{
+h3.section, h5.section{
   margin:0px;
+  padding-top: .5rem;
+padding-bottom: .5rem;
 }
 .tabs .tab a:hover {
   color: #e2a43f;
