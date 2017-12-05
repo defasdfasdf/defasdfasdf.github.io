@@ -52,7 +52,7 @@ loadJSON(function(responseText){
     roadmap();
 
   }
-  else if (where == "/About"){
+  else if (where == "/About/"){
   smoothscrolling();
   }
 
