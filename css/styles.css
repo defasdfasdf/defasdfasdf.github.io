@@ -6,16 +6,7 @@
 /* ==========================================================================
 Typography
 ========================================================================== */
-.btn {
-  font-size: 13px;
-  font-weight:600;
-  border-radius: 40px;
-  display: inline-block;
-  text-transform: uppercase;
-  transition:.6s;
-  background-color: #FFC107;
-  color: white;
-  }
+
 .collapsible-header i{
 font-size: 3em!important;
 position: absolute;
@@ -30,9 +21,7 @@ right: 16%;
 -ms-transform: rotate(180deg);
 transform: rotate(180deg);
 }
-.btn:hover, .btn:focus {
-  padding: 20px 45px;
- }
+
  .icon1{
    -moz-animation-delay: .2s;
    -webkit-animation-delay: .2s;
@@ -98,6 +87,30 @@ transform: rotate(180deg);
    -webkit-animation-delay: .7s;
        -ms-animation-delay: .7s;
        animation-delay: .7s;
+ }
+ .btn{
+   font-weight: 600;
+ }
+ .btn:hover, .btn:active, .btn:visited{
+   color:white;
+ }
+ .fc1{
+   -moz-animation-delay: .2s;
+   -webkit-animation-delay: .2s;
+       -ms-animation-delay: .2s;
+       animation-delay: .2s;
+ }
+ .fc2 {
+   -moz-animation-delay: .5s;
+   -webkit-animation-delay: .5s;
+       -ms-animation-delay: .5s;
+       animation-delay: .5s;
+ }
+ .fc3{
+   -moz-animation-delay: .8s;
+   -webkit-animation-delay: .8s;
+       -ms-animation-delay: .8s;
+       animation-delay: .8s;
  }
 
 @media screen and (max-width: 722px){
@@ -532,7 +545,7 @@ header {
            content: "";
            width: 0px;
            position: absolute;
-           left: 2%;
+           left: 0%;
            bottom: -10px;
            -webkit-transform: translateX(-6px);
            transform: translateX(-6px);
@@ -541,6 +554,7 @@ header {
            border-bottom: 2px solid #FFC107;
            transition:1s ease-out;
              transition-delay: 1s;
+             transform: rotate(-1deg);
          }
          .abnav li a.active::after{
 

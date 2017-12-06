@@ -250,15 +250,7 @@ var x = 0;
 
 	$('.fc1').waypoint(function() {
 		$('.fc1').addClass('animated fadeInUp');
-	}, {
-		offset: '75%'
-	});
-	$('.fc2').waypoint(function() {
 		$('.fc2').addClass('animated fadeInUp');
-	}, {
-		offset: '75%'
-	});
-	$('.fc3').waypoint(function() {
 		$('.fc3').addClass('animated fadeInUp');
 	}, {
 		offset: '75%'
