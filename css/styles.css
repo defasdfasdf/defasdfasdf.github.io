@@ -1576,3 +1576,8 @@ td,th {
 .MI_content_head:hover {
   color: black;
 }
+@media screen and (max-width:800px){
+  div.col.s12.m5 h6 a{
+    font-size:10px;
+  }
+}
