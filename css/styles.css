@@ -1564,12 +1564,12 @@ td,th {
   font-size: 24px;
 }
 
-.MI_BCE a , .MI_pools a {
-  color: white!important;
+.MI_BCE a{
+  color: white;
   font-weight: bold;
 }
 
-.MI_BCE a , .MI_pools a {
+.MI_BCE a:hover!important{
   color: #9fb1b9;
 }
 
