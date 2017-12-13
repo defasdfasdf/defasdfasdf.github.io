@@ -1520,12 +1520,15 @@ td,th {
 }
 
 @media screen and (max-width:736px){
-  .collapsible {
-    display: none;
+  .HL_algo {
+    display: none!important;
   }
   .MI_table{
     width: 100%;
     margin: 0;
+  }
+  .card-panel.MI_BCE , .card-panel.MI_pools {
+    margin: 16px 0 !important;
   }
 }
 
@@ -1545,37 +1548,31 @@ td,th {
   background-color: rgba(96,125,139,0.4)!important;
 }
 
-.MI_BCE {
-  margin: 16px 15% 0!important;
+.MI_BCE , .MI_pools {
+  margin: 16px 15% !important;
   text-align: center;
   font-weight: bold;
-  font-size: 18px;
+  background-color: rgb(96,125,139)!important;
+  border-style: ridge!important;
+  border-color: #8fa4ad!important;
+  border-width: 14px!important;
+  border-radius: 32px!important;
 }
 
-.MI_BG {
-  background-color: rgb(96,125,139);
-  padding-top: 1px;
-  margin-top: 100px;
+.MI_BCE span , .MI_pools span {
+  color: white;
+  font-size: 24px;
+}
+
+.MI_BCE span:hover, .MI_pools span:hover {
+  cursor: pointer;
+  color: #9fb1b9;
 }
 
 .m4 {
   height: 50px;
 }
 
-.MI_span {
-  text-align: center;
-  width: 100%;
-}
-
-.MI_content_head {
-  color: black;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.MI_content_head:hover {
-  color: black;
-}
 @media screen and (max-width:800px){
   div.col.s12.m5 h6 a{
     font-size:10px;

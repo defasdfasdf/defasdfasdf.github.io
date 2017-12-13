@@ -52,6 +52,10 @@
         </header>
     </section>
     <section class="section-padding">
+      <div class="card-panel MI_pools">
+        <span onclick="togglePoolVis">Pools</span>
+      </div>
+      <div id="MI_pools_vis">
       <div class="HL_algo MI_highlights mdl-shadow--6dp">
         <ul class="collapsible" data-collapsible="accordion">
           <h4 style="text-align: center;">Highlight algorithm</h4>
@@ -163,30 +167,9 @@
           </tr>
         </tbody>
       </table>
-      <div class="MI_BG" style="display: none;">
-        <div class="card-panel MI_BCE">
-          <span>Blockchain Explorer</span>
-        </div>
-        <div class="row" style="margin: 0 15%; text-align: center;">
-          <div class="card-panel col m4 valign-wrapper MI_content">
-            <span class="MI_span">
-              <a class="MI_content_head">Difficulty</a>
-              <br class="diff_text">"DifficultyAPI"
-            </span>
-          </div>
-          <div class="card-panel col m4 valign-wrapper MI_content">
-            <span class="MI_span">
-              <a class="MI_content_head">Blockcount</a>
-              <br class="blockc_text">"BlockcountAPI"
-            </span>
-          </div>
-          <div class="card-panel col m4 valign-wrapper MI_content">
-            <span class="MI_span">
-              <a class="MI_content_head">Current supply</a>
-              <br class="csup_text">"CurrentSupplyAPI"
-            </span>
-          </div>
-        </div>
+      </div>
+      <div class="card-panel MI_BCE">
+        <span>Blockchain Explorer</span>
       </div>
     </section>
     <footer>
