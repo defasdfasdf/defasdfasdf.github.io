@@ -402,11 +402,11 @@ function coinlists() {
   var poolVisStatus = true;
   function togglePoolVis() {
   	if (poolVisStatus == true) {
-  	document.getElementByID("MI_pools_vis").style.display = "none";
+  	document.getElementById("MI_pools_vis").style.display = "block";
   	poolVisStatus = false;
   }
   else if (poolVisStatus == false) {
-  	document.getElementByID("MI_pools_vis").style.display = "none";
+  	document.getElementById("MI_pools_vis").style.display = "none";
   	poolVisStatus = true;
   	}
   }

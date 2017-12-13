@@ -1569,6 +1569,10 @@ td,th {
   color: #9fb1b9;
 }
 
+#MI_pools_vis {
+  display: none;
+}
+
 .m4 {
   height: 50px;
 }
