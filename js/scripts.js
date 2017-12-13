@@ -350,18 +350,8 @@ if(where == "/"){
 	$('.collapsible').collapsible();
 	$('.scrollspy').scrollSpy();
 		 $('.carousel').carousel();
-/* More Information visability */
-var poolVisStatus = true;
-function togglePoolVis() {
-	if (poolVisStatus == true) {
-	document.getElementByID("MI_pools_vis").style.display = "none";
-	poolVisStatus = false;
-}
-else if (poolVisStatus == false) {
-	document.getElementByID("MI_pools_vis").style.display = "none";
-	poolVisStatus = true;
-	}
-}
+
+
 
 	/***************** Header BG Scroll ******************/
 	$(function() {

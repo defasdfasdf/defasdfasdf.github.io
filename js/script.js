@@ -398,3 +398,15 @@ function coinlists() {
     });
   });
   }
+
+  var poolVisStatus = true;
+  function togglePoolVis() {
+  	if (poolVisStatus == true) {
+  	document.getElementByID("MI_pools_vis").style.display = "none";
+  	poolVisStatus = false;
+  }
+  else if (poolVisStatus == false) {
+  	document.getElementByID("MI_pools_vis").style.display = "none";
+  	poolVisStatus = true;
+  	}
+  }
