@@ -1552,11 +1552,12 @@ td,th {
   margin: 16px 15% !important;
   text-align: center;
   font-weight: bold;
-  background-color: rgb(96,125,139)!important;
-  border-style: ridge!important;
-  border-color: #8fa4ad!important;
-  border-width: 14px!important;
+  /*background-color: rgb(96,125,139)!important;
   border-radius: 32px!important;
+  -webkit-box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75)!important;
+  -moz-box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75)!important;
+  box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75)!important;*/
+  width: 70%!important;
 }
 
 .MI_BCE span , .MI_pools span {
@@ -1573,13 +1574,21 @@ td,th {
   color: #9fb1b9;
 }
 
-.MI_BCE span:hover, .MI_pools span:hover {
+.MI_BCE span:hover {
   cursor: pointer;
   color: #9fb1b9;
 }
 
-#MI_pools_vis {
-  display: none;
+.MI_pools span:hover {
+  cursor: default;
+}
+
+.MI_pools_card, .MI_BCE_card {
+  background-color: #607D8B!important;
+}
+
+.MI_BCE_card span {
+  font-weight: 700!important;
 }
 
 .m4 {
