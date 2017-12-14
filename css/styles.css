@@ -1549,11 +1549,6 @@ td,th {
   margin: 16px 15% !important;
   text-align: center;
   font-weight: bold;
-  /*background-color: rgb(96,125,139)!important;
-  border-radius: 32px!important;
-  -webkit-box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75)!important;
-  -moz-box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75)!important;
-  box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75)!important;*/
   width: 70%!important;
 }
 
@@ -1586,6 +1581,11 @@ td,th {
 
 .MI_BCE_card span {
   font-weight: 700!important;
+}
+
+.MI_HL_algo {
+  text-align: center;
+  font-weight: bold;
 }
 
 .m4 {
