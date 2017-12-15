@@ -1534,6 +1534,9 @@ td,th {
     width: 100%!important;
     margin: 0!important;
   }
+  .collection.MI_L_div {
+    margin: 2%!important;
+  }
 }
 
 .pool_name {
@@ -1595,4 +1598,31 @@ td,th {
   div.col.s12.m5 h6 a{
     font-size:10px;
   }
+}
+
+.MI_L_lists p {
+  color: black;
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid lightgrey!important;
+}
+
+.MI_L_lists p:hover {
+  color: #23527c;
+  font-size: 21px;
+  background-color: #f2f2f2;
+}
+
+.row {
+  margin-bottom: 0px!important;
+}
+
+.MI_L_div {
+  margin: 0 16%!important;
+  border: 0!important;
+
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.25);
 }
