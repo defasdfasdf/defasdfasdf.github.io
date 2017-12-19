@@ -329,12 +329,6 @@ var x = 0;
     $('[data-toggle="tooltip"]').tooltip();
 
 	/***************** Nav Transformicon ******************/
-$(function(){
-	var where = location.pathname;
-if(where == "/"){
-		$('.card-tabs .tabs').tabs({ 'swipeable': true });
-	}
-});
 	/* When user clicks the Icon */
 	$('.nav-toggle').click(function() {
 		$(this).toggleClass('active');
