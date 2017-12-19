@@ -554,7 +554,7 @@ header {
            border-bottom: 2px solid #FFC107;
            transition:1s ease-out;
              transition-delay: 1s;
-             transform: rotate(-1deg);
+
          }
          .abnav li a.active::after{
 
@@ -919,7 +919,7 @@ padding:120px 0px;
 }
 .abtop{
 font-size:50px;
-left:90%;
+right:2%;
 position:fixed;
 bottom:0;float:right;
 padding-right:15px;
@@ -1558,7 +1558,10 @@ td,th {
   color: white;
   font-size: 24px;
 }
-
+.collapsible-header.hoverable{
+  color:white!important;
+  background-color: #607D8B!important;
+}
 .MI_BCE a{
   color: white;
   font-weight: bold;

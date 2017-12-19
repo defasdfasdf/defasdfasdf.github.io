@@ -49,18 +49,6 @@
           ]
         },
       {
-          "Name": "CoinGather",
-          "logo_path": "../img/coingather-logo.png",
-          "info": "",
-          "Markets":
-          [
-              {
-                "Name": "Voting",
-                "Link": "https://www.coingather.com/vote/"
-              }
-          ]
-      },
-      {
         "Name": "C-cex",
         "logo_path": "../img/ccexchange.png",
         "info": "C-CEX exchange is designed for security and protected by state of the art security services while giving you the option to secure your account through the use of two-factor authentication ",
@@ -68,7 +56,7 @@
         [
         {
               "Name": "Voting",
-              "Link": "https://www.coingather.com/vote/"
+              "Link": "https://c-cex.com/?id=vote"
         }
         ]
       },
