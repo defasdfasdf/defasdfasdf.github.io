@@ -327,6 +327,9 @@ var x = 0;
 
 	/***************** Tooltips ******************/
     $('[data-toggle="tooltip"]').tooltip();
+		$(function(){
+	     $('ul.tabs').tabs();
+	   });
 
 	/***************** Nav Transformicon ******************/
 	/* When user clicks the Icon */
