@@ -96,7 +96,7 @@
         "Name": "Electrum Linux Wallet",
         "link":"https://github.com/ShieldCoin/electrum-XSH",
         "type": "Go to",
-        "platform": "android"
+        "platform": "linux"
       },
       {
         "Name": "Android Wallet",
