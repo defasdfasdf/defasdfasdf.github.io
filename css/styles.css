@@ -1661,5 +1661,6 @@ td,th {
 }
 
 .card-title.z-depth-1 span {
-  font-size: 32px;
+  font-size: 32px!important;
+  color: #FFC107;
 }
