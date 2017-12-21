@@ -1651,11 +1651,11 @@ td,th {
   }
 }
 
-#exchangesMob h4, #exchangerMob h4:hover, #exchangesMob a {
+#exchangesMob h4, #exchangerMob h4:hover, #exchangesMob a, #exchangesMob h5 {
   text-align: center;
   color: black;
 }
 
 #exchangesMob p {
-  padding: 2px;
+  padding: 4px;
 }
