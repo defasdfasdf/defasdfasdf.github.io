@@ -235,7 +235,7 @@ ul, ol {
 ul li {
   list-style: none; }
 .compimg{
-  max-height:240px!important;
+  max-height:auto!important;
   width: auto!important;
   margin: 0 auto!important;
 }
