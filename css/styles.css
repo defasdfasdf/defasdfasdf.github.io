@@ -237,6 +237,7 @@ ul li {
 .compimg{
   max-height:240px!important;
   width: auto!important;
+  margin: 0 auto!important;
 }
 .section-padding {
   padding: 120px 0 !important; }
