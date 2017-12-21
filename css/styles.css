@@ -1644,3 +1644,9 @@ td,th {
   display: none!important;
   }
 }
+
+@media screen and (min-width: 480px) {
+  #exchangesMob {
+    display: none!important;
+  }
+}
