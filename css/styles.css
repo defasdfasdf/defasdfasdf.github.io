@@ -1661,6 +1661,7 @@ td,th {
 }
 
 #exchangesMob span {
-  font-size: 32px!important;
-  color: #FFC107!important;
+  font-size: 24px!important;
+  color: #fff!important;
+  font-weight: bold!important;
 }
