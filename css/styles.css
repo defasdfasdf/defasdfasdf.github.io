@@ -1397,8 +1397,6 @@ div.mdl-card__supporting-text{
   padding: 16px;
   background: rgba(0, 0, 0, 0.5);
 }
-/* New ------------------------------------ */
-
 
 .wallets_wrapper{
   padding: 16px;
@@ -1639,4 +1637,10 @@ td,th {
 
 .col-md-10.col-sm-12.col-xs-12.col-md-offset-1 {
   padding: 0;
+}
+
+@media screen and (max-width: 479px) {
+.section.scrollspy section {
+  display: none;
+  }
 }
