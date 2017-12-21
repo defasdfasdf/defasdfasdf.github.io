@@ -1641,6 +1641,6 @@ td,th {
 
 @media screen and (max-width: 479px) {
 .section.scrollspy section {
-  display: none;
+  display: none!important;
   }
 }
