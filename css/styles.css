@@ -235,7 +235,6 @@ ul, ol {
 ul li {
   list-style: none; }
 .compimg{
-  max-height:auto!important;
   width: auto!important;
   margin: 0 auto!important;
 }
@@ -1725,6 +1724,6 @@ ol.getXSH {
 }
 
 .card-image {
-  background-color: #353535;
+  background-color: #373737;
   max-height: 100%!important;
 }
