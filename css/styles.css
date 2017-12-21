@@ -1640,7 +1640,7 @@ td,th {
 }
 
 @media screen and (max-width: 479px) {
-.section.scrollspy section {
+#exchanges {
   display: none!important;
   }
 }
