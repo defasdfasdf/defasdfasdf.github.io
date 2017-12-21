@@ -1659,3 +1659,7 @@ td,th {
 #exchangesMob p {
   padding: 4px;
 }
+
+.card-title.z-depth-1 span {
+  font-size: 32px;
+}
