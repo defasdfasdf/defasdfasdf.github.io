@@ -86,7 +86,7 @@ function competitions(){
     div3.classList.add("card-action");
     var a = document.createElement("a");
     a.href=element.Link;
-    var pt = document.createTextNode("Click here to read more");
+    var pt = document.createTextNode(""); //text to competition link
     a.appendChild(pt);
     div3.appendChild(a);
     div2.appendChild(div3);
