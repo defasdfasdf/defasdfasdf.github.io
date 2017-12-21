@@ -1668,5 +1668,6 @@ td,th {
 }
 
 #exchangesMob .waves-effect.waves-light.btn {
-  margin: 8px;
+  margin: 12px;
+  background-color: #6f8a96!important;
 }
