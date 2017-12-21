@@ -407,7 +407,8 @@ Hero
     }
   }
   .hero{
-    background:#607D8B /* url("../img/SHIELDmbg2.jpg") center center*/;
+    background: url("../img/headerbg.jpg") no-repeat fixed center;
+    background-size: cover;
   }
   .hero .down-arrow a {
     color: #fff; }
