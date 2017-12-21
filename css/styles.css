@@ -236,6 +236,7 @@ ul li {
   list-style: none; }
 .compimg{
   max-height:240px!important;
+  width: auto!important;
 }
 .section-padding {
   padding: 120px 0 !important; }
