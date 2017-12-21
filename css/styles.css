@@ -121,6 +121,14 @@ transform: rotate(180deg);
     font-size:20px!important;
     line-height:22px;
   }
+  .Supp_left {
+    text-align: center!important;
+  }
+
+  .Supp_right {
+    float: none;
+    text-align: center!important;
+  }
 }
 @media screen and (max-width:537px){
   .carousel{
@@ -1690,4 +1698,13 @@ div.TS_row2 {
 
 .getXSH a:hover {
   color: #6585a3;
+}
+
+.Supp_left {
+  text-align: left;
+}
+
+.Supp_right {
+  float: right!important;
+  text-align: right;
 }
