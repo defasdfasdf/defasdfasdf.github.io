@@ -1653,5 +1653,5 @@ td,th {
 
 #exchangesMob h4, #exchangerMob h4:hover {
   text-align: center;
-  color: black;
+  color: black!important;
 }
