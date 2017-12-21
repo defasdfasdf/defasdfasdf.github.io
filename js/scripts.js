@@ -260,6 +260,7 @@ var x = 0;
 		$('.icon2').addClass('animated fadeInUp');
 		$('.icon3').addClass('animated fadeInUp');
 		$('.icon4').addClass('animated fadeInUp');
+		$('.icon5').addClass('animated fadeInUp');
 	}, {
 		offset: '75%'
 	});
