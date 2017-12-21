@@ -1723,3 +1723,7 @@ div.TS_row2 {
 ol.getXSH {
   color: blue!important;
 }
+
+.card-image {
+  background-color: rgb(51,51,51);
+}
