@@ -1651,7 +1651,11 @@ td,th {
   }
 }
 
-#exchangesMob h4, #exchangerMob h4:hover {
+#exchangesMob h4, #exchangerMob h4:hover, #exchangesMob a {
   text-align: center;
-  color: black!important;
+  color: black;
+}
+
+#exchangesMob p {
+  padding: 2px;
 }
