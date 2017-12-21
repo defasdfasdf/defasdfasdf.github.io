@@ -1726,4 +1726,5 @@ ol.getXSH {
 
 .card-image {
   background-color: #303030;
+  max-width: auto!important;
 }
