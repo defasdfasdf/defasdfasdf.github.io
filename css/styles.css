@@ -1665,6 +1665,8 @@ td,th {
   color: #fff!important;
   font-weight: bold!important;
   background-color: #455A64!important;
+  padding: 8px!important;
+  border-radius: 32px;
 }
 
 #exchangesMob .waves-effect.waves-light.btn {
