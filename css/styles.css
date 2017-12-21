@@ -1660,7 +1660,7 @@ td,th {
   padding: 4px;
 }
 
-.card-title.z-depth-1 span {
+#exchangesMob span {
   font-size: 32px!important;
-  color: #FFC107;
+  color: #FFC107!important;
 }
