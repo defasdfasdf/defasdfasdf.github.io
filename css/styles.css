@@ -1693,11 +1693,11 @@ div.TS_row2 {
 }
 
 .getXSH a {
-  color: #23527c;
+  color: #6585a3;
 }
 
 .getXSH a:hover {
-  color: #6585a3;
+  color: #CFD8DC;
 }
 
 .Supp_left {
@@ -1709,6 +1709,15 @@ div.TS_row2 {
   text-align: right;
 }
 
+.getXSH span {
+  color: black;
+  font-size: 20px;
+}
+
 .getXSH li {
   padding: 12px 0;
+}
+
+ol.getXSH {
+  color: blue!important;
 }
