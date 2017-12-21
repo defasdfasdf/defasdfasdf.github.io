@@ -78,37 +78,37 @@
         "Name": "Electrum Windows Wallet",
         "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.1/Electrum-Windows-2.4.2.zip",
         "type": "Download",
-        "platform": "windows "
+        "platform": "windows"
       },
       {
         "Name": "Windows commandline Wallet",
         "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.2-WINd/SHIELDd.exe",
         "type": "Download",
-        "platform": "windows "
+        "platform": "windows"
       },
       {
         "Name": "QT Windows Wallet",
         "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.0wqt/SHIELD-qt.exe",
         "type": "Download",
-        "platform": "windows "
+        "platform": "windows"
       },
       {
         "Name": "Electrum Linux Wallet",
         "link":"https://github.com/ShieldCoin/electrum-XSH",
         "type": "Go to",
-        "platform": "linux "
+        "platform": "linux"
       },
       {
         "Name": "Android Wallet",
         "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.0-Android/SHIELD-android.apk",
-        "type": "Download ",
-        "platform": "android "
+        "type": "Download",
+        "platform": "android"
       },
       {
         "Name": "Paper wallet",
         "link":"https://paper.shieldcurrency.com/",
         "type": "Go to",
-        "platform": "other "
+        "platform": "other"
       }
     ],
     "miningpools": [
