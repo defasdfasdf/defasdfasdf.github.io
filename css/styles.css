@@ -1689,7 +1689,7 @@ div.TS_row2 {
 .getXSH {
   font-size: 20px;
   text-align: left;
-  margin-left: 20px;
+  padding: 8px 30px;
 }
 
 .getXSH a {
@@ -1707,4 +1707,8 @@ div.TS_row2 {
 .Supp_right {
   float: right!important;
   text-align: right;
+}
+
+.getXSH li {
+  padding: 4px 0;
 }
