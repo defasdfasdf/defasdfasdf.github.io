@@ -1650,3 +1650,8 @@ td,th {
     display: none!important;
   }
 }
+
+#exchanges h4, #exchanger h4:hover {
+  text-align: center;
+  color: black;
+}
