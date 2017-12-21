@@ -393,7 +393,7 @@ Hero
   @media screen and (max-width:850px){
     .hero{
       height: 750px;
-      background: #607D8B /*url("../img/SHIELDmbg3.png") center center;*/
+      background: url("./img/headerbg.jpg") center center;
       background-size: cover;
       position: relative;
     }
