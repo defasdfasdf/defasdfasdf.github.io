@@ -66,7 +66,7 @@ function competitions(){
     var div3 = document.createElement("div");
     div3.classList.add("card-image")
     var img = document.createElement("img");
-    img.src="img/background_shield.png";
+    img.src="img/shieldglowing.png";
     img.classList.add("compimg");
     var span = document.createElement("span");
     span.classList.add("card-title");
