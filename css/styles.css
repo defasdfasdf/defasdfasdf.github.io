@@ -387,7 +387,7 @@ Hero
 ========================================================================== */
 .hero {
   height: 750px;
-  background: #FFC107;
+  /*background: #FFC107;*/
   background-size: cover;
   position: relative; }
   @media screen and (max-width:850px){
@@ -407,8 +407,10 @@ Hero
     }
   }
   .hero{
-    background: url("../img/headerbg.jpg") no-repeat fixed center;
-    background-size: cover;
+    /*background: url("../img/headerbg2.jpg");
+    background-repeat:no-repeat;
+    background-position: center center;*/
+
   }
   .hero .down-arrow a {
     color: #fff; }
