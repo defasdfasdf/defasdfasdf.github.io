@@ -1653,13 +1653,13 @@ td,th {
 
 @media screen and (max-width: 479px) {
 #exchanges {
-  display: none!important;
+  display: none;
   }
 }
 
 @media screen and (min-width: 480px) {
   #exchangesMob {
-    display: none!important;
+    display: none;
   }
 }
 
@@ -1673,16 +1673,16 @@ td,th {
 }
 
 #exchangesMob span {
-  font-size: 24px!important;
-  color: #fff!important;
+  font-size: 24px;
+  color: #fff;
   font-weight: 600;
-  padding: 8px!important;
+  padding: 8px;
   border-radius: 32px;
 }
 
 #exchangesMob .waves-effect.waves-light.btn {
-  margin: 12px;
-  background-color: #6f8a96!important;
+  margin: 4px;
+  background-color: #6f8a96;
 }
 
 div.TS_row2 {
