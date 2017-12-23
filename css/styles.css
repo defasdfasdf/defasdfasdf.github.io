@@ -1498,6 +1498,12 @@ background: url('../img/Project.png') center center!important;
 .cmc{
   background: url('../img/Contactus.png') center center!important;
 }
+.wmc{
+background: url('../img/Whitepaper.png') center center!important;
+}
+.mimc{
+  background: url('../img/Moreinformation.png') center center!important;
+}
 .col.s6.m4.mdl-shadow--2dp.miabs:hover{
 opacity: .5;
 }
