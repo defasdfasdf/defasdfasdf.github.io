@@ -176,7 +176,6 @@ Global Styles
   margin: 0; }
 
 a {
-  color: #607D8B;
   outline:0px!important;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
@@ -1660,14 +1659,6 @@ div.TS_row2 {
   font-size: 20px;
   text-align: left;
   padding: 8px 30px;
-}
-
-.getXSH a {
-  color: #6585a3;
-}
-
-.getXSH a:hover {
-  color: #CFD8DC;
 }
 
 .Supp_left {
