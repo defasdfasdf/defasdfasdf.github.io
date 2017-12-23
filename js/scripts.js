@@ -355,7 +355,7 @@ var x = 0;
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
 			console.log(whereb);
-			if (scroll >= 800 || whereb == "/") {
+			if (scroll >= 800 && whereb == "/") {
 				$('.section.navigation').addClass('fixed mdl-shadow--4dp');
 				$('.section.fixed').addClass('fixed mdl-shadow--4dp');
 				$('.logo a img').css({
@@ -366,7 +366,7 @@ var x = 0;
 					"top": "26px",
 				});
 			}
-				else if (scroll >=20 || whereb != "/"){
+				else if (scroll >=20 && whereb != "/"){
 					$('section.fixed').addClass('fixed mdl-shadow--4dp');
 					$('.logo a img').css({
 						"height": "40px",
