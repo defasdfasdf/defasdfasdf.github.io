@@ -436,6 +436,7 @@ Hero
   position:fixed;
 }
 .fixed, .fixed2{
+  position:fixed;
   background-color: #455A64;
   z-index: 999;
   width: 100%;
