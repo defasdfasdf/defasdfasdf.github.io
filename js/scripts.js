@@ -1,5 +1,5 @@
 $(document).ready(function() {
-var wheren = window.location.pathname;
+var whereb = window.location.pathname;
 	$(function() {
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
@@ -354,6 +354,7 @@ var x = 0;
 	$(function() {
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
+			console.log(whereb);
 			if (scroll >= 800 || whereb == "/") {
 				$('.section.navigation').addClass('fixed mdl-shadow--4dp');
 				$('.section.fixed').addClass('fixed mdl-shadow--4dp');
