@@ -44,8 +44,6 @@ loadJSON(function(responseText){
     wallets();
       information = JSON.parse(responseText).exchanges;
     exchanges();
-    information = JSON.parse(responseText).Competition;
-    competitions();
   }
   else if (where == "/Roadmap/"){
     information = JSON.parse(responseText).roadmap;
