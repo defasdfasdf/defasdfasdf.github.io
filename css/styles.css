@@ -388,7 +388,7 @@ Hero
 ========================================================================== */
 .hero {
   height: 750px;
-  background: #FFC107;
+  background: #607D8B;
   background-size: cover;
   position: relative; }
   @media screen and (max-width:850px){
