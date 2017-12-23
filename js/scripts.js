@@ -355,15 +355,24 @@ var x = 0;
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
 			if (scroll >= 800) {
-				$('section.navigation').addClass('fixed mdl-shadow--4dp');
-				$('section.fixed').addClass('fixed mdl-shadow--4dp');
-				$('.logo a img').css({
+				$('mp section.navigation').addClass('fixed mdl-shadow--4dp');
+				$('mp section.fixed').addClass('fixed mdl-shadow--4dp');
+				$('mp .logo a img').css({
 					"height": "40px",
 				});
 
-				$('header .member-actions').css({
+				$('mp header .member-actions').css({
 					"top": "26px",
 				});
+				else if (scroll >=20){
+					$('nmp section.fixed').addClass('fixed mdl-shadow--4dp');
+					$('nmp .logo a img').css({
+						"height": "40px",
+					});
+					$('nmp header .member-actions').css({
+						"top": "26px",
+					});
+				}
 			}else {
 				$('.logo a img').css({
 					"height": "50px",
