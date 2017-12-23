@@ -57,7 +57,7 @@ loadJSON(function(responseText){
   }
 
 });
-function competitions(){
+/*function competitions(){
   information.forEach(function(element){
     var div1 = document.createElement("div");
         div1.classList.add("col","m8","offset-m2","s12")
@@ -95,7 +95,7 @@ function competitions(){
     wheree.appendChild(div1);
 
 });
-}
+}*/
 
 function blockexplorerwidget(){
   loadRaw("http://188.226.178.216:3001/api/getblockcount", function(raw){
