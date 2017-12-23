@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+var where = window.location.pathname;
 	$(function() {
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
@@ -354,18 +354,18 @@ var x = 0;
 	$(function() {
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
-			if (scroll >= 800) {
-				$('mp section.navigation').addClass('fixed mdl-shadow--4dp');
-				$('mp section.fixed').addClass('fixed mdl-shadow--4dp');
-				$('mp .logo a img').css({
+			if (scroll >= 800 || where == "/") {
+				$('.section.navigation').addClass('fixed mdl-shadow--4dp');
+				$('.section.fixed').addClass('fixed mdl-shadow--4dp');
+				$('.logo a img').css({
 					"height": "40px",
 				});
 
-				$('mp header .member-actions').css({
+				$('header .member-actions').css({
 					"top": "26px",
 				});
 			}
-				else if (scroll >=20){
+				else if (scroll >=20 || where != "/"){
 					$('nmp section.fixed').addClass('fixed mdl-shadow--4dp');
 					$('nmp .logo a img').css({
 						"height": "40px",
