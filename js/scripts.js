@@ -364,6 +364,7 @@ var x = 0;
 				$('mp header .member-actions').css({
 					"top": "26px",
 				});
+			}
 				else if (scroll >=20){
 					$('nmp section.fixed').addClass('fixed mdl-shadow--4dp');
 					$('nmp .logo a img').css({
