@@ -1,5 +1,5 @@
 $(document).ready(function() {
-var where = window.location.pathname;
+var wheren = window.location.pathname;
 	$(function() {
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
@@ -354,7 +354,7 @@ var x = 0;
 	$(function() {
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
-			if (scroll >= 800 || where == "/") {
+			if (scroll >= 800 || whereb == "/") {
 				$('.section.navigation').addClass('fixed mdl-shadow--4dp');
 				$('.section.fixed').addClass('fixed mdl-shadow--4dp');
 				$('.logo a img').css({
@@ -365,12 +365,12 @@ var x = 0;
 					"top": "26px",
 				});
 			}
-				else if (scroll >=20 || where != "/"){
-					$('nmp section.fixed').addClass('fixed mdl-shadow--4dp');
-					$('nmp .logo a img').css({
+				else if (scroll >=20 || whereb != "/"){
+					$('section.fixed').addClass('fixed mdl-shadow--4dp');
+					$('.logo a img').css({
 						"height": "40px",
 					});
-					$('nmp header .member-actions').css({
+					$('header .member-actions').css({
 						"top": "26px",
 					});
 				}
