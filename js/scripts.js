@@ -374,7 +374,7 @@ var x = 0;
 						"top": "26px",
 					});
 				}
-			}else {
+			else {
 				$('.logo a img').css({
 					"height": "50px",
 				});
