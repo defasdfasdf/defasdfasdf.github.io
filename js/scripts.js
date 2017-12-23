@@ -356,8 +356,7 @@ var x = 0;
 
 			if (scroll >= 800 && whereb == "/") {
 				console.log("1");
-				$('.section.navigation').addClass('fixed mdl-shadow--4dp');
-				$('.section.fixed').addClass('fixed mdl-shadow--4dp');
+				$('section.navigation').addClass('fixed mdl-shadow--4dp');
 				$('.logo a img').css({
 					"height": "40px",
 				});
