@@ -239,7 +239,6 @@ var x = 0;
 	}
 		setTimeout(removeanimated, 1000);
 		function removeanimated(){
-			console.log("hello");
 			$('.bpsigi1').removeClass('animated');
 			$('.bpsigi2').removeClass('animated');
 			$('.bpsigi3').removeClass('animated');
@@ -354,8 +353,9 @@ var x = 0;
 	$(function() {
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
-			console.log(whereb);
+
 			if (scroll >= 800 && whereb == "/") {
+				console.log("1");
 				$('.section.navigation').addClass('fixed mdl-shadow--4dp');
 				$('.section.fixed').addClass('fixed mdl-shadow--4dp');
 				$('.logo a img').css({
@@ -367,6 +367,7 @@ var x = 0;
 				});
 			}
 				else if (scroll >=20 && whereb != "/"){
+					console.log("2");
 					$('section.fixed').addClass('fixed mdl-shadow--4dp');
 					$('.logo a img').css({
 						"height": "40px",
