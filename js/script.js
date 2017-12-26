@@ -365,7 +365,11 @@ function coinlists() {
     .not('[href*="#android"]')
     .not('[href*="#linux"]')
     .not('[href*="#windows"]')
-    .not('[href+="#other2"]')
+    .not('[href*="#other2"]')
+    .not('[href*="#other3"]')
+    .not('[href*="#android2"]')
+    .not('[href*="#linux2"]')
+    .not('[href*="#windows2"]')
     .click(function (event) {
       // On-page links
       if (
