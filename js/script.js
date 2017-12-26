@@ -117,7 +117,12 @@ function title(){
     hinformation.forEach(function(element){
   element.Name =   element.Name.substring(element.Name.indexOf("%20"));
   if ("/" + element.Name + "/" == where || (element.Name == "More information" && where == "/More%20information/") || (element.Name == "Contact us" && where == "/Contact%20us/") || "/" + element.Name == where){
+    if (where == "/"){
+      document.getElementById("title").innerHTML = "SHIELD | Mainpage";
+    }
+    else{
     document.getElementById("title").innerHTML = "SHIELD | "  + element.Name;
+  }
   }
 });
 }
