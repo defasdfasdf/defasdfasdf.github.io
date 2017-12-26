@@ -15,6 +15,11 @@ right: 16%;
 .card .card-content span.card-title{
   font-size:18px;
 }
+
+.nthroadmapcard{
+  margin-top: 20px;
+}
+
 .collapsible-header.active i{
 -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
 -webkit-transform: rotate(180deg);
@@ -200,7 +205,7 @@ a {
 
 }
 #wallets{
-  background:white;
+  background:#fafafa;
   margin-bottom:0px;
   padding-bottom:80px;
 }
@@ -464,7 +469,7 @@ Hero
   color:white;
 }
 header {
-  padding: 30px 0;
+  padding: 20px 0;
   position: relative;
   width: 1170px;
   margin: 0 auto;
@@ -474,7 +479,7 @@ header {
     color: #fff;
     text-transform: uppercase;
     font-size: 11.5px;
-    opacity: .6;
+    opacity: .8;
     transition: font-size 0.5s ease;
    }
     header a.login {
@@ -504,7 +509,7 @@ header {
          padding-left:0px!important;
          transition: .8s;
        }
-        header ul.primary-nav li a:hover,header ul.primary-nav li a.active  {
+      header div.header-content div.header-nav nav ul.primary-nav li a:hover,header ul.primary-nav li a.active  {
           opacity: 1!important;
           border-left:0px!important;
          }
@@ -529,6 +534,9 @@ header {
            position:relative;
          }
          header ul.primary-nav li a.active::after{
+           width: 103%;
+         }
+         header ul.primary-nav li a:hover::after{
            width: 103%;
          }
          .abnav li a::after{
@@ -600,21 +608,22 @@ Intro
 .collapsible{
   display:block!important;
 }
-.intro-icon {
+.icon {
   display: inline-block;
   vertical-align: top;
-  padding: 22px 0 0 0;
   margin-right: 20px;
-  width: 40px;
-  transition: 1s;
+  margin-top:20px;
 }
-.intro-feature:hover .intro-icon:not(.animated) .icon{
-  color:#455A64 !important;
-  font-size: 50px;
+.intro-feature:hover .icon{
+  -webkit-animation:spin .6s linear;
+      -moz-animation:spin .6s linear;
+      animation:spin .6s linear;
+      font-size:50px;
+      margin-right:12px;
 }
-.intro-feature:hover .intro-icon:not(.animated){
-     transform: rotate(360deg)!important;
-}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 .intro-content {
   display: inline-block;
   width: 80%; }
@@ -806,9 +815,9 @@ footer {
   font-size: 26px;
   -webkit-transition: background-color .1s linear;
   transition: background-color .1s linear;
-  height: 56px;
+  height: 84px;
   line-height: 26px;
-  width: 56px;
+  width: 84px;
   text-align: center;
   padding-top: 15px;
   background: #455A64;
@@ -1047,7 +1056,7 @@ border-radius:16px;
     width:75%;
   }
 }
-.fixed2 header{padding: 35px 0px !important;}
+.fixed2 header{padding:20px 0px !important;}
 header div nav ul li a{padding-right:0px!important;margin-right:25px;}
 header div nav ul li a.here{
   opacity: 1;
@@ -1103,7 +1112,7 @@ p.fu{
   border-bottom:2px solid gray;
 }
 .CUH{
-  font-size: 70px;
+  font-size: 30px;
   font-weight:100;
   padding-left:0px;
 
@@ -1149,7 +1158,7 @@ top:100%;
   }
 .cuiimg{
   transition:.8s;
-  width:180px;
+  width:150px;
   margin-top: 10%;
     border-radius:100%;
 }
@@ -1660,7 +1669,9 @@ td,th {
 div.TS_row2 {
   margin-bottom: 30px!important;
 }
-
+.fa.fa-check-circle-o{
+  color:black;
+}
 .getXSH {
   font-size: 20px;
   text-align: left;
@@ -1691,4 +1702,7 @@ color: #009688;
 
 .card-image {
   max-height: 100%!important;
+}
+.roadmaps{
+  background:#fafafa;
 }

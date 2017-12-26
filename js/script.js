@@ -95,7 +95,7 @@ loadJSON(function(responseText){
 });
 }*/
 
-function blockexplorerwidget(){
+/*function blockexplorerwidget(){
   loadRaw("http://188.226.178.216:3001/api/getblockcount", function(raw){
     $(".blockc_text").text(String(raw));
   });
@@ -104,7 +104,7 @@ function blockexplorerwidget(){
     $(".diff_text").text("x17: " + x["difficulty_x17"].toFixed(2) + " scrypt: " + x["difficulty_scrypt"].toFixed(2));
     $(".csup_text").text(String(x["moneysupply"]));
   });
-}
+}*/
 
 function roadmap(){
   information.forEach(function(element){
@@ -117,7 +117,7 @@ function title(){
     hinformation.forEach(function(element){
   element.Name =   element.Name.substring(element.Name.indexOf("%20"));
   if ("/" + element.Name + "/" == where || (element.Name == "More information" && where == "/More%20information/") || (element.Name == "Contact us" && where == "/Contact%20us/") || "/" + element.Name == where){
-    document.getElementById("title").innerHTML = "SHIELD "  + element.Name;
+    document.getElementById("title").innerHTML = "SHIELD | "  + element.Name;
   }
 });
 }
@@ -189,6 +189,7 @@ function wallets(){
           i = document.createElement("i");
           i.classList.add("fa", "fa-share");
         }
+        i.style = "padding-left:5px";
         a.appendChild(atext);
         a.appendChild(i);
         hey.appendChild(a);
@@ -364,6 +365,7 @@ function coinlists() {
     .not('[href*="#android"]')
     .not('[href*="#linux"]')
     .not('[href*="#windows"]')
+    .not('[href+="#other2"]')
     .click(function (event) {
       // On-page links
       if (
