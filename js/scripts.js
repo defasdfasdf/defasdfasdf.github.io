@@ -353,7 +353,7 @@ var x = 0;
 	$(function() {
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
-
+			console.log(whereb);
 			if (scroll >= 800 && whereb == "/") {
 				$('section.fixed').addClass('fixed mdl-shadow--4dp');
 				$('.logo a img').css({
