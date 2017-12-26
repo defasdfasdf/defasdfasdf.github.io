@@ -536,7 +536,7 @@ header {
          header ul.primary-nav li a.active::after{
            width: 103%;
          }
-         header ul.primary-nav li a:hover:not(.active)::after{
+         header ul.primary-nav li a:hover:not(.here)::after{
            width: 103%;
          }
          .abnav li a::after{
