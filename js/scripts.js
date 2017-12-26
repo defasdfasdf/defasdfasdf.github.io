@@ -355,7 +355,7 @@ var x = 0;
 			var scroll = $(window).scrollTop();
 			console.log(whereb);
 			if (scroll >= 800 && whereb == "/") {
-				$('section.fixed').addClass('fixed mdl-shadow--4dp');
+				$('section.navigation').addClass('fixed mdl-shadow--4dp');
 				$('.logo a img').css({
 					"height": "40px",
 				});
