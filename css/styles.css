@@ -19,7 +19,9 @@ right: 16%;
 .nthroadmapcard{
   margin-top: 20px;
 }
-
+.cump{
+  text-align:center;
+}
 .collapsible-header.active i{
 -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
 -webkit-transform: rotate(180deg);
