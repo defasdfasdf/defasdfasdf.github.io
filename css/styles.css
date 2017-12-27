@@ -1721,32 +1721,10 @@ color: #009688;
   margin-top: 12px;
 }
 
-.collection-item.avatar.langList:hover {
+.Whitepaperlang:hover {
   background-color: #f2f2f2;
 }
-
-.collection-item.avatar.langList h4 {
-  color: black;
-  margin-bottom: 0;
-}
-
-.collection-item.avatar.langLast {
-  border-bottom: none;
-}
-
-.collection .collection-item {
-  padding: 10px 0px!important;
-}
-
-.collection ul {
-  border: none!important;
-}
-
-.engTransl {
-  color: black;
-  font-size: 14px;
-}
-
-.collection-item.avatar.langList.langFirst {
-  padding-bottom: 34px!important;
+.Whitepaperlang{
+  color:black;
+  transition: .6s;
 }
