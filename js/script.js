@@ -336,6 +336,9 @@ function coinlists() {
         else if( where != "/"){
         a.href= "../" + element.Name;
       }
+      else if (where == "/Whitepaper/"){
+        a.href= "../SHIELD.docx.pdf";
+      }
       else{
           a.href= "../" + element.Name;
         }
