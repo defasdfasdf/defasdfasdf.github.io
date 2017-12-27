@@ -1746,3 +1746,7 @@ color: #009688;
   color: black;
   font-size: 14px;
 }
+
+.collection-item.avatar.langList.langFirst {
+  padding-bottom: 34px!important;
+}
