@@ -1716,3 +1716,19 @@ color: #009688;
 .roadmaps{
   background:#fafafa;
 }
+
+.material-icons.circle {
+  margin-top: 12px;
+}
+
+.collection-item.avatar.langList:hover {
+  background-color: #f2f2f2;
+}
+
+.collection-item.avatar.langList h4 {
+  color: black;
+}
+
+.collection-item.avatar.langLast {
+  border-bottom: none;
+}
