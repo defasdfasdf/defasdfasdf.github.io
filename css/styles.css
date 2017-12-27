@@ -1727,6 +1727,7 @@ color: #009688;
 
 .collection-item.avatar.langList h4 {
   color: black;
+  margin-bottom: 0;
 }
 
 .collection-item.avatar.langLast {
@@ -1735,4 +1736,13 @@ color: #009688;
 
 .collection .collection-item {
   padding: 10px 0px!important;
+}
+
+.collection ul {
+  border: none!important;
+}
+
+.engTransl {
+  color: black;
+  font-size: 14px;
 }
