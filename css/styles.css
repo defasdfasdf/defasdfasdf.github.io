@@ -1721,10 +1721,11 @@ color: #009688;
   margin-top: 12px;
 }
 
-.Whitepaperlang:hover {
+.Whitepaperlang:hover{
   background-color: #f2f2f2;
 }
+
 .Whitepaperlang{
   color:black;
-  transition: .6s;
+  transition:.5s!important;
 }
