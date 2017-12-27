@@ -333,10 +333,7 @@ function coinlists() {
         if ("/" + element.Name + "/" == where || (element.Name == "More information" && where == "/More%20information/") || (element.Name == "Contact us" && where == "/Contact%20us/")){
           a.classList.add("here");
         }
-        else if( where != "/"){
-        a.href= "../" + element.Name;
-      }
-      else if (where == "/Whitepaper/"){
+      else if (element.Name == "Whitepaper"){
         a.href= "../SHIELD.docx.pdf";
       }
       else{
