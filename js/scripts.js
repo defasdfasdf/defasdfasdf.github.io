@@ -1,5 +1,6 @@
 $(document).ready(function() {
 var whereb = window.location.pathname;
+$('input#name, input#Subject, textarea#textarea1').characterCounter();
 	$(function() {
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
