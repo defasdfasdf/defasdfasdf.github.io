@@ -334,7 +334,7 @@ function coinlists() {
           a.classList.add("here");
         }
       else if (element.Name == "Whitepaper"){
-        a.href= "../SHIELD.docx.pdf";
+        a.href= "../Whitepaper";
       }
       else{
           a.href= "../" + element.Name;
