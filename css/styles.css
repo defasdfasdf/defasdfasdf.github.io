@@ -1732,3 +1732,7 @@ color: #009688;
 .collection-item.avatar.langLast {
   border-bottom: none;
 }
+
+.collection .collection-item {
+  padding: 10px 0px!important;
+}
