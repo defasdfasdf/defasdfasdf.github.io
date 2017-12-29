@@ -211,6 +211,8 @@ function coinlists() {
   function exchanges() {
     var s = 0;
     var hm = 0;
+    var bdiv = document.getElementById("exlist");
+    var mbex = document.getElementById("exchangesMob");
     information.forEach(function(element){
           s++;
           hm++;
@@ -218,10 +220,8 @@ function coinlists() {
           var ex = "ex" + hm;
           var sep = document.createElement("div");
           sep.classList.add("exsep");
-          var bdiv = document.getElementById("exlist");
           var classs = ex.toString();
           if (s == 0) {
-
             var div2 = document.createElement("div");
             div2.classList.add(classs, "exchangeinfol","mdl-cell--4-col" , "mdl-cell--3-offset-desktop");
             var p = document.createElement("p");
@@ -291,6 +291,31 @@ function coinlists() {
 
         bdiv.appendChild(sep);
         aexchange();
+        var nr = document.createElement("div");
+        div.classList.add("row");
+        var nc = document.createElement("div");
+        nc.classList.add("col", "s12", "m6");
+        var ncard = document.createElement("div");
+        ncard.classList.add("card","blue-grey","darket-1");
+        var ncc = document.createElement("div");
+        ncc.classList.add("card-content", "white-text");
+        var span = document.createElement("span");
+        span.classList.add("card-title");
+        var spantext = document.createTextNode(element.Name);
+        ncc.appendChild(span);
+        element.Markets.forEach(function(element){
+        var a = document.createElement("a");
+        a.classList.add("waves-effect"," waves-light","btn");
+        a.href=element.Link;
+        var at = document.createTextNode(element.Name);
+        a.appendChild(at);
+        ncc.appendChild(a);
+      });
+      ncard.appendChild(ncc);
+      nc.appendChild(ncard);
+      nr.appendChild(nc);
+      mbex.appendChild(nr);
+
   });}
   function aexchange(){
     $('.ex1').waypoint(function() {
