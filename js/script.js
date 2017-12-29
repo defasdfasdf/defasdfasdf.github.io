@@ -296,7 +296,7 @@ function coinlists() {
         var nc = document.createElement("div");
         nc.classList.add("col", "s12", "m6");
         var ncard = document.createElement("div");
-        ncard.classList.add("card","blue-grey","darket-1");
+        ncard.classList.add("card","blue-grey","darken-1");
         var ncc = document.createElement("div");
         ncc.classList.add("card-content", "white-text");
         var span = document.createElement("span");
