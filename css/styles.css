@@ -621,15 +621,13 @@ Intro
 .icon {
   display: inline-block;
   vertical-align: top;
-  margin-right: 20px;
   margin-top:20px;
+  margin-right:20px;
 }
 .intro-feature:hover .icon{
   -webkit-animation:spin .6s linear;
       -moz-animation:spin .6s linear;
       animation:spin .6s linear;
-      font-size:50px;
-      margin-right:12px;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
@@ -1593,7 +1591,9 @@ td,th {
   text-align: center;
   font-weight: bold;
 }
-
+.MI_HL{
+  background:#f0f0f0;
+}
 .m4 {
   height: 50px;
 }
@@ -1680,7 +1680,7 @@ div.TS_row2 {
   margin-bottom: 30px!important;
 }
 .fa.fa-check-circle-o{
-  color:black;
+  color:#2E8B57;
 }
 .getXSH {
   font-size: 20px;

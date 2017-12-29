@@ -48,6 +48,18 @@
               }
           ]
         },
+        {
+          "Name": "OutletBit",
+          "logo_path": "../img/OutletBitlogo.png",
+          "info": "We are a next generation cryptocurrency exchange. OutletBit Exchange utilizies the latest technologies to provide a top-notch secure trading engine and real-time updates.",
+          "Markets":
+          [
+              {
+                "Name": "XSH/BTC",
+                "Link": "https://www.outletbit.com/market/77"
+              }
+          ]
+        },
       {
         "Name": "C-cex",
         "logo_path": "../img/ccexchange.png",
