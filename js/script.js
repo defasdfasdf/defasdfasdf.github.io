@@ -305,8 +305,8 @@ function coinlists() {
         ncc.appendChild(span);
         element.Markets.forEach(function(element){
         var a = document.createElement("a");
-        a.classList.add("waves-effect","waves-light","btn");
         a.href=element.Link;
+                a.classList.add("waves-effect" , "waves-light" , "btn");
         var at = document.createTextNode(element.Name);
         a.appendChild(at);
         ncc.appendChild(a);
