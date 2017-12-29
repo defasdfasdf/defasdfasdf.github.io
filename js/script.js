@@ -223,7 +223,7 @@ function coinlists() {
           var classs = ex.toString();
           if (s == 0) {
             var div2 = document.createElement("div");
-            div2.classList.add(classs, "exchangeinfol");
+            div2.classList.add(classs, "exchangeinfol","mdl-cell--5-col");
             var p = document.createElement("p");
             var pt = document.createTextNode(element.info);
             p.appendChild(pt);
@@ -238,7 +238,7 @@ function coinlists() {
           });
             bdiv.appendChild(div2);
             var div = document.createElement("div");
-            div.classList.add(classs ,"exchange-card-image","mdl-cell","mdl-card","mdl-shadow--2dp","eximg", "hoverable");
+            div.classList.add(classs ,"exchange-card-image","mdl-cell","mdl-cell-23-col-desktop","mdl-card","mdl-shadow--2dp","eximg", "hoverable");
             div.style="background: url(" + element.logo_path + ") center;"
             var div2 = document.createElement("div");
             div2.classList.add("mdl-card__title","mdl-card--expand");
