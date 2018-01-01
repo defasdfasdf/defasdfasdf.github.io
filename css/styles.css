@@ -74,7 +74,7 @@ transform: rotate(180deg);
        -ms-animation-delay: .2s;
        animation-delay: .2s;
  }
- .mi3,.bpsig1{
+ .mi3,.bpsig1, .bpsigi1{
    -moz-animation-delay: .3s;
    -webkit-animation-delay: .3s;
        -ms-animation-delay: .3s;
@@ -86,11 +86,11 @@ transform: rotate(180deg);
        -ms-animation-delay: .4s;
        animation-delay: .4s;
  }
- .mi5,.bpsig2{
-   -moz-animation-delay: .5s;
-   -webkit-animation-delay: .5s;
-       -ms-animation-delay: .5s;
-       animation-delay: .5s;
+ .mi5,.bpsig2, .bpsigi2{
+   -moz-animation-delay: .6s;
+   -webkit-animation-delay: .6s;
+       -ms-animation-delay: .6s;
+       animation-delay: .6s;
  }
  .mi6{
    -moz-animation-delay: .6s;
@@ -98,11 +98,11 @@ transform: rotate(180deg);
        -ms-animation-delay: .6s;
        animation-delay: .6s;
  }
- .bpsig3{
-   -moz-animation-delay: .7s;
-   -webkit-animation-delay: .7s;
-       -ms-animation-delay: .7s;
-       animation-delay: .7s;
+ .bpsig3, .bpsigi3{
+   -moz-animation-delay: .9s;
+   -webkit-animation-delay: .9s;
+       -ms-animation-delay: .9s;
+       animation-delay: .9s;
  }
  .btn{
    font-weight: 600;
@@ -568,6 +568,40 @@ header {
 
            font-size:18px;
          }
+         .intro-feature{
+           text-align:center;
+           min-height:150px;
+         }
+         .intro .container{
+           padding:0px;
+         }
+         .intro-feature::before{
+           content: "";
+           width:0px;
+           left:-1px;
+           position:absolute;
+           border-bottom:1px solid gray;
+            transition:.5s;
+            border-radius:8px;
+
+         }
+         .intro-feature::after{
+           content: "";
+           width:0px;
+           bottom:-1px;
+           top:-2px;
+           left:-1px;
+           position:absolute;
+           border-bottom:1px solid gray;
+            transition:.5s;
+         }
+         .intro-feature:hover::before, .intro-feature:hover::after{
+           width:100.5%;
+         }
+         .intro-feature:hover{
+           border-left:1px solid gray;
+           border-right:1px solid gray;
+         }
          .intro-feature .intro-content p{
             position: relative;
          }
@@ -611,7 +645,7 @@ background-color:#FFC107;
 Intro
 ========================================================================== */
 .intro span.icon {
-  font-size: 40px;
+  font-size: 53px;
   color: #212121;
   font-weight: bold;
   transition: .9s;

@@ -235,10 +235,9 @@ var x = 0;
 		$('.bpsig1').addClass('animated fadeIn');
 		$('.bpsig2').addClass('animated fadeIn');
 		$('.bpsig3').addClass('animated fadeIn');
-		$('.bpsigi1').addClass('animated fadeInUp');
-		$('.bpsigi2').addClass('animated fadeInUp');
-		$('.bpsigi3').addClass('animated fadeInUp');
-		$('.intro-feature .intro-content p').addClass("active");
+		$('.bpsigi1').addClass('animated fadeIn');
+		$('.bpsigi2').addClass('animated fadeIn');
+		$('.bpsigi3').addClass('animated fadeIn');
 	}
 		setTimeout(removeanimated, 1000);
 		function removeanimated(){
