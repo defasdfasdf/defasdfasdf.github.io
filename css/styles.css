@@ -19,7 +19,9 @@ right: 16%;
 .nthroadmapcard{
   margin-top: 20px;
 }
-
+.teal{
+  background-color:#009688!important;
+}
 .cump{
   text-align:center;
   background-color: #607d8b;
