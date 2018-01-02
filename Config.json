@@ -242,39 +242,39 @@
           },
           {
             "for": "projectenlightenbar",
-            "progress": "90"
+            "progress": "100"
           },
           {
             "for": "projectbillfoldbar",
-            "progress": "50"
+            "progress": "60"
           },
           {
             "for": "projectglobalizebar",
-            "progress": "40"
+            "progress": "50"
           },
           {
             "for": "projectaucourantbar",
-            "progress": "20"
+            "progress": "30"
           },
           {
             "for": "projectintegratebar",
-            "progress": "10"
+            "progress": "20"
           },
           {
             "for": "projectperdubar",
-            "progress": "5"
+            "progress": "10"
           },
           {
             "for": "projectboobar",
-            "progress": "4"
+            "progress": "6"
           },
           {
             "for": "projectsmartbar",
-            "progress": "3"
+            "progress": "5"
           },
           {
             "for": "projectshardingbar",
-            "progress": "2"
+            "progress": "3"
           },
           {
             "for": "projectshieldbar",
