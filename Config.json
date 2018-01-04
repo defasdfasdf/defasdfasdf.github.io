@@ -61,18 +61,6 @@
           ]
         },
 
-        {
-        "Name": "CryptoBridge",
-        "logo_path": "../img/cryptobridgelogo.png",
-        "info": "CryptoBridge is a decentralized exchange (DEX) that supports trading of most popular altcoins. The main innovation is elimination of a single point of failure when trading cryptocurrencies..",
-        "Markets":
-        [
-            {
-              "Name": "XSH/BTC",
-              "Link": "https://wallet.crypto-bridge.org/market/BRIDGE.XSH_BRIDGE.BTC"
-            }
-        ]
-      }
       {
         "Name": "C-cex",
         "logo_path": "../img/ccexchange.png",
