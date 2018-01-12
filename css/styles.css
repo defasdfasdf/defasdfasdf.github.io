@@ -1773,9 +1773,6 @@ color: #009688;
   color: #cccccc;
 }
 
-.newsLeft {
-  padding-left: 25%!important;
-}
 
 .monthsList {
   width: 15%;
@@ -1792,4 +1789,17 @@ color: #009688;
     font-weight: bold!important;
     background-color: rgba(96,125,139,0.5)!important;
     text-align: center;
+}
+
+@media screen and (max-width:1000px) {
+  .monthsList {
+    width: 90%;
+    text-align: center;
+  }
+  .monthsList li{
+    padding: 4px 0px!important;
+  }
+  ul.monthsList {
+    margin: 16px 4%!important;
+  }
 }
