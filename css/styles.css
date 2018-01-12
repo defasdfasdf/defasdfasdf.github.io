@@ -1776,3 +1776,20 @@ color: #009688;
 .newsLeft {
   padding-left: 25%!important;
 }
+
+.monthsList {
+  width: 15%;
+  text-align: center;
+}
+
+.monthsList li{
+  padding: 2px 0px!important;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.activeMonth {
+    font-weight: bold!important;
+    background-color: rgba(96,125,139,0.5)!important;
+    text-align: center;
+}

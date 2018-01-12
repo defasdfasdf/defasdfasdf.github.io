@@ -1,4 +1,4 @@
-<!doctype html>
+class=<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
@@ -62,7 +62,7 @@
         <h2 class="z-depth-4">SHIELD news</h2>
         <h5>On this page you can find a news feed of SHIELD. Not one in which we post our every move at the moment that we make it but one in which we write a monthly recap of what projects we have finished and what projects we have announced. We'll of course try and go over each month in as great of a detail we can go. We hope to create a better awerness of what SHIELD is actually about and creater an understanding for what we actually work on.</h5>
     </section>
-    <section>
+    <section><!--
       <div class="row">
         <div class="col m8 s12 newsLeft">
         <h3 id="Month"></h3>
@@ -96,7 +96,22 @@
 
    </div>
     </div>
-      </div>
+  </div>-->
+  <ul class="collection monthsList">
+    <li class="collection-item" onclick="open2018()">2018</li>
+    <li class="month" class="collection-item activeMonth" onclick="HLmonth(this)">January</li>
+    <li class="month" class="collection-item" onclick="HLmonth(this)">February</li>
+    <li class="month" class="collection-item" onclick="HLmonth(this)">March</li>
+    <li class="month" class="collection-item" onclick="HLmonth(this)">April</li>
+    <li class="month" class="collection-item" onclick="HLmonth(this)">May</li>
+    <li class="month" class="collection-item" onclick="HLmonth(this)">June</li>
+    <li class="month" class="collection-item" onclick="HLmonth(this)">July</li>
+    <li class="month" class="collection-item" onclick="HLmonth(this)">August</li>
+    <li class="month" class="collection-item" onclick="HLmonth(this)">September</li>
+    <li class="month" class="collection-item" onclick="HLmonth(this)">October</li>
+    <li class="month" class="collection-item" onclick="HLmonth(this)">November</li>
+    <li id="month" class="collection-item" onclick="HLmonth(this)">December</li>
+  </ul>
     </section>
     <footer>
        <div class="mdl-grid--12-col">
@@ -137,5 +152,17 @@
   <script src="../js/jquery.flexslider-min.js"></script>
   <script src="../bower_components/classie/classie.js"></script>
   <script src="../bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
+  <script>
+  function HLmonth(b) {
+  var a = document.getElementsByTagName('li')
+  for (i = 0; i < a.length; i++) {
+      a[i].classList.remove('activeMonth')
+  }
+  b.classList.add('activeMonth');
+}
+function open2018() {
+  $(".month").hide();
+}
+  </script>
 </body>
 </html>
