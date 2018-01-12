@@ -1,4 +1,4 @@
-class=<!doctype html>
+<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
@@ -110,7 +110,7 @@ class=<!doctype html>
     <li class="month" class="collection-item" onclick="HLmonth(this)">September</li>
     <li class="month" class="collection-item" onclick="HLmonth(this)">October</li>
     <li class="month" class="collection-item" onclick="HLmonth(this)">November</li>
-    <li id="month" class="collection-item" onclick="HLmonth(this)">December</li>
+    <li class="month" class="collection-item" onclick="HLmonth(this)">December</li>
   </ul>
     </section>
     <footer>
@@ -162,6 +162,12 @@ class=<!doctype html>
 }
 function open2018() {
   $(".month").hide();
+}
+function toggle_visibility(month) {
+    elements = document.getElementsByClassName(month);
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].style.display = elements[i].style.display == 'inline' ? 'none' : 'inline';
+    }
 }
   </script>
 </body>
