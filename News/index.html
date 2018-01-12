@@ -59,10 +59,10 @@
         </header>
     </section>
     <section style="text-align:center;padding-top:60px">
-        <h2 class="z-depth-4">SHIELD news</h2>
-        <h5>On this page you can find a news feed of SHIELD. Not one in which we post our every move at the moment that we make it but one in which we write a monthly recap of what projects we have finished and what projects we have announced. We'll of course try and go over each month in as great of a detail we can go. We hope to create a better awerness of what SHIELD is actually about and creater an understanding for what we actually work on.</h5>
-    </section>
-    <section><!--
+        <h2 class="z-depth-2">SHIELD news</h2>
+        <!-- <h5>On this page you can find a news feed of SHIELD. Not one in which we post our every move at the moment that we make it but one in which we write a monthly recap of what projects we have finished and what projects we have announced. We'll of course try and go over each month in as great of a detail we can go. We hope to create a better awerness of what SHIELD is actually about and creater an understanding for what we actually work on.</h5>
+    </section>-->
+    <!-- <section>
       <div class="row">
         <div class="col m8 s12 newsLeft">
         <h3 id="Month"></h3>
@@ -98,19 +98,18 @@
     </div>
   </div>-->
   <ul class="collection monthsList">
-    <li class="collection-item" onclick="open2018()">2018</li>
-    <li class="month" class="collection-item activeMonth" onclick="HLmonth(this)">January</li>
-    <li class="month" class="collection-item" onclick="HLmonth(this)">February</li>
-    <li class="month" class="collection-item" onclick="HLmonth(this)">March</li>
-    <li class="month" class="collection-item" onclick="HLmonth(this)">April</li>
-    <li class="month" class="collection-item" onclick="HLmonth(this)">May</li>
-    <li class="month" class="collection-item" onclick="HLmonth(this)">June</li>
-    <li class="month" class="collection-item" onclick="HLmonth(this)">July</li>
-    <li class="month" class="collection-item" onclick="HLmonth(this)">August</li>
-    <li class="month" class="collection-item" onclick="HLmonth(this)">September</li>
-    <li class="month" class="collection-item" onclick="HLmonth(this)">October</li>
-    <li class="month" class="collection-item" onclick="HLmonth(this)">November</li>
-    <li class="month" class="collection-item" onclick="HLmonth(this)">December</li>
+    <li  class="collection-item activeMonth" onclick="HLmonth(this)">January</li>
+    <li  class="collection-item" onclick="HLmonth(this)">February</li>
+    <li  class="collection-item" onclick="HLmonth(this)">March</li>
+    <li  class="collection-item" onclick="HLmonth(this)">April</li>
+    <li  class="collection-item" onclick="HLmonth(this)">May</li>
+    <li  class="collection-item" onclick="HLmonth(this)">June</li>
+    <li  class="collection-item" onclick="HLmonth(this)">July</li>
+    <li  class="collection-item" onclick="HLmonth(this)">August</li>
+    <li  class="collection-item" onclick="HLmonth(this)">September</li>
+    <li  class="collection-item" onclick="HLmonth(this)">October</li>
+    <li  class="collection-item" onclick="HLmonth(this)">November</li>
+    <li  class="collection-item" onclick="HLmonth(this)">December</li>
   </ul>
     </section>
     <footer>
@@ -160,15 +159,7 @@
   }
   b.classList.add('activeMonth');
 }
-function open2018() {
-  $(".month").hide();
-}
-function toggle_visibility(month) {
-    elements = document.getElementsByClassName(month);
-    for (var i = 0; i < elements.length; i++) {
-        elements[i].style.display = elements[i].style.display == 'inline' ? 'none' : 'inline';
-    }
-}
+
   </script>
 </body>
 </html>
