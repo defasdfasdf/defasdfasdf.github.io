@@ -1764,3 +1764,15 @@ color: #009688;
   color:black;
   transition:.5s!important;
 }
+
+.cryptobridge {
+  color: white;
+}
+
+.cryptobridge:hover {
+  color: #cccccc;
+}
+
+.newsLeft {
+  padding-left: 25%!important;
+}
