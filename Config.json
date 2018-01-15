@@ -134,6 +134,12 @@
         "link":"https://paper.shieldcurrency.com/",
         "type": "Go to",
         "platform": "other"
+      },
+      {
+        "Name": "Web Wallet",
+        "link":"https://wallet.shieldcurrency.com/Login",
+        "type": "Go to",
+        "platform": "other"
       }
     ],
     "miningpools": [
