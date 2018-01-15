@@ -140,6 +140,12 @@
         "link":"https://wallet.shieldcurrency.com/Login",
         "type": "Go to",
         "platform": "other"
+      },
+      {
+        "Name": "QT Wallet",
+        "link": "https://www.bilbotel.fr/SHIELD-Qt.dmg",
+        "type": "Download",
+        "platform": "other",
       }
     ],
     "miningpools": [
