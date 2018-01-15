@@ -142,10 +142,10 @@
         "platform": "other"
       },
       {
-        "Name": "QT Wallet",
+        "Name": "QT Wallet(Mac)",
         "link": "https://www.bilbotel.fr/SHIELD-Qt.dmg",
         "type": "Download",
-        "platform": "other",
+        "platform": "other"
       }
     ],
     "miningpools": [
