@@ -480,9 +480,6 @@ var yes = 0;
               beginAtZero: true,
               legend: {
            display: false
-       },
-       gridLines{
-        display:false
        }
 
       }});
