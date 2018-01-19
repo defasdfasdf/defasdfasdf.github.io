@@ -457,7 +457,7 @@ function graph(){
       });
       loadJSON3r = true;
       });
-
+mg();
 
   function mg(){
     console.log(loadJSON3r + " " + loadJSON4r);
