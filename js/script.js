@@ -464,6 +464,7 @@ function graph(){
   function mg(){
     console.log(loadJSON3r);
     if (loadJSON3r){
+      loadJSON3r = false;
       var ctx = document.getElementById('XSHp').getContext('2d');
       var XVGXSHpchart = new Chart(ctx, {
             type: 'line',
