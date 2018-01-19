@@ -1,17 +1,30 @@
 {
     "exchanges": [
-        {
-            "Name": "Stocks.exchange",
-            "logo_path": "../img/stocksexxchangelogo.png",
-            "info": "My goal is to build a worldwide stock exchange. A market where anyone from anywhere can invest in any business worldwide using cryptocurrencies (BTC, ETH, NXT, and others) or fiat money. Imagine you can invest in Chinese manufacturing or a Brazilian sawmill without papers in just minutes. Imagine anybody can invest in your business too...",
-            "Markets":
-            [
-            {
-                  "Name": "XSH/BTC",
-                  "Link": "https://stocks.exchange/trade/XSH/BTC"
-            }
-            ]
-        },
+
+              {
+              "Name": "CryptoBridge",
+              "logo_path": "../img/cryptobridgelogo.png",
+              "info": "CryptoBridge is a decentralized exchange (DEX) that supports trading of most popular altcoins. The main innovation is elimination of a single point of failure when trading cryptocurrencies..",
+              "Markets":
+              [
+                  {
+                    "Name": "XSH/BTC",
+                    "Link": "https://wallet.crypto-bridge.org/market/BRIDGE.XSH_BRIDGE.BTC"
+                  },
+                  {
+                    "Name": "XSH/XP",
+                    "Link": "https://wallet.crypto-bridge.org/market/BRIDGE.XSH_BRIDGE.XP"
+                  },
+                  {
+                    "Name": "XSH/MONA",
+                    "Link": "https://wallet.crypto-bridge.org/market/BRIDGE.XSH_BRIDGE.MONA"
+                  },
+                  {
+                    "Name": "XSH/ZNY",
+                    "Link": "https://wallet.crypto-bridge.org/market/BRIDGE.XSH_BRIDGE.ZNY"
+                  }
+              ]
+            },
         {
           "Name": "Tradesatoshi",
           "logo_path": "../img/tslogo.png",
@@ -61,17 +74,25 @@
           ]
         },
 
-        {
-        "Name": "CryptoBridge",
-        "logo_path": "../img/cryptobridgelogo.png",
-        "info": "CryptoBridge is a decentralized exchange (DEX) that supports trading of most popular altcoins. The main innovation is elimination of a single point of failure when trading cryptocurrencies..",
-        "Markets":
-        [
-            {
-              "Name": "XSH/BTC",
-              "Link": "https://wallet.crypto-bridge.org/market/BRIDGE.XSH_BRIDGE.BTC"
-            }
-        ]
+      {
+          "Name": "Stocks.exchange",
+          "logo_path": "../img/stocksexxchangelogo.png",
+          "info": "My goal is to build a worldwide stock exchange. A market where anyone from anywhere can invest in any business worldwide using cryptocurrencies (BTC, ETH, NXT, and others) or fiat money. Imagine you can invest in Chinese manufacturing or a Brazilian sawmill without papers in just minutes. Imagine anybody can invest in your business too...",
+          "Markets":
+          [
+          {
+                "Name": "XSH/BTC",
+                "Link": "https://stocks.exchange/trade/XSH/BTC"
+          },
+          {
+                "Name": "XSH/LTC",
+                "Link": "https://stocks.exchange/trade/XSH/LTC"
+          },
+          {
+                "Name": "XSH/ETH",
+                "Link": "https://stocks.exchange/trade/XSH/ETH"
+          }
+          ]
       },
       {
         "Name": "C-cex",
@@ -125,7 +146,7 @@
       },
       {
         "Name": "Electrum Wallet",
-        "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.0-Android/SHIELD-android.apk",
+        "link":"https://github.com/ShieldCoin/SHIELD/releases/tag/v1.1-Android",
         "type": "Download",
         "platform": "android"
       },
