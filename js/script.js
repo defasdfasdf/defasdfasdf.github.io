@@ -456,8 +456,9 @@ function graph(){
         XSHtllineinfo.push(element.date);
       });
       loadJSON3r = true;
-      mg();
       console.log("1");
+      mg();
+
       });
 
 
