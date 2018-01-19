@@ -473,6 +473,7 @@ var yes = 0;
                     tension: 0,
                     label: "XSH line",
                     borderColor: 'rgb(255, 99, 132)',
+                    backgroundColor: 'rgb(255,255,255)',
                     data: XSHlineinfo
                 }]
             },
