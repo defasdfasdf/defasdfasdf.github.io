@@ -496,7 +496,8 @@ var yes = 0;
                 },
                 gridLines : {
                     display : false
-                }
+                },
+                display:false
             }]
         }
 
