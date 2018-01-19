@@ -478,6 +478,12 @@ var yes = 0;
             },
             options: {
               beginAtZero: true,
+              legend: {
+           display: false
+       },
+       gridLines{
+        display:false
+       }
 
       }});
     }
