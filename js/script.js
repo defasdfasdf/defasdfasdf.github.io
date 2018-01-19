@@ -480,7 +480,13 @@ var yes = 0;
               beginAtZero: true,
               legend: {
            display: false
-       }
+       },scales: {
+            xAxes: [{
+                ticks: {
+                    display: false
+                }
+            }]
+        }
 
       }});
     }
