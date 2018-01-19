@@ -456,11 +456,13 @@ function graph(){
         XSHtllineinfo.push(element.date);
       });
       loadJSON3r = true;
+      mg();
+      console.log("1");
       });
-mg();
+
 
   function mg(){
-    console.log(loadJSON3r + " " + loadJSON4r);
+    console.log(loadJSON3r);
     if (loadJSON3r){
       var ctx = document.getElementById('XSHp').getContext('2d');
       var XVGXSHpchart = new Chart(ctx, {
@@ -486,7 +488,7 @@ mg();
       }});
     }
     else{
-      setTimeout(mg,500);
+      setTimeout(mg,5000);
     }
 
   mg();
