@@ -435,7 +435,6 @@ function coinlists() {
   });
   }
 function graph(){
-  console.log("hey");
     var loadJSON3r = loadJSON4r = false;
     var XSHtllineinfo = [];
     var XSHlineinfo = [];
@@ -456,16 +455,15 @@ function graph(){
         XSHtllineinfo.push(element.date);
       });
       loadJSON3r = true;
-      console.log("1");
       mg();
 
       });
-
+var yes = 0;
 
   function mg(){
-    console.log(loadJSON3r);
     if (loadJSON3r){
       loadJSON3r = false;
+      yes++;
       var ctx = document.getElementById('XSHp').getContext('2d');
       var XVGXSHpchart = new Chart(ctx, {
             type: 'line',
@@ -487,5 +485,4 @@ function graph(){
       setTimeout(mg,5000);
     }
 
-  mg();
 }}
