@@ -44,6 +44,7 @@ loadJSON(function(responseText){
     wallets();
       information = JSON.parse(responseText).exchanges;
     exchanges();
+    graph();
   }
   else if (where == "/Roadmap/"){
     information = JSON.parse(responseText).roadmap;
@@ -433,7 +434,60 @@ function coinlists() {
     });
   });
   }
-var monthNames = ["January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"];
-var d = new Date();
-document.getElementById("Month").innerHTML=monthNames[d.getMonth()];
+function graph(){
+  console.log("hey");
+    var loadJSON3r = loadJSON4r = false;
+    var XSHtllineinfo = [];
+    var XSHlineinfo = [];
+  function loadJSON3(callback) {
+        var xobj = new XMLHttpRequest();
+        xobj.overrideMimeType("application/json");
+        xobj.open('GET', "https://coinmarketcap.northpole.ro/history.json?coin=shield-xsh&period=2018&format=array", true);
+        xobj.onreadystatechange = function () {
+          if (xobj.readyState == 4 && xobj.status == "200") {
+            callback(xobj.responseText);
+          }
+        }
+        xobj.send(null);}
+      loadJSON3(function(responseText){
+      xshinfo = JSON.parse(responseText);
+      xshinfo.history.forEach(function(element){
+        XSHlineinfo.push(element.price.usd);
+        XSHtllineinfo.push(element.date);
+      });
+      loadJSON3r = true;
+      });
+
+
+  function mg(){
+    console.log(loadJSON3r + " " + loadJSON4r);
+    if (loadJSON3r){
+      var ctx = document.getElementById('XSHp').getContext('2d');
+      var XVGXSHpchart = new Chart(ctx, {
+            type: 'line',
+            data: {
+              labels: XSHtllineinfo,
+                datasets: [{
+                    tension: 0,
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: XSHlineinfo
+                }]
+            },
+            options: {
+              beginAtZero: true,
+              layout: {
+                 padding: {
+                     left: 0,
+                     right: 0,
+                     top: 0,
+                     bottom: 0
+                 }
+            }
+      }});
+    }
+    else{
+      setTimeout(mg,500);
+    }
+
+  mg();
+}}
