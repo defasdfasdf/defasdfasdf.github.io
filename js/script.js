@@ -470,7 +470,7 @@ var yes = 0;
             data: {
               labels: XSHtllineinfo,
                 datasets: [{
-                    tension: .2,
+                    tension: .4,
                     borderColor: 'rgb(255, 255, 255)',
                     backgroundColor: 'rgba(255,255,255,0)',
                     data: XSHlineinfo
