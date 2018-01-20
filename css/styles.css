@@ -745,6 +745,15 @@ Features-stack
 .bi{
   display:inline-block;
 }
+.feature-list{
+  background: white;
+
+color: black;
+
+padding: 16px;
+
+border-radius: 16px;
+}
 /* ==========================================================================
 .features-extra
 ========================================================================== */
