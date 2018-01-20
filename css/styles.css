@@ -708,7 +708,10 @@ Features-stack
   width: 635px;left: 200px;height: auto;
 }
 #features{
-  background: #607D8B;
+  background: #607d8b;
+background: linear-gradient(317deg,#607d8b 80%, #ffffff 10%);
+background: -webkit-linear-gradient(317deg,#607d8b 80%, #ffffff 10%);
+background: -moz-linear-gradient(317deg,#607d8b 80%, #ffffff 10%);;
   color: white !important;
 }
 #features .iphone-wrap{
