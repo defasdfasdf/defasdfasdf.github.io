@@ -571,6 +571,9 @@ header {
          .intro-feature{
            text-align:center;
            min-height:150px;
+           margin:8px;
+           background-color:#fafafa;
+           border-radius:16px;
          }
          .intro .container{
            padding:0px;
@@ -669,7 +672,9 @@ Intro
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 .intro-content {
   display: inline-block;
-  width: 80%; }
+  width: 80%;
+
+ }
 
 /* ==========================================================================
 Features-stack
