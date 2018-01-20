@@ -564,10 +564,7 @@ header {
          .intro-content h6{
            padding-top:16px;
          }
-         .fc {
-           padding:64px
-         
-         }
+
          .intro-feature .intro-content h6{
 
            font-size:18px;
@@ -752,7 +749,7 @@ Features-stack
 
 color: black;
 
-padding: 16px;
+padding: 32px;
 
 border-radius: 16px;
 }
