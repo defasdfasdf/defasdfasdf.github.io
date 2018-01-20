@@ -377,13 +377,7 @@ Navigation
   -webkit-transition: all 300ms ease-in-out;
           transition: all 300ms ease-in-out; }
 
-.fc1:hover h5,.fc2:hover h5,.fc3:hover h5{
-  transition: .8s;
-}
-.fc3:hover .fa, .fc2:hover .fa,.fc1:hover .fa{
-color: rgb(255,215,64);
-font-size:44px;
-}
+
 .fa{
   transition:.8s;
 }
@@ -804,7 +798,7 @@ footer {
   footer ul.footer-group {
     padding-top: 25px;
     margin-bottom: 45px; }
-  footer ul.footer-group li {
+  footer ul.footer-group  z-depth-4{
     display: inline-block; }
   footer ul.footer-group li a {
     font-size: 13px;
