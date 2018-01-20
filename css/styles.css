@@ -568,6 +568,8 @@ header {
          .intro-feature{
            text-align:center;
            min-height:150px;
+           margin-top:16px;
+           margin-bottom:16px;
            background-color:#ededed;
            border-radius:16px;
          }
