@@ -163,7 +163,10 @@ transform: rotate(180deg);
   margin-right: 20px; }
 
 section.intro{
-  background: #fafafa; }
+  background: #fafafa;
+  background: linear-gradient(153deg,#fafafa 70%, #e2e2e2 60%);
+  background: -webkit-linear-gradient(153deg,#fafafa 70%, #e2e2e2 60%);
+  background: -moz-linear-gradient(153deg,#fafafa 70%, #e2e2e2 60%); }
 section:not(.hero):not(.navigation){
   border-top: 1px solid #BDBDBD;
 }
@@ -572,39 +575,13 @@ header {
            text-align:center;
            min-height:150px;
            margin:8px;
-           background-color:#fafafa;
+           background-color:#ededed;
            border-radius:16px;
          }
          .intro .container{
            padding:0px;
          }
-         .intro-feature::before{
-           content: "";
-           width:0px;
-           left:-1px;
-           position:absolute;
-           border-bottom:1px solid gray;
-            transition:.5s;
-            border-radius:8px;
 
-         }
-         .intro-feature::after{
-           content: "";
-           width:0px;
-           bottom:-1px;
-           top:-2px;
-           left:-1px;
-           position:absolute;
-           border-bottom:1px solid gray;
-            transition:.5s;
-         }
-         .intro-feature:hover::before, .intro-feature:hover::after{
-           width:100.5%;
-         }
-         .intro-feature:hover{
-           border-left:1px solid gray;
-           border-right:1px solid gray;
-         }
          .intro-feature .intro-content p{
             position: relative;
          }
@@ -661,11 +638,6 @@ Intro
   vertical-align: top;
   margin-top:20px;
   margin-right:20px;
-}
-.intro-feature:hover .icon{
-  -webkit-animation:spin .6s linear;
-      -moz-animation:spin .6s linear;
-      animation:spin .6s linear;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
