@@ -564,8 +564,9 @@ header {
          .intro-content h6{
            padding-top:16px;
          }
-         .fc h3{
-           padding-top:32px;
+         .fc {
+           padding:64px
+         
          }
          .intro-feature .intro-content h6{
 
