@@ -561,6 +561,12 @@ header {
            margin-top:21px;
 
          }
+         .intro-content h6{
+           padding-top:16px;
+         }
+         .fc h3{
+           padding-top:32px;
+         }
          .intro-feature .intro-content h6{
 
            font-size:18px;
