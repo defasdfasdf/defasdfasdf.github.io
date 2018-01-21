@@ -91,6 +91,13 @@ $('#HL_scrypt').click(function() {
 	}, {
 		offset: '95%'
 	});
+	$('.rmmp').waypoint(function() {
+		$('.rmmpo').addClass('animated fadeInLeft');
+		$('.rmmpt').addClass('animated fadeInLeft');
+		$('.rmmp3').addClass('animated fadeInLeft');
+	}, {
+		offset: '95%'
+	});
 	$('.procard2').waypoint(function() {
 		$('.procard2').addClass('animated fadeIn');
 	}, {
