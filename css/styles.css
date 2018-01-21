@@ -841,7 +841,7 @@ footer {
 }
 .iconholder2{
   outline: 0 !important;
-  color: #fff;
+  color: #455A64;
   border-radius: 100%;
   font-size: 26px;
   -webkit-transition: background-color .1s linear;
@@ -851,10 +851,11 @@ footer {
   width: 84px;
   text-align: center;
   padding-top: 15px;
-  background: #455A64;
+  background: #fff;
   display: inline-block;
   transition: .3s;
   text-align: center;
+  margin-bottom:16px;
 }
 .hoverable.mdl-button.mdl-js-button.mdl-js-ripple-effect{
   color:white;
@@ -1702,7 +1703,7 @@ td,th {
 div.TS_row2 {
   margin-bottom: 30px!important;
 }
-.fa.fa-check-circle-o{
+.fa.fa-check-circle-o, .fa.fa-circle-o{
   color:#2E8B57;
 }
 .getXSH {
