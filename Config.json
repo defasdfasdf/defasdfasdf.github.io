@@ -134,12 +134,6 @@
       },
       {
         "Name": "Electrum Wallet",
-        "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.1/Electrum-Windows-2.4.2.zip",
-        "type": "Download",
-        "platform": "windows"
-      },
-      {
-        "Name": "Electrum Wallet",
         "link":"https://github.com/ShieldCoin/electrum-XSH",
         "type": "Go to",
         "platform": "linux"
