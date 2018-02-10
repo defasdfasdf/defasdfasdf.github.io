@@ -1,0 +1,67 @@
+name: Polar Area Chart
+slug: chart-polararea
+groups: Chart
+
+form:
+  general:
+    - name: polararea-chart
+      type: group-repeater
+      schema:
+        - name: label
+          help: The label for the dataset which appears in the legend and tooltips.
+          value: Coffee
+
+        - name: data
+          type: text
+          label: Value
+          help: Provide value for each label. It should be number. Eg. 100
+
+        - name: background_color
+          type: color
+          label: Background Color
+
+        - name: border_color
+          type: color
+          label: Border Color
+
+      value:
+        - label : Coffee
+
+
+  styles:
+
+    - name: enable_responsive
+      type: switch
+      value: true
+      label: Enable Responsive
+
+    - name: width
+      type: text
+      value: 300
+      help: Chart width, Only number allowed.
+      depends:
+        enable_responsive : false
+
+    - name: height
+      type: text
+      value: 300
+      help: Chart height, Only number allowed
+      depends:
+        enable_responsive : false
+
+    - name: enable_border
+      type: switch
+      label: Enable Border
+
+    - name: border_width
+      type: text
+      value: 1
+      label: Border Width
+      depends:
+        enable_border : true
+
+    - name: padding
+      type: padding
+
+    - name: margin
+      type: margin

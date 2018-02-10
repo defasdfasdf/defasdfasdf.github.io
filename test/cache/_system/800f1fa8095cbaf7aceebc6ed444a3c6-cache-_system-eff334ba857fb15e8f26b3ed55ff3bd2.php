@@ -1,0 +1,1 @@
+<?php die("Access Denied"); ?>#x#a:2:{s:6:"result";O:8:"stdClass":4:{s:2:"id";s:3:"103";s:6:"option";s:6:"joomla";s:6:"params";s:51:"{"mediaversion":"8e7117a617b04b40a5781e7c8c036b1b"}";s:7:"enabled";s:1:"1";}s:6:"output";s:0:"";}

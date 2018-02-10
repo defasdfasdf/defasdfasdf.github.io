@@ -1,0 +1,121 @@
+name: Person
+slug: person
+groups: content
+form:
+  general:
+
+    - name: name
+      type: text
+      help: Input the name of the person
+      value: Team Member 1
+
+    - name: position
+      type: text
+      help: Input the person's position.
+      value: Company Role
+
+    - name: image
+      type: file-manager
+      help: Upload your desired image, or type in the URL to the image you would like to display.
+
+    - name: description
+      type: editor
+      value: Aenean consectetur ipsum ante, vel egestas enim tincidunt quis. Pellentesque vitae congue neque, vel mattis ante. In vitae tempus nunc.
+
+    - name: social
+      type: input-repeater
+      label: Social Links
+      help: 
+      schema:
+        name: link
+        type: text
+      value: ['https://www.twitter.com/themexpert']
+
+  styles:
+    - name: title_styles
+      type: divider
+
+    - name: header_font
+      type: typography
+      lable: Font
+
+    - name: header_color
+      type: color 
+      label: Text Color
+
+    - name: header_margin
+      type: margin
+      lable: Margin
+
+    - name: position_styles
+      type: divider
+
+    - name: position_font
+      type: typography
+      lable: Font
+
+    - name: position_color
+      type: color 
+      label: Text Color
+
+    - name: image_styles
+      type: divider
+      label: Image/Icon Styles
+
+    - name: image_style
+      type: select
+      value: square
+      lable: Image Style
+      options:
+        img-square : Square
+        img-rounded: Rounded
+        img-circle : Circle
+
+    - name: alignment
+      type: select
+      value: left
+      label: Text Alignment
+      options:
+        left: Left
+        right: Right
+        center: Center
+
+    - name: icon_color
+      type: color 
+      label: Icon Color 
+
+    - name: icon_hover_color
+      type: color 
+      label: Icon Hover Color 
+    
+    - name: body_styles
+      type: divider
+
+    - name: body_font
+      type: typography
+      label: Font
+
+    - name: body_text_color
+      type: color 
+      label: Text Color
+
+    - name: body_margin
+      type: margin
+      label: Margin
+
+    - name: bg_color
+      type: color 
+      labe: Background Color 
+
+    - name: bg_image
+      type: file-manager 
+      label: Background Image
+
+    - name: element_style
+      type: divider
+
+    - name: margin
+      type: margin
+
+    - name: padding
+      type: padding

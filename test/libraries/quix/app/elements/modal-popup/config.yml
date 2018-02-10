@@ -1,0 +1,88 @@
+name: Modal Popup
+slug: modal-popup
+groups: content
+form:
+  general:
+    - name: modal_selector
+      type: select
+      value: button
+      options:
+        button: Button
+        image: Image
+        icon: Icon
+
+    - name: button
+      type: text
+      value: Launch Modal
+      label: Button Text
+      depends:
+        modal_selector: button
+
+    - name: button_style
+      type: select
+      value: qx-btn-default
+      depends:
+        modal_selector: button
+      options:
+        qx-btn-default: Default
+        qx-btn-primary: Primary
+        qx-btn-success: Success
+        qx-btn-info: Info
+        qx-btn-warning: Warning
+        qx-btn-danger: Danger
+        qx-btn-link: Link
+
+    - name: image
+      type: file-manager
+      depends:
+        modal_selector: image
+
+    - name: alt_text
+      type: text
+      depends:
+        modal_selector: image
+
+    - name: icon
+      type: icon
+      depends:
+        modal_selector: icon
+
+    - name: alignment
+      type: select
+      value: left
+      label: Text Alignment
+      options:
+        left: Left
+        right: Right
+        center: Center
+        justify: Justify
+
+    - name: title
+      type: text
+      value: Modal title
+
+    - name: content
+      type: editor
+      value: Lorem ipsum dolor sit amet timeam deleniti mnesarchum ex sed alii hinc dolores ad cum. Urbanitas similique ex nam paulo temporibus ea vis id odio adhuc nostrum eos.
+
+  styles:
+    - name: font
+      type: typography
+
+    - name: text_color
+      type: color
+      label: Text Color
+
+    - name: icon_size
+      type: slider
+      label: Icon Size
+      value: 30
+      suffix: px
+      depends:
+        modal_selector: icon
+
+    - name: margin
+      type: margin
+
+    - name: padding
+      type: padding

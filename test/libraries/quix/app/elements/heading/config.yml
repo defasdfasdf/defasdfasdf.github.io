@@ -1,0 +1,99 @@
+name: Heading
+slug: heading
+groups: content
+
+form:
+  general:
+    - name: title_text
+      type: text
+      value: Heading Text
+
+    - name: paragraph_text
+      type: editor
+      label: Subtitle
+      value: Lorem ipsum dolor sit amet consectetur adipisicing elit reiciendis atque illum natus error rerum qui
+
+    - name: subtitle_position
+      type: select
+      value: after_title
+      options:
+        before_title : Before Title 
+        after_title : After Title
+
+    - name: title_tag
+      type: select
+      label: Title Tag
+      value: h2
+      help: Default title Tag is h2
+      options:
+        h1: H1
+        h2: H2
+        h3: H3
+        h4: H4
+        h5: H5
+        h6: H6
+        div: DIV
+
+    - name: alignment
+      type: select
+      value: center
+      label: Text Alignment
+      options:
+        left: Left
+        right: Right
+        center: Center
+
+  styles:
+    - name: title_style
+      type: divider
+      label: Title Style
+
+    - name: title_font
+      type: typography
+      label: Font
+
+    - name: title_text_color
+      type: color
+      label: Text Color
+
+    - name: title_text_margin
+      type: margin
+      label: Margin 
+
+    - name: title_span_note
+      type: divider 
+      label: Wrap words from title text with <span> will apply this styles. Eg - Hello <span>Beautiful</span> World.
+
+    - name : title_span_font
+      type: typography
+      label: Span Font 
+
+    - name : title_span_color
+      type: color 
+      label: Span Color
+
+    - name: subtitle_style
+      type: divider
+      label: Subtitle Style
+
+    - name: paragraph_font
+      type: typography
+      label: Font
+
+    - name: paragraph_text_color
+      type: color
+      label: Text Color
+
+    - name: paragraph_text_margin
+      type: margin
+      label: Margin 
+
+    - name: element
+      type: divider
+      label: Element Style - Apply On Element Body
+
+    - name: margin
+      type: margin
+
+    - name: padding
+      type: padding

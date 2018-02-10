@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTPS} !=on
+Redirect 301 /paper https://www.paper.shieldcurrency.com
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*) index.php/$1 [QSA]

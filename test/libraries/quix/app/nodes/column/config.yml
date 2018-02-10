@@ -1,0 +1,123 @@
+slug: column
+name: Column
+type: column
+visibility:
+  lg: true
+  md: true
+  sm: true
+  xs: true
+form:
+  general:
+    - name: center_text
+      type: switch
+      help: Position column conent in center.
+
+    - name: bg_image
+      label: Background Image
+      type: file-manager
+
+    - name: image_repeat
+      label: Image Repeat 
+      type: select
+      value: no-repeat
+      depends:
+        bg_image : '*'
+      options: 
+        no-repeat : No Repeat
+        repeat-x : Repeat X 
+        repeat-y : Repeat Y
+        repeat: Repeat All
+
+    - name: image_position
+      type: select
+      label: Image Position 
+      value: initial
+      depends:
+        bg_image : '*'
+      options:
+        initial: Default
+        center: Center
+        top left : Top Left 
+        top center : Top Center
+        top right: Top Right
+        center right: Center Right
+        center left: Center Left
+        bottom left: Bottom Left
+        bottom center: Bottom Center
+        bottom right: Bottom Right
+
+    - name : image_size
+      type : select
+      label : Image Size
+      value : initial
+      depends:
+        bg_image : '*'
+      options :
+        initial : Default
+        cover : Cover 
+        contain : Contain 
+
+    - name: bg_color
+      type: color
+      label: Background Color
+
+    - name: margin
+      type: margin
+      label: Custom margin
+    
+    - name: padding
+      type: padding
+      label: Custom padding
+
+  styles :
+
+    - name : box_shadow
+      type : switch
+      label : Enable Box Shadow   
+
+    - name : box_shadow_color
+      type : color 
+      label : Color 
+      depends:
+        box_shadow : true 
+
+    - name : box_shadow_blur
+      type : slider
+      label : Blur 
+      max : 200
+      suffix : px
+      depends:
+        box_shadow : true 
+
+    - name : box_shadow_spread
+      type : slider
+      label : Spread 
+      max : 200
+      suffix : px
+      depends:
+        box_shadow : true  
+
+    - name : box_shadow_horizontal
+      type : slider
+      label : Horizontal 
+      min : -250
+      max : 250
+      suffix : px
+      depends:
+        box_shadow : true 
+
+    - name : box_shadow_vertical
+      type : slider
+      label : Vertical 
+      min : -250
+      max : 250
+      suffix : px
+      depends:
+        box_shadow : true 
+
+    - name : box_shadow_inset
+      type : switch 
+      label : Inset 
+      help : If specified, the shadows are drawn inside the frame.
+      depends:
+        box_shadow : true     

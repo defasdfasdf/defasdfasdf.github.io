@@ -1,0 +1,321 @@
+{
+    "exchanges": [
+
+              {
+              "Name": "CryptoBridge",
+              "logo_path": "../img/cryptobridgelogo.png",
+              "info": "CryptoBridge is a decentralized exchange (DEX) that supports trading of most popular altcoins. The main innovation is elimination of a single point of failure when trading cryptocurrencies..",
+              "Markets":
+              [
+                  {
+                    "Name": "XSH/BTC",
+                    "Link": "https://wallet.crypto-bridge.org/market/BRIDGE.XSH_BRIDGE.BTC"
+                  },
+                  {
+                    "Name": "XSH/XP",
+                    "Link": "https://wallet.crypto-bridge.org/market/BRIDGE.XSH_BRIDGE.XP"
+                  },
+                  {
+                    "Name": "XSH/MONA",
+                    "Link": "https://wallet.crypto-bridge.org/market/BRIDGE.XSH_BRIDGE.MONA"
+                  },
+                  {
+                    "Name": "XSH/ZNY",
+                    "Link": "https://wallet.crypto-bridge.org/market/BRIDGE.XSH_BRIDGE.ZNY"
+                  }
+              ]
+            },
+        {
+          "Name": "Tradesatoshi",
+          "logo_path": "../img/tslogo.png",
+          "info": "TradeSatoshi is a UK based trading platform for Bitcoin and Altcoins. We focus on providing the highest level of security, transparency and customer service. Our aim is to provide our users with a reliable exchange.",
+          "Markets":
+          [
+          {
+                "Name": "XSH/BTC",
+                "Link": "https://tradesatoshi.com/Exchange?market=XSH_BTC"
+              },
+              {
+                "Name": "XSH/DOGE",
+                "Link": "https://tradesatoshi.com/Exchange?market=XSH_DOGE"
+              },
+              {
+                "Name": "XSH/LTC",
+                "Link": "https://tradesatoshi.com/Exchange?market=XSH_LTC"
+              },
+              {
+                "Name": "XSH/BCH",
+                "Link": "https://tradesatoshi.com/Exchange?market=XSH_BCH"
+              }
+          ]
+        },
+        {
+          "Name": "Coinsmarkets",
+          "logo_path": "../img/coinsmarketsl.png",
+          "info": "CoinsMarkets serves as a platform for individuals interested in buying and selling Bitcoins using an assortment of world currencies.",
+          "Markets":
+          [
+              {
+                "Name": "XSH/BTC",
+                "Link": "https://coinsmarkets.com/trade-BTC-XSH.htm"
+              }
+          ]
+        },
+        {
+          "Name": "OutletBit",
+          "logo_path": "../img/OutletBitlogo.png",
+          "info": "We are a next generation cryptocurrency exchange. OutletBit Exchange utilizies the latest technologies to provide a top-notch secure trading engine and real-time updates.",
+          "Markets":
+          [
+              {
+                "Name": "XSH/BTC",
+                "Link": "https://www.outletbit.com/market/77"
+              }
+          ]
+        },
+
+      {
+          "Name": "Stocks.exchange",
+          "logo_path": "../img/stocksexxchangelogo.png",
+          "info": "My goal is to build a worldwide stock exchange. A market where anyone from anywhere can invest in any business worldwide using cryptocurrencies (BTC, ETH, NXT, and others) or fiat money. Imagine you can invest in Chinese manufacturing or a Brazilian sawmill without papers in just minutes. Imagine anybody can invest in your business too...",
+          "Markets":
+          [
+          {
+                "Name": "XSH/BTC",
+                "Link": "https://stocks.exchange/trade/XSH/BTC"
+          },
+          {
+                "Name": "XSH/LTC",
+                "Link": "https://stocks.exchange/trade/XSH/LTC"
+          },
+          {
+                "Name": "XSH/ETH",
+                "Link": "https://stocks.exchange/trade/XSH/ETH"
+          }
+          ]
+      },
+      {
+        "Name": "C-cex",
+        "logo_path": "../img/ccexchange.png",
+        "info": "C-CEX exchange is designed for security and protected by state of the art security services while giving you the option to secure your account through the use of two-factor authentication ",
+        "Markets":
+        [
+        {
+              "Name": "Voting",
+              "Link": "https://c-cex.com/?id=vote"
+        }
+        ]
+      },
+      {
+        "Name": "Mercatox",
+        "logo_path": "../img/mercatoxlogo.png",
+        "info": "it is a unique creation in the world of digital money, based on multi-language platform. It combines automated trading, payment service, Peer-to-Peer sharing based on 'smart contracts' and many other features. We are planning to provide not just a service with different abilities, but create a new financial market in the digital world...",
+        "Markets":
+        [
+          {
+            "Name": "Voting",
+            "Link": "https://mercatox.com/coins/list?name=shield&_url=%2Fcoins%2Flist&page=3&per-page=30"
+          }
+        ]
+      }
+    ],
+    "wallets": [
+      {
+        "Name": "QT Wallet",
+        "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.1wqt/SHIELD-qt.exe",
+        "type": "Download",
+        "platform": "windows"
+      },
+      {
+        "Name": "Commandline Wallet",
+        "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.2-WINd/SHIELDd.exe",
+        "type": "Download",
+        "platform": "windows"
+      },
+      {
+        "Name": "Electrum Wallet",
+        "link":"https://github.com/ShieldCoin/electrum-XSH",
+        "type": "Go to",
+        "platform": "linux"
+      },
+      {
+        "Name": "Electrum Wallet",
+        "link":"https://github.com/ShieldCoin/SHIELD/releases/tag/v1.1-Android",
+        "type": "Download",
+        "platform": "android"
+      },
+      {
+        "Name": "Paper Wallet",
+        "link":"https://paper.shieldcurrency.com/",
+        "type": "Go to",
+        "platform": "other"
+      },
+      {
+        "Name": "Web Wallet",
+        "link":"https://wallet.shieldcurrency.com/Login",
+        "type": "Go to",
+        "platform": "other"
+      },
+      {
+        "Name": "QT Wallet(Mac)",
+        "link": "https://www.bilbotel.fr/SHIELD-Qt.dmg",
+        "type": "Download",
+        "platform": "other"
+      }
+    ],
+    "miningpools": [
+          {
+            "Name": "XSH uMine pool",
+            "Algos": ["myr-gr", "x17", "blake2s", "lyra2v2", "scrypt"],
+            "link": "http://xsh.umine.org/"
+          },
+          {
+          "Name": "uMine",
+          "Algos": ["myr-gr"],
+          "link": "https://umine.org/site/mining"
+          },
+          {
+            "Name": "Bigmine",
+            "Algos": ["myr-gr", "x17", "blake2s", "lyra2v2", "scrypt"],
+            "link": "https://bigmine.org/"
+          },
+          {
+            "Name": "Bilbotel",
+            "Algos": ["myr-gr", "x17", "blake2s", "lyra2v2", "scrypt"],
+            "link": "https://www.bilbotel.fr/"
+          },
+          {
+            "Name": "Mining-Dutch",
+            "Algos": ["scrypt"],
+            "link": "https://www.mining-dutch.nl/"
+          },
+          {
+            "Name": "TheBSODPool",
+            "Algos": ["x17"],
+            "link": "https://bsod.pw/"
+          },
+          {
+            "Name": "N-Engine",
+            "Algos": ["x17"],
+            "link": "http://pool.n-engine.com/"
+          },
+          {
+            "Name": "Antminepool",
+            "Algos": ["myr-gr", "x17", "blake2s", "lyra2v2", "scrypt"],
+            "link": "http://antminepool.com/"
+          },
+        {
+          "Name": "NOMP",
+          "Algos": ["scrypt"],
+          "link": "http://109.235.67.6"
+        }
+        ],
+        "coinlists": [
+          {
+            "Name": "Coinranking",
+            "Link": "https://coinranking.com/coin/shield-xsh"
+          },
+          {
+            "Name": "Bitscreener",
+            "Link": "https://bitscreener.com/coins/shield-coin"
+          },
+          {
+            "Name": "99Cryptocoin",
+            "Link": "https://www.99cryptocoin.com/coin/shield-xsh"
+          },
+          {
+            "Name": "Coinmarketcap",
+            "Link": "https://coinmarketcap.com/currencies/shield-xsh/#charts"
+          },
+          {
+            "Name": "Coindar",
+            "Link": "https://coindar.org/coins/"
+          },
+          {
+          "Name": "Coingecko",
+          "Link": "https://www.coingecko.com/en/coins/shield"
+        }
+        ],
+        "pages": [
+          {
+            "Name": ""
+          },
+          {
+            "Name": "#roadmap"
+          },
+          {
+            "Name": "#wallets"
+          },
+          {
+            "Name": "#exchanges"
+          },
+          {
+            "Name": "Roadmap"
+          },
+          {
+            "Name": "About"
+          },
+          {
+            "Name": "Whitepaper"
+          },
+          {
+            "Name": "Contact us"
+          },
+          {
+            "Name": "More information"
+          }
+        ],
+        "Competition": [
+          {
+            "Name": "",
+            "Description": "There's currently no active competition, check again later!",
+            "Link": "#"
+          }
+        ],
+        "roadmap": [
+          {
+            "for": "projectinitiatebar",
+            "progress": "100"
+          },
+          {
+            "for": "projectenlightenbar",
+            "progress": "100"
+          },
+          {
+            "for": "projectbillfoldbar",
+            "progress": "60"
+          },
+          {
+            "for": "projectglobalizebar",
+            "progress": "50"
+          },
+          {
+            "for": "projectaucourantbar",
+            "progress": "30"
+          },
+          {
+            "for": "projectintegratebar",
+            "progress": "20"
+          },
+          {
+            "for": "projectperdubar",
+            "progress": "10"
+          },
+          {
+            "for": "projectboobar",
+            "progress": "6"
+          },
+          {
+            "for": "projectsmartbar",
+            "progress": "5"
+          },
+          {
+            "for": "projectshardingbar",
+            "progress": "3"
+          },
+          {
+            "for": "projectshieldbar",
+            "progress": "1"
+          }
+        ]
+      }
